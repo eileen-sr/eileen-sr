@@ -1,0 +1,36 @@
+syntax = "proto3";
+package proto;
+
+
+import "common.define.proto";
+import "cs.avatar.proto";
+import "cs.item.proto";
+import "cs.quest.proto";
+import "cs.mission.proto";
+
+enum CmdPlayerSyncType {
+    CmdPlayerSyncNone = 0;
+    CmdPlayerSyncScNotify = 601;
+}
+message BasicModuleSync {
+    uint32 stamina = 1;
+}
+message AvatarSync {
+    repeated Avatar avatar_list = 1;
+}
+message MissionSync {
+    repeated Mission mission_list = 1;
+    repeated uint32 finished_main_mission_id_list = 2;
+    repeated uint32 del_mission_id_list = 3;
+    repeated uint32 del_main_mission_id_list = 4;
+}
+message PlayerSyncScNotify {
+    PlayerBasicInfo basic_info = 1;
+    AvatarSync avatar_sync = 2;
+    repeated Equipment equipment_list = 3;
+    repeated uint32 del_equipment_list = 4;
+    repeated Material material_list = 5;
+    repeated Quest quest_list = 6;
+    MissionSync mission_sync = 7;
+    BasicModuleSync basic_module_sync = 8;
+}

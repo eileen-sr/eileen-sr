@@ -1,0 +1,307 @@
+{
+  "GroupGUID": "93e73ada-2b6e-424b-9ce4-c8bb36d31997",
+  "GroupName": "LiftGroup",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P90002_F9000201_G3",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "RotY": 135.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 71.28,
+      "PosY": 3.5,
+      "PosZ": -103.12,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor2",
+      "RotY": 135.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 71.28,
+      "PosY": 7.04,
+      "PosZ": -103.12,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 301004,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "BridgeState2",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "liftplane",
+      "RotY": 315.0,
+      "Comment": null,
+      "ID": 300002,
+      "PosX": 71.28,
+      "PosY": -1.29,
+      "PosZ": -103.12,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 301005,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop8",
+      "RotY": 135.0,
+      "Comment": "底座",
+      "ID": 300008,
+      "PosX": 71.28,
+      "PosY": 2.74,
+      "PosZ": -103.12,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 101007,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.8,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "LevelArea_P90002_F9000201_G3,Anchor1",
+            "Key": "Maze_Chap01_Lift_1F"
+          },
+          {
+            "Value": "LevelArea_P90002_F9000201_G3,Anchor2",
+            "Key": "Maze_Chap01_Lift_2F"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "LevelArea_P90002_F9000201_G3,Anchor1",
+            "Key": "Maze_Chap01_Lift_1F"
+          },
+          {
+            "Value": "LevelArea_P90002_F9000201_G3,Anchor2",
+            "Key": "Maze_Chap01_Lift_2F"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Elevator1",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "lift",
+      "RotY": 135.0,
+      "Comment": null,
+      "ID": 300001,
+      "PosX": 71.28,
+      "PosY": 3.5,
+      "PosZ": -103.12,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 101008,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "3,300001",
+            "Key": "Maze_Chap01_Elevator_01"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "3,300001",
+            "Key": "Maze_Chap01_Elevator_01"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "DownControler",
+      "RotY": 45.0,
+      "Comment": null,
+      "ID": 300004,
+      "PosX": 73.91,
+      "PosY": 3.116995,
+      "PosZ": -105.96,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 101009,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "3,300001",
+            "Key": "Maze_Chap01_Elevator_01"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "3,300001",
+            "Key": "Maze_Chap01_Elevator_01"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "UpControler",
+      "RotY": 136.63,
+      "Comment": null,
+      "ID": 300005,
+      "PosX": 64.04,
+      "PosY": 7.259122,
+      "PosZ": -105.47,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

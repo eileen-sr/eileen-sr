@@ -1,0 +1,260 @@
+{
+  "FloorID": 10000000,
+  "FloorName": "FloorName_10000000",
+  "SceneName": null,
+  "StartGroupID": 2,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "2073c537-9c81-45aa-a916-e6ebd214eee4",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G2.json",
+      "Name": "Default",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "3b09c033-1915-4dd5-9f8f-34ffd7a84d0a",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G7.json",
+      "Name": "Exit",
+      "RotY": 0.0,
+      "Comment": "列车出口",
+      "ID": 7,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "66189ad6-0296-429a-9e87-96b45e7e4466",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G3.json",
+      "Name": "NPC_Pam",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "4331f17b-cb3e-4911-9276-fb7ca7e6070a",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G4.json",
+      "Name": "1000001",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "18764f7d-2db5-47c8-aa96-25659cdfef60",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G5.json",
+      "Name": "1000002",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "19875873-8703-4bc1-9671-479ef7f6b9f2",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G6.json",
+      "Name": "1000003",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 6,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "5e9e3d78-1108-40ac-9455-dcee052b99c4",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G8.json",
+      "Name": "MainMission_10000",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 8,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "dc98da5f-5bdd-45b8-a106-6fd202782477",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G9.json",
+      "Name": "Tutorial10000000",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 9,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "00a687db-2493-4dd9-88e6-a33475df5599",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10000_F10000000/LevelGroup_P10000_F10000000_G10.json",
+      "Name": "SubMission",
+      "RotY": 0.0,
+      "Comment": "他人的宝藏",
+      "ID": 10,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    2,
+    7,
+    3,
+    9,
+    10
+  ],
+  "UnlockMainMissionGroupIDList": [],
+  "EnviroProfile": "Stages/Outputs/Chapter00/EnviroProfile/Chap00_INT_Train_01.enviroProfile.asset.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter00/Stages/Chap00_INT_Train_01_StageData/Chap00_INT_Train_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_10000000.asset",
+  "MinimapVolume": "Level/MinimapVolume/MinimapVolume-Floor_10000000.prefab",
+  "CameraType": "Maze",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": 0.0,
+      "y": 5.474826,
+      "z": 2.285852,
+      "normalized": {
+        "x": 0.0,
+        "y": 0.922796965,
+        "z": 0.385286629,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 5.932861,
+      "sqrMagnitude": 35.1988373
+    },
+    "Size": {
+      "x": 16.7837,
+      "y": 11.16731,
+      "z": 50.92945,
+      "normalized": {
+        "x": 0.3064163,
+        "y": 0.203879088,
+        "z": 0.929807663,
+        "normalized": {
+          "x": 0.306416333,
+          "y": 0.2038791,
+          "z": 0.9298077,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.99999994
+      },
+      "magnitude": 54.7741776,
+      "sqrMagnitude": 3000.21045
+    },
+    "Scale": 7.0,
+    "CompleteScale": 12.0,
+    "SectionVertices": [
+      {
+        "x": -8.39185,
+        "y": 25.46473,
+        "normalized": {
+          "x": -0.3129903,
+          "y": 0.9497563,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 26.8118553,
+        "sqrMagnitude": 718.8756
+      },
+      {
+        "x": 8.39185,
+        "y": 25.46473,
+        "normalized": {
+          "x": 0.3129903,
+          "y": 0.9497563,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 26.8118553,
+        "sqrMagnitude": 718.8756
+      },
+      {
+        "x": 8.39185,
+        "y": -25.46473,
+        "normalized": {
+          "x": 0.3129903,
+          "y": -0.9497563,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 26.8118553,
+        "sqrMagnitude": 718.8756
+      },
+      {
+        "x": -8.39185,
+        "y": -25.46473,
+        "normalized": {
+          "x": -0.3129903,
+          "y": -0.9497563,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 26.8118553,
+        "sqrMagnitude": 718.8756
+      }
+    ],
+    "Atlas": "SpriteOutput/MapPics/Minimap/Minimap_10000000/SectionAtlas/MinimapSection_10000000_Atlas.spriteatlas",
+    "Sections": [
+      {
+        "ID": 0,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_10000000/SectionAtlas/MinimapSection_10000000_0.png",
+        "IsRect": true,
+        "Indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "UIPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "InitialHidden": false,
+        "Type": "Normal",
+        "Center": {
+          "x": -8.39185,
+          "y": 25.46473,
+          "normalized": {
+            "x": -0.3129903,
+            "y": 0.9497563,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 26.8118553,
+          "sqrMagnitude": 718.8756
+        },
+        "GroupID": 0,
+        "PropID": 0
+      }
+    ],
+    "BackgroundMapSprite": "SpriteOutput/MapPics/Minimap/Minimap_10000000/Background.png",
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

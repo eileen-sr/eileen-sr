@@ -1,0 +1,33 @@
+{
+  "GroupGUID": "31a7d990-5966-4e7b-a68b-cc38412c1474",
+  "GroupName": "Default",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P90301_F90301001_G2",
+  "SaveType": "Temporary",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "PlayerSpawn",
+      "RotY": 183.2,
+      "Comment": null,
+      "ID": 1,
+      "PosX": -256.19,
+      "PosY": 257.8521,
+      "PosZ": 180.73,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

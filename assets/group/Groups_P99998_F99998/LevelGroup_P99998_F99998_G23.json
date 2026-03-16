@@ -1,0 +1,84 @@
+{
+  "GroupGUID": "08c64cf4-c0d2-442c-92d7-e3d08ca547be",
+  "GroupName": "NPC测试",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P99998_F99998_G23",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 1000002,
+      "LevelGraph": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": null,
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        10002
+      ],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC1",
+      "RotY": 24.02,
+      "Comment": null,
+      "ID": 400001,
+      "PosX": 126.656,
+      "PosY": -9.9,
+      "PosZ": -50.418,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 101054,
+      "LevelGraph": "Config/Level/NPC/NPC_SetFacetoPlayer.json",
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer.json",
+        "PathwayList": [
+          {
+            "UseGroup": 4,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 1
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC2",
+      "RotY": 90.0,
+      "Comment": null,
+      "ID": 400002,
+      "PosX": 84.5,
+      "PosY": -9.89637,
+      "PosZ": -51.3,
+      "IsDelete": false
+    }
+  ],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

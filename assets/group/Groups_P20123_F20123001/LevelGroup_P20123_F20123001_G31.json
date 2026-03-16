@@ -1,0 +1,51 @@
+{
+  "GroupGUID": "f987df0c-437b-4397-bb94-cbd66368c209",
+  "GroupName": "DailyMission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20123_F20123001_G31",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 1012020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 202231,
+      "Name": "每日任务怪",
+      "RotY": 180.0,
+      "Comment": null,
+      "ID": 200001,
+      "PosX": 38.86,
+      "PosY": 11.96696,
+      "PosZ": 12.77,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

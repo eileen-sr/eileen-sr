@@ -1,0 +1,88 @@
+{
+  "GroupGUID": "655df394-c5ae-48b0-9b2d-2ade1039f351",
+  "GroupName": "DayMission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20111_F20111001_G18",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 1022020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 18,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 1
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 1,
+      "EventID": 202201,
+      "Name": "Monster1",
+      "RotY": 270.0,
+      "Comment": "任务怪1",
+      "ID": 200001,
+      "PosX": 40.88,
+      "PosY": -1.134002,
+      "PosZ": -96.0,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 40.88,
+      "PosY": -1.134002,
+      "PosZ": -96.0,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": 32.66,
+      "PosY": -1.134002,
+      "PosZ": -96.0,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

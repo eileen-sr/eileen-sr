@@ -1,0 +1,49 @@
+{
+  "GroupGUID": "d64f4739-c6d6-47db-909c-67d57fc48097",
+  "GroupName": "SubMission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P10102_F10102001_G21",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 2010702,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 101021007,
+      "LevelGraph": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": null,
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        201070206
+      ],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC1",
+      "RotY": 48.7,
+      "Comment": "谭雅 ",
+      "ID": 400001,
+      "PosX": -9.927,
+      "PosY": -0.300076,
+      "PosZ": 25.305,
+      "IsDelete": false
+    }
+  ],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

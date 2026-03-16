@@ -1,0 +1,58 @@
+{
+  "GroupGUID": "a8d60b97-6c38-46d2-aea3-a125ee4e0cd5",
+  "GroupName": "WorldBoss",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20123_F20123001_G22",
+  "SaveType": "Reset",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 8003020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 103202,
+      "Name": "Monster1",
+      "RotY": 180.0,
+      "Comment": null,
+      "ID": 200001,
+      "PosX": 19.24,
+      "PosY": 14.98744,
+      "PosZ": 26.82,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

@@ -1,0 +1,121 @@
+{
+  "GroupGUID": "2c829bf2-4be0-47eb-b98a-61804364da86",
+  "GroupName": "New Group",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20131_F20131001_G10",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 1013010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20131112,
+      "Name": "Monster1",
+      "RotY": 180.0,
+      "Comment": "12",
+      "ID": 200001,
+      "PosX": 14.79,
+      "PosY": 1.007364,
+      "PosZ": -187.67,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 101014,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 2,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop1",
+      "RotY": 180.0,
+      "Comment": null,
+      "ID": 300001,
+      "PosX": 14.79,
+      "PosY": 1.007364,
+      "PosZ": -187.67,
+      "IsDelete": true
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 101090101,
+      "LevelGraph": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC1",
+      "RotY": 180.0,
+      "Comment": null,
+      "ID": 400001,
+      "PosX": 14.79,
+      "PosY": 1.007364,
+      "PosZ": -187.67,
+      "IsDelete": false
+    }
+  ],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

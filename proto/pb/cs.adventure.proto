@@ -1,0 +1,18 @@
+syntax = "proto3";
+package proto;
+
+
+import "cs.scene.proto";
+
+enum CmdAdventureType {
+    CmdAdventureTypeNone = 0;
+    CmdEnterAdventureCsReq = 1301;
+    CmdEnterAdventureScRsp = 1302;
+}
+message EnterAdventureCsReq {
+    uint32 map_id = 1;
+}
+message EnterAdventureScRsp {
+    uint32 retcode = 1;
+    SceneInfo scene = 2;
+}

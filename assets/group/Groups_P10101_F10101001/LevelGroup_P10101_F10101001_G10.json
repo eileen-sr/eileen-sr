@@ -1,0 +1,53 @@
+{
+  "GroupGUID": "7455273d-0c2c-4aaf-9b13-af6e838a65a9",
+  "GroupName": "SubMission",
+  "ConfigPrefabPath": "Level/Mission/2010201/2010201_temp.prefab",
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P10101_F10101001_G10",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "RotY": 180.0,
+      "Comment": "支线1",
+      "ID": 1,
+      "PosX": -7.55,
+      "PosY": 5.021938,
+      "PosZ": -128.22,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor2",
+      "RotY": 180.0,
+      "Comment": "支线2",
+      "ID": 2,
+      "PosX": 16.77,
+      "PosY": 0.009632,
+      "PosZ": -60.78,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor3",
+      "RotY": 180.0,
+      "Comment": "支线3",
+      "ID": 3,
+      "PosX": -14.56,
+      "PosY": 0.233772,
+      "PosZ": -0.41,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

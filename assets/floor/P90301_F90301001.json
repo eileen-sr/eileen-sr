@@ -1,0 +1,134 @@
+{
+  "FloorID": 90301001,
+  "FloorName": "FloorName_90301001",
+  "SceneName": null,
+  "StartGroupID": 2,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "31a7d990-5966-4e7b-a68b-cc38412c1474",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90301_F90301001/LevelGroup_P90301_F90301001_G2.json",
+      "Name": "Default",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "7fa7628d-6556-48c2-bf39-bbba062cfa41",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90301_F90301001/LevelGroup_P90301_F90301001_G3.json",
+      "Name": "EliteMonster",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "5c1c4bbb-6774-4ef9-b92b-c61f7cba69b9",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90301_F90301001/LevelGroup_P90301_F90301001_G4.json",
+      "Name": "BattleAreas",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "97cf3e8a-5526-4625-b5a6-f547d306437d",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90301_F90301001/LevelGroup_P90301_F90301001_G5.json",
+      "Name": "PatrolMonster",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "fe40f8af-f097-4071-876b-3d76be291953",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90301_F90301001/LevelGroup_P90301_F90301001_G6.json",
+      "Name": "Boss",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 6,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "7669f847-1605-4c56-a8b6-8ba071435450",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90301_F90301001/LevelGroup_P90301_F90301001_G7.json",
+      "Name": "ElementPillar",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 7,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "7390eff2-cabe-412e-8229-05e187ee4326",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90301_F90301001/LevelGroup_P90301_F90301001_G8.json",
+      "Name": "EnvirTrans",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 8,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "UnlockMainMissionGroupIDList": [],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_Snowfield_01_Foggy.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/M1Challenge_Test/M1Challenge_Test.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_90301001.asset",
+  "MinimapVolume": null,
+  "CameraType": "Base",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Size": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Scale": 0.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": null,
+    "Atlas": null,
+    "Sections": null,
+    "BackgroundMapSprite": null,
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

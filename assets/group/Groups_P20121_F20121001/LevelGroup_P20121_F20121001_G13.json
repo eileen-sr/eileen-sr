@@ -1,0 +1,128 @@
+{
+  "GroupGUID": "e39f3940-4082-4496-a65f-12c0d3cc4484",
+  "GroupName": "DefaultMonsterElite2",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20121_F20121001_G13",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 1010503,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20121109,
+      "Name": "Monster11",
+      "RotY": 135.0,
+      "Comment": "精英2",
+      "ID": 200011,
+      "PosX": -10.4,
+      "PosY": 4.999996,
+      "PosZ": -147.36,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1002020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20121110,
+      "Name": "Monster12",
+      "RotY": 0.0,
+      "Comment": "精英3",
+      "ID": 200012,
+      "PosX": -75.53,
+      "PosY": 7.336774,
+      "PosZ": -166.34,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1002020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20121111,
+      "Name": "Monster14",
+      "RotY": 315.0,
+      "Comment": "精英4",
+      "ID": 200014,
+      "PosX": -0.41,
+      "PosY": 5.499999,
+      "PosZ": -79.15,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 1001,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

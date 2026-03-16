@@ -1,0 +1,33 @@
+{
+  "GroupGUID": "886ba2ac-1ae2-4911-9a13-4d7db508cfca",
+  "GroupName": "New Group",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P90002_F9000201_G2",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "RotY": 293.3,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 76.02,
+      "PosY": 2.74,
+      "PosZ": -104.18,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

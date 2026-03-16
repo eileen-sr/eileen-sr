@@ -1,0 +1,568 @@
+[
+  {
+    "CocoonID": 1001,
+    "WorldLevel": 0,
+    "PropID": 801,
+    "MappingInfoID": 1001,
+    "StageID": 1022010,
+    "StageIDList": [
+      1022010,
+      1022020,
+      1022030
+    ],
+    "DropList": [
+      1000919,
+      1000319,
+      999121,
+      999121,
+      999122
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1001,
+    "WorldLevel": 1,
+    "PropID": 801,
+    "MappingInfoID": 1001,
+    "StageID": 1022011,
+    "StageIDList": [
+      1022011,
+      1022021,
+      1022031
+    ],
+    "DropList": [
+      1000919,
+      1000339,
+      999121,
+      999121,
+      999121,
+      999121
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1001,
+    "WorldLevel": 2,
+    "PropID": 801,
+    "MappingInfoID": 1001,
+    "StageID": 1022012,
+    "StageIDList": [
+      1022012,
+      1022022,
+      1022032
+    ],
+    "DropList": [
+      1000919,
+      1000359,
+      999124,
+      999121,
+      999121,
+      999121,
+      999121,
+      999122
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1001,
+    "WorldLevel": 3,
+    "PropID": 801,
+    "MappingInfoID": 1001,
+    "StageID": 1022013,
+    "StageIDList": [
+      1022013,
+      1022023,
+      1022033
+    ],
+    "DropList": [
+      1000919,
+      1000389,
+      999125,
+      999121,
+      999121,
+      999121,
+      999121,
+      999121
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1002,
+    "WorldLevel": 0,
+    "PropID": 801,
+    "MappingInfoID": 1002,
+    "StageID": 1022110,
+    "StageIDList": [
+      1022110,
+      1022120,
+      1022130
+    ],
+    "DropList": [
+      1000919,
+      1000319,
+      1001068
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1002,
+    "WorldLevel": 1,
+    "PropID": 801,
+    "MappingInfoID": 1002,
+    "StageID": 1022111,
+    "StageIDList": [
+      1022111,
+      1022121,
+      1022131
+    ],
+    "DropList": [
+      1000919,
+      1000339,
+      1001075
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1002,
+    "WorldLevel": 2,
+    "PropID": 801,
+    "MappingInfoID": 1002,
+    "StageID": 1022112,
+    "StageIDList": [
+      1022112,
+      1022122,
+      1022132
+    ],
+    "DropList": [
+      1000919,
+      1000359,
+      1001066,
+      1001082
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1002,
+    "WorldLevel": 3,
+    "PropID": 801,
+    "MappingInfoID": 1002,
+    "StageID": 1022113,
+    "StageIDList": [
+      1022113,
+      1022123,
+      1022133
+    ],
+    "DropList": [
+      1000919,
+      1000389,
+      1001063,
+      1001084
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1003,
+    "WorldLevel": 0,
+    "PropID": 801,
+    "MappingInfoID": 1003,
+    "StageID": 1022210,
+    "StageIDList": [
+      1022210,
+      1022220,
+      1022230
+    ],
+    "DropList": [
+      1000919,
+      1000319,
+      2003008,
+      1001024
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1003,
+    "WorldLevel": 1,
+    "PropID": 801,
+    "MappingInfoID": 1003,
+    "StageID": 1022211,
+    "StageIDList": [
+      1022211,
+      1022221,
+      1022231
+    ],
+    "DropList": [
+      1000919,
+      1000339,
+      2003006,
+      1001029
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1003,
+    "WorldLevel": 2,
+    "PropID": 801,
+    "MappingInfoID": 1003,
+    "StageID": 1022212,
+    "StageIDList": [
+      1022212,
+      1022222,
+      1022232
+    ],
+    "DropList": [
+      1000919,
+      1000359,
+      1001026,
+      1001041
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1003,
+    "WorldLevel": 3,
+    "PropID": 801,
+    "MappingInfoID": 1003,
+    "StageID": 1022213,
+    "StageIDList": [
+      1022213,
+      1022223,
+      1022233
+    ],
+    "DropList": [
+      1000919,
+      1000389,
+      2003106,
+      1001043
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1004,
+    "WorldLevel": 0,
+    "PropID": 801,
+    "MappingInfoID": 1004,
+    "StageID": 1022310,
+    "StageIDList": [
+      1022310,
+      1022320,
+      1022330
+    ],
+    "DropList": [
+      1000919,
+      1000319,
+      999111,
+      999111,
+      999112
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1004,
+    "WorldLevel": 1,
+    "PropID": 801,
+    "MappingInfoID": 1004,
+    "StageID": 1022311,
+    "StageIDList": [
+      1022311,
+      1022321,
+      1022331
+    ],
+    "DropList": [
+      1000919,
+      1000339,
+      999111,
+      999111,
+      999111,
+      999111
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1004,
+    "WorldLevel": 2,
+    "PropID": 801,
+    "MappingInfoID": 1004,
+    "StageID": 1022312,
+    "StageIDList": [
+      1022312,
+      1022322,
+      1022332
+    ],
+    "DropList": [
+      1000919,
+      1000359,
+      999114,
+      999111,
+      999111,
+      999111,
+      999111,
+      999112
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1004,
+    "WorldLevel": 3,
+    "PropID": 801,
+    "MappingInfoID": 1004,
+    "StageID": 1022313,
+    "StageIDList": [
+      1022313,
+      1022323,
+      1022333
+    ],
+    "DropList": [
+      1000919,
+      1000389,
+      999115,
+      999111,
+      999111,
+      999111,
+      999111,
+      999111
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1005,
+    "WorldLevel": 0,
+    "PropID": 801,
+    "MappingInfoID": 1005,
+    "StageID": 1022410,
+    "StageIDList": [
+      1022410,
+      1022420,
+      1022430
+    ],
+    "DropList": [
+      1000919,
+      1000319,
+      999131,
+      999131,
+      999132
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1005,
+    "WorldLevel": 1,
+    "PropID": 801,
+    "MappingInfoID": 1005,
+    "StageID": 1022411,
+    "StageIDList": [
+      1022411,
+      1022421,
+      1022431
+    ],
+    "DropList": [
+      1000919,
+      1000339,
+      999131,
+      999131,
+      999131,
+      999131
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1005,
+    "WorldLevel": 2,
+    "PropID": 801,
+    "MappingInfoID": 1005,
+    "StageID": 1022412,
+    "StageIDList": [
+      1022412,
+      1022422,
+      1022432
+    ],
+    "DropList": [
+      1000919,
+      1000359,
+      999134,
+      999131,
+      999131,
+      999131,
+      999131,
+      999132
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1005,
+    "WorldLevel": 3,
+    "PropID": 801,
+    "MappingInfoID": 1005,
+    "StageID": 1022413,
+    "StageIDList": [
+      1022413,
+      1022423,
+      1022433
+    ],
+    "DropList": [
+      1000919,
+      1000389,
+      999135,
+      999131,
+      999131,
+      999131,
+      999131,
+      999131
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1006,
+    "WorldLevel": 0,
+    "PropID": 801,
+    "MappingInfoID": 1006,
+    "StageID": 1022410,
+    "StageIDList": [
+      1022510,
+      1022520,
+      1022530
+    ],
+    "DropList": [
+      1000919,
+      1000319,
+      1003180,
+      1003180,
+      999141
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1006,
+    "WorldLevel": 1,
+    "PropID": 801,
+    "MappingInfoID": 1006,
+    "StageID": 1022411,
+    "StageIDList": [
+      1022511,
+      1022521,
+      1022531
+    ],
+    "DropList": [
+      1000919,
+      1000339,
+      1003180,
+      1003180,
+      1003180,
+      1003180
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1006,
+    "WorldLevel": 2,
+    "PropID": 801,
+    "MappingInfoID": 1006,
+    "StageID": 1022412,
+    "StageIDList": [
+      1022512,
+      1022522,
+      1022532
+    ],
+    "DropList": [
+      1000919,
+      1000359,
+      999142,
+      1003180,
+      1003180,
+      1003180,
+      1003180,
+      999141
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1006,
+    "WorldLevel": 3,
+    "PropID": 801,
+    "MappingInfoID": 1006,
+    "StageID": 1022413,
+    "StageIDList": [
+      1022513,
+      1022523,
+      1022533
+    ],
+    "DropList": [
+      1000919,
+      1000389,
+      999143,
+      1003180,
+      1003180,
+      1003180,
+      1003180,
+      1003180
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1007,
+    "WorldLevel": 0,
+    "PropID": 801,
+    "MappingInfoID": 1007,
+    "StageID": 1022410,
+    "StageIDList": [
+      1022610,
+      1022620,
+      1022630
+    ],
+    "DropList": [
+      1000919,
+      1000489
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1007,
+    "WorldLevel": 1,
+    "PropID": 801,
+    "MappingInfoID": 1007,
+    "StageID": 1022411,
+    "StageIDList": [
+      1022611,
+      1022621,
+      1022631
+    ],
+    "DropList": [
+      1000919,
+      1000505
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1007,
+    "WorldLevel": 2,
+    "PropID": 801,
+    "MappingInfoID": 1007,
+    "StageID": 1022412,
+    "StageIDList": [
+      1022612,
+      1022622,
+      1022632
+    ],
+    "DropList": [
+      1000919,
+      1000512
+    ],
+    "StaminaCost": 20
+  },
+  {
+    "CocoonID": 1007,
+    "WorldLevel": 3,
+    "PropID": 801,
+    "MappingInfoID": 1007,
+    "StageID": 1022413,
+    "StageIDList": [
+      1022613,
+      1022623,
+      1022633
+    ],
+    "DropList": [
+      1000919,
+      1000519
+    ],
+    "StaminaCost": 20
+  }
+]

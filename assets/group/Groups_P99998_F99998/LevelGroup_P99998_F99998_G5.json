@@ -1,0 +1,185 @@
+{
+  "GroupGUID": "70cc3dd0-c182-461b-8faf-e00cfb8692bc",
+  "GroupName": "Testlocked",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P99998_F99998_G5",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 1012020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 5,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 99999011,
+      "Name": "Monster1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 200001,
+      "PosX": 91.1,
+      "PosY": -9.89637,
+      "PosZ": -98.16,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1012010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 5,
+            "UseID": 2,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 99999011,
+      "Name": "Monster2",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 200002,
+      "PosX": 97.73,
+      "PosY": -9.89637,
+      "PosZ": -98.16,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 100,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 300001,
+      "PosX": 94.21,
+      "PosY": -9.89637,
+      "PosZ": -63.76,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 91.07,
+      "PosY": -9.89637,
+      "PosZ": -98.86,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": 91.07,
+      "PosY": -9.89637,
+      "PosZ": -61.76,
+      "IsDelete": false
+    },
+    {
+      "ID": 3,
+      "PosX": 97.57,
+      "PosY": -9.89637,
+      "PosZ": -98.48,
+      "IsDelete": false
+    },
+    {
+      "ID": 4,
+      "PosX": 97.06,
+      "PosY": -9.89637,
+      "PosZ": -61.76,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        3,
+        4
+      ],
+      "Name": "Pathway2",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

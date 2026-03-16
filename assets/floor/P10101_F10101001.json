@@ -1,0 +1,369 @@
+{
+  "FloorID": 10101001,
+  "FloorName": "FloorName_10101001",
+  "SceneName": null,
+  "StartGroupID": 1,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "e9ffe27e-fd37-42fc-9e1f-22818a1a5603",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G1.json",
+      "Name": "DefaultData",
+      "RotY": 0.0,
+      "Comment": "出生点、锚点",
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "0acb9614-eaf9-4972-b956-a4cbde04c2e6",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G3.json",
+      "Name": "Entrance",
+      "RotY": 0.0,
+      "Comment": "传送点与挂点prefab",
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "891bf02a-c9ef-4c57-b00b-cd3da09d0b2d",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G15.json",
+      "Name": "NPC",
+      "RotY": 0.0,
+      "Comment": "常驻NPC",
+      "ID": 15,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "bbc8679f-236e-4bb9-b0d6-25fa0a6d465a",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G4.json",
+      "Name": "Group0",
+      "RotY": 0.0,
+      "Comment": "旧临时NPC【已关闭】",
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": true
+    },
+    {
+      "GroupGUID": "eb17b11e-0260-4515-9023-496a5ce46895",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G5.json",
+      "Name": "BGM",
+      "RotY": 0.0,
+      "Comment": "区域TriggerBGM",
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "70d4ca3b-e5e2-43d6-9397-caf5717ad1ff",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G13.json",
+      "Name": "InvestigativeProps",
+      "RotY": 0.0,
+      "Comment": "调查文本",
+      "ID": 13,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "5cd2d62d-1c3d-4a28-b847-51a13a8f2164",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G14.json",
+      "Name": "Books",
+      "RotY": 0.0,
+      "Comment": "书籍",
+      "ID": 14,
+      "PosX": 0.0,
+      "PosY": 0.5,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "1e155f69-3993-4415-9d5a-02f55e868e43",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G6.json",
+      "Name": "Mission",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 6,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "753692cd-36b0-4c67-bbf4-5f9c59daacea",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G8.json",
+      "Name": "Group0",
+      "RotY": 0.0,
+      "Comment": "衔接任务",
+      "ID": 8,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "97f03732-b275-49f4-b9ba-cb097eec5ed6",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G9.json",
+      "Name": "WayPoint",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 9,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "7455273d-0c2c-4aaf-9b13-af6e838a65a9",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G10.json",
+      "Name": "SubMission",
+      "RotY": 0.0,
+      "Comment": "支线任务",
+      "ID": 10,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "e218b053-6f96-45dd-af37-ac73b13324e7",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G11.json",
+      "Name": "Group0",
+      "RotY": 0.0,
+      "Comment": "衔接任务02",
+      "ID": 11,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "aaeadfa5-78a7-4c39-bfda-6b35ad8ad496",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G12.json",
+      "Name": "Inter_Mission",
+      "RotY": 0.0,
+      "Comment": "M3-2城镇任务",
+      "ID": 12,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "294870c7-0a73-4d3b-9096-91c1fc72d1c4",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G7.json",
+      "Name": "MainMission",
+      "RotY": 0.0,
+      "Comment": "第一次进城",
+      "ID": 7,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "83b078b9-562d-4c2c-8c22-72bb6048b042",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G16.json",
+      "Name": "New Group",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 16,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "f1e8e423-1220-4114-831d-c1ade0ae1307",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G17.json",
+      "Name": "NPCTest",
+      "RotY": 0.0,
+      "Comment": "气氛组测试",
+      "ID": 17,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "08f06f3c-341c-4ac1-b979-8ad37c283e55",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G18.json",
+      "Name": "SubjectMission",
+      "RotY": 0.0,
+      "Comment": "支线-钻头",
+      "ID": 18,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "2b4a1dab-ec84-46e8-8314-8880729d48c7",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G19.json",
+      "Name": "SubjectMission",
+      "RotY": 0.0,
+      "Comment": "3-1失控 支线任务201090605",
+      "ID": 19,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    1,
+    3,
+    15,
+    13,
+    14,
+    17
+  ],
+  "UnlockMainMissionGroupIDList": [],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_Square_01_Day.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_ADV_Area_Square_01_StageData/Chap01_ADV_Area_Square_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_10101001.asset",
+  "MinimapVolume": null,
+  "CameraType": "Base",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": -26.0,
+      "y": 138.0135,
+      "z": -41.12415,
+      "normalized": {
+        "x": -0.1776704,
+        "y": 0.943112135,
+        "z": -0.281020939,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.00000012
+      },
+      "magnitude": 146.338379,
+      "sqrMagnitude": 21414.9219
+    },
+    "Size": {
+      "x": 272.2,
+      "y": 623.6628,
+      "z": 392.5,
+      "normalized": {
+        "x": 0.34650445,
+        "y": 0.7939086,
+        "z": 0.4996436,
+        "normalized": {
+          "x": 0.34650448,
+          "y": 0.793908656,
+          "z": 0.499643624,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.99999994
+      },
+      "magnitude": 785.559937,
+      "sqrMagnitude": 617104.4
+    },
+    "Scale": 3.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": [
+      {
+        "x": -136.1,
+        "y": 196.25,
+        "normalized": {
+          "x": -0.5698739,
+          "y": 0.821732163,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 238.824768,
+        "sqrMagnitude": 57037.2734
+      },
+      {
+        "x": 136.1,
+        "y": 196.25,
+        "normalized": {
+          "x": 0.5698739,
+          "y": 0.821732163,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 238.824768,
+        "sqrMagnitude": 57037.2734
+      },
+      {
+        "x": 136.1,
+        "y": -196.25,
+        "normalized": {
+          "x": 0.5698739,
+          "y": -0.821732163,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 238.824768,
+        "sqrMagnitude": 57037.2734
+      },
+      {
+        "x": -136.1,
+        "y": -196.25,
+        "normalized": {
+          "x": -0.5698739,
+          "y": -0.821732163,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 238.824768,
+        "sqrMagnitude": 57037.2734
+      }
+    ],
+    "Atlas": "SpriteOutput/MapPics/Minimap/Minimap_10101001/SectionAtlas/MinimapSection_10101001_Atlas.spriteatlas",
+    "Sections": [
+      {
+        "ID": 0,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_10101001/SectionAtlas/MinimapSection_10101001_0.png",
+        "IsRect": true,
+        "Indices": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "UIPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "InitialHidden": false,
+        "Type": "Normal",
+        "Center": {
+          "x": -136.1,
+          "y": 196.25,
+          "normalized": {
+            "x": -0.5698739,
+            "y": 0.821732163,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 238.824768,
+          "sqrMagnitude": 57037.2734
+        },
+        "GroupID": 0,
+        "PropID": 0
+      }
+    ],
+    "BackgroundMapSprite": "SpriteOutput/MapPics/Minimap/Minimap_10101001/Background.png",
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

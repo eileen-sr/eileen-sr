@@ -1,0 +1,51 @@
+{
+  "GroupGUID": "18fc98dd-f4a4-43f2-836a-7bd65db6d650",
+  "GroupName": "SubMission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P10102_F10102001_G16",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 101021011,
+      "LevelGraph": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": null,
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        201050101,
+        201050201,
+        201060502
+      ],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC1",
+      "RotY": 90.28779,
+      "Comment": "史考特",
+      "ID": 400001,
+      "PosX": -88.587,
+      "PosY": 5.856199,
+      "PosZ": 50.248,
+      "IsDelete": false
+    }
+  ],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

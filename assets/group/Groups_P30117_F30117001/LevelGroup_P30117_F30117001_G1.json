@@ -1,0 +1,48 @@
+{
+  "GroupGUID": "7288d5bd-b83d-4159-8bf8-326e98049e87",
+  "GroupName": "DefaultData",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P30117_F30117001_G1",
+  "SaveType": "Temporary",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 33.02,
+      "PosY": 3.965446,
+      "PosZ": 136.47,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [
+    {
+      "EnviroProfile": null,
+      "Tags": [
+        "BattleArea01"
+      ],
+      "Name": "BattleArea1",
+      "RotY": 271.69,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 1235.5,
+      "PosY": 0.0,
+      "PosZ": -1593.2,
+      "IsDelete": false
+    }
+  ],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

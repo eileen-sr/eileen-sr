@@ -1,0 +1,120 @@
+{
+  "FloorID": 10101007,
+  "FloorName": "FloorName_10101007",
+  "SceneName": null,
+  "StartGroupID": 1,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "ff568e14-ef1c-4e2b-9ebd-ef08bac4923b",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101007/LevelGroup_P10101_F10101007_G1.json",
+      "Name": "Default",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "04c0273f-020a-4a1c-b812-64533026376d",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101007/LevelGroup_P10101_F10101007_G5.json",
+      "Name": "NPCs",
+      "RotY": 0.0,
+      "Comment": "常驻NPC",
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "b6a776dc-851d-4a15-998e-7b5b0d9db62c",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101007/LevelGroup_P10101_F10101007_G3.json",
+      "Name": "Books",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "993cabbb-25b8-441e-bca3-6415370ef884",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101007/LevelGroup_P10101_F10101007_G4.json",
+      "Name": "New Group",
+      "RotY": 0.0,
+      "Comment": "NPC",
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "71370bef-d015-45cb-a6e1-c8cfdc067a28",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101007/LevelGroup_P10101_F10101007_G6.json",
+      "Name": "SubjectMission",
+      "RotY": 0.0,
+      "Comment": "支线任务201100209 钻头",
+      "ID": 6,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "eb200764-d11b-4958-bab5-f27a8c94b1a8",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101007/LevelGroup_P10101_F10101007_G7.json",
+      "Name": "NPC",
+      "RotY": 0.0,
+      "Comment": "常驻茉莉",
+      "ID": 7,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    1,
+    5,
+    3
+  ],
+  "UnlockMainMissionGroupIDList": [
+    7
+  ],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_INT_MachineHouse_01.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_INT_MachineHouse_01_StageData/Chap01_INT_MachineHouse_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_10101007.asset",
+  "MinimapVolume": null,
+  "CameraType": "Room",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Size": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Scale": 0.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": null,
+    "Atlas": null,
+    "Sections": null,
+    "BackgroundMapSprite": null,
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "GroupGUID": "8bd2bf8b-146a-4061-9082-b51198fd2edc",
+  "GroupName": "Test_Cocoon",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P99998_F99998_G15",
+  "SaveType": "Temporary",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 801,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Maze/Props/Test_Prop_Cocoon.json",
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 3.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": -1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": 1001,
+            "Key": "CocoonID"
+          },
+          {
+            "Value": 2,
+            "Key": "BattleAreaGroupID"
+          },
+          {
+            "Value": 1,
+            "Key": "BattleAreaID"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": 1001,
+            "Key": "CocoonID"
+          },
+          {
+            "Value": 2,
+            "Key": "BattleAreaGroupID"
+          },
+          {
+            "Value": 1,
+            "Key": "BattleAreaID"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "茧",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 300001,
+      "PosX": 50.0,
+      "PosY": -9.89637,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 901,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Maze/Props/Test_Prop_Mappinginfo.json",
+      "Trigger": null,
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": 1001,
+            "Key": "MappinginfoID"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": 1001,
+            "Key": "MappinginfoID"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop2",
+      "RotY": 0.0,
+      "Comment": "Mappinginfo",
+      "ID": 300002,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

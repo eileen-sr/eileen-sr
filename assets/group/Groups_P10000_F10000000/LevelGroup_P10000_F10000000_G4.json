@@ -1,0 +1,252 @@
+{
+  "GroupGUID": "4331f17b-cb3e-4911-9276-fb7ca7e6070a",
+  "GroupName": "1000001",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P10000_F10000000_G4",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 106,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Mission/1000001/Drop/Drop_100000101.json",
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        1000026
+      ],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop1",
+      "RotY": 270.0,
+      "Comment": "座位",
+      "ID": 300001,
+      "PosX": 4.977,
+      "PosY": 0.572,
+      "PosZ": 0.38,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 1000002,
+      "LevelGraph": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        1000001,
+        1000005
+      ],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC1",
+      "RotY": 235.1,
+      "Comment": "三月七",
+      "ID": 400001,
+      "PosX": 1.936,
+      "PosY": 0.0,
+      "PosZ": 4.197,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 1000003,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        1000002,
+        1000006
+      ],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC2",
+      "RotY": 199.8074,
+      "Comment": "丹恒",
+      "ID": 400002,
+      "PosX": 1.7,
+      "PosY": -4E-06,
+      "PosZ": 26.47,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 1000004,
+      "LevelGraph": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        1000003,
+        1000007
+      ],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC3",
+      "RotY": 292.6837,
+      "Comment": "姬子",
+      "ID": 400003,
+      "PosX": 3.81,
+      "PosY": -1E-06,
+      "PosZ": 10.48,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 1000005,
+      "LevelGraph": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        1000004,
+        1000008
+      ],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC4",
+      "RotY": 126.3587,
+      "Comment": "杨",
+      "ID": 400004,
+      "PosX": -3.42,
+      "PosY": -2E-06,
+      "PosZ": 10.31,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 1000006,
+      "LevelGraph": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 3.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": -1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": true
+      },
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        1000009
+      ],
+      "ServerInteractVerificationIDList": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "DefaultIdleStateName": null,
+      "Name": "NPC5",
+      "RotY": 330.7518,
+      "Comment": "帕姆",
+      "ID": 400005,
+      "PosX": 1.8,
+      "PosY": 1E-06,
+      "PosZ": -4.75,
+      "IsDelete": false
+    }
+  ],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

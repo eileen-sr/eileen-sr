@@ -1,0 +1,58 @@
+{
+  "GroupGUID": "00a687db-2493-4dd9-88e6-a33475df5599",
+  "GroupName": "SubMission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P10000_F10000000_G10",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "RotY": 318.4401,
+      "Comment": null,
+      "ID": 1,
+      "PosX": -3.361,
+      "PosY": 0.0,
+      "PosZ": -1.737,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 1000001,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": null,
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC1",
+      "RotY": 177.2246,
+      "Comment": null,
+      "ID": 400001,
+      "PosX": -3.328,
+      "PosY": 0.0,
+      "PosZ": -0.238,
+      "IsDelete": false
+    }
+  ],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

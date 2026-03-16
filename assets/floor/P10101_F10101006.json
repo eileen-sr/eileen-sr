@@ -1,0 +1,81 @@
+{
+  "FloorID": 10101006,
+  "FloorName": "FloorName_10101006",
+  "SceneName": null,
+  "StartGroupID": 2,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "82dd73c2-3594-486c-8805-40cbac18a041",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101006/LevelGroup_P10101_F10101006_G2.json",
+      "Name": "DefaultGroup",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "6cc24f9c-3fc7-4c6e-99fc-892ed0c89608",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101006/LevelGroup_P10101_F10101006_G3.json",
+      "Name": "Books",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "13c206fe-6b94-4cbc-b70a-3aff5ea0f908",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101006/LevelGroup_P10101_F10101006_G4.json",
+      "Name": "MainMission1010811",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    2,
+    3
+  ],
+  "UnlockMainMissionGroupIDList": [],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_INT_Hotel_01_Room.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_INT_Hotel_01_Room_StageData/Chap01_INT_Hotel_01_Room_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_10101006.asset",
+  "MinimapVolume": null,
+  "CameraType": "Room",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Size": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Scale": 0.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": null,
+    "Atlas": null,
+    "Sections": null,
+    "BackgroundMapSprite": null,
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

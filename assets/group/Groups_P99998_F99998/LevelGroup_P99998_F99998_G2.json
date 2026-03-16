@@ -1,0 +1,48 @@
+{
+  "GroupGUID": "6c110578-c55f-4d7a-b3d3-be719915b62b",
+  "GroupName": "Default",
+  "ConfigPrefabPath": null,
+  "LevelGraph": "Config/Level/Maze/MazeTest/Maze_9998_Test_DefaultGroup.json",
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P99998_F99998_G2",
+  "SaveType": "Temporary",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 148.36,
+      "PosY": -9.9,
+      "PosZ": -57.21,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [
+    {
+      "EnviroProfile": null,
+      "Tags": [
+        "BattleArea01"
+      ],
+      "Name": "BattleArea1",
+      "RotY": 45.26,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 1235.9,
+      "PosY": 0.0,
+      "PosZ": -1594.38,
+      "IsDelete": false
+    }
+  ],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

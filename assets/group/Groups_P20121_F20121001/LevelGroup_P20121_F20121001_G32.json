@@ -1,0 +1,189 @@
+{
+  "GroupGUID": "7ff45b02-9b09-4dd5-9dc4-351e3fd525d3",
+  "GroupName": "MainMission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20121_F20121001_G32",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 100,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 3.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "Locked",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": true,
+      "HintRange": 20.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop1",
+      "RotY": 0.0,
+      "Comment": "零件1",
+      "ID": 300001,
+      "PosX": 56.38,
+      "PosY": 4.48,
+      "PosZ": -142.31,
+      "IsDelete": true
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 100,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 3.0,
+        "DimX": 7.0,
+        "DimY": 5.0,
+        "DimZ": 10.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 50.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop2",
+      "RotY": 318.8087,
+      "Comment": null,
+      "ID": 300002,
+      "PosX": 24.78,
+      "PosY": 3.55,
+      "PosZ": -128.09,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 25.402,
+      "PosY": 2.655936,
+      "PosZ": -128.979,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": 21.83,
+      "PosY": 2.088261,
+      "PosZ": -131.96,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "Comment": "克拉拉跑步",
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 101070118,
+      "LevelGraph": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_201230301.json",
+        "PathwayList": [
+          {
+            "UseGroup": 32,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 1
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC1",
+      "RotY": 202.5355,
+      "Comment": "Klara01",
+      "ID": 400001,
+      "PosX": 25.58,
+      "PosY": 2.756413,
+      "PosZ": -126.88,
+      "IsDelete": false
+    }
+  ],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

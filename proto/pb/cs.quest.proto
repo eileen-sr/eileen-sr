@@ -1,0 +1,39 @@
+syntax = "proto3";
+package proto;
+
+
+import "cs.common.proto";
+
+enum CmdQuestType {
+    CmdQuestTypeNone = 0;
+    CmdGetQuestDataCsReq = 901;
+    CmdGetQuestDataScRsp = 902;
+    CmdTakeQuestRewardCsReq = 903;
+    CmdTakeQuestRewardScRsp = 904;
+}
+enum QuestStatus {
+    QUEST_NONE = 0;
+    QUEST_DOING = 1;
+    QUEST_FINISH = 2;
+    QUEST_CLOSE = 3;
+    QUEST_DELETE = 4;
+}
+message GetQuestDataCsReq {
+}
+message Quest {
+    uint32 id = 1;
+    QuestStatus status = 2;
+    uint32 progress = 3;
+}
+message GetQuestDataScRsp {
+    uint32 retcode = 1;
+    repeated Quest quest_list = 2;
+}
+message TakeQuestRewardCsReq {
+    repeated uint32 quest_id_list = 1;
+}
+message TakeQuestRewardScRsp {
+    uint32 retcode = 1;
+    RewardData reward = 2;
+    repeated uint32 succ_quest_id_list = 3;
+}

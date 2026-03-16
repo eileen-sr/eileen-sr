@@ -1,0 +1,194 @@
+syntax = "proto3";
+package proto;
+
+
+import "common.define.proto";
+import "cs.common.proto";
+
+enum CmdPlayerType {
+    CmdPlayerTypeNone = 0;
+    CmdPlayerLoginCsReq = 1;
+    CmdPlayerLoginScRsp = 2;
+    CmdPlayerLogoutCsReq = 3;
+    // CmdPlayerLogoutScRsp = 4;
+    CmdPlayerGetTokenCsReq = 5;
+    CmdPlayerGetTokenScRsp = 6;
+    CmdPlayerKeepAliveNotify = 7;
+    CmdGmTalkScNotify = 8;
+    CmdPlayerKickOutScNotify = 9;
+    CmdGmTalkCsReq = 10;
+    CmdGmTalkScRsp = 11;
+    CmdGetStaminaExchangeCsReq = 12;
+    CmdGetStaminaExchangeScRsp = 13;
+    CmdExchangeStaminaCsReq = 14;
+    CmdExchangeStaminaScRsp = 15;
+    CmdGetAuthkeyCsReq = 16;
+    CmdGetAuthkeyScRsp = 17;
+    CmdRegionStopScNotify = 18;
+    CmdAntiAddictScNotify = 19;
+    CmdSetNicknameCsReq = 20;
+    CmdSetNicknameScRsp = 21;
+    CmdGetLevelRewardTakenListCsReq = 22;
+    CmdGetLevelRewardTakenListScRsp = 23;
+    CmdGetLevelRewardCsReq = 24;
+    CmdGetLevelRewardScRsp = 25;
+    CmdSyncTimeCsReq = 26;
+    CmdSyncTimeScRsp = 27;
+    CmdSetLanguageCsReq = 28;
+    CmdSetLanguageScRsp = 29;
+    CmdServerAnnounceNotify = 30;
+}
+enum AuthkeySignType {
+    AUTHKEY_SIGN_TYPE_NONE = 0;
+    AUTHKEY_SIGN_TYPE_DEFAULT = 1;
+    AUTHKEY_SIGN_TYPE_RSA = 2;
+}
+message PlayerLoginCsReq {
+    PlatformType platform = 1;
+    string cps = 2;
+    string device_uuid = 3;
+    string device_info = 4;
+    string system_info = 5;
+    string client_version = 6;
+    LanguageType language = 7;
+    uint32 last_server_packet_id = 8;
+    string check_sum_1 = 9;
+    string check_sum_2 = 10;
+    string signature = 11;
+    string resolution = 12;
+    uint64 login_random = 13;
+    string system_language = 14;
+    uint32 res_version = 15;
+}
+message PlayerLoginScRsp {
+    uint32 retcode = 1;
+    bool is_new_player = 2;
+    PlayerBasicInfo basic_info = 3;
+    uint64 server_timestamp_ms = 4;
+    uint32 stamina = 5;
+    bool is_relay = 6;
+    uint64 login_random = 7;
+}
+message PlayerLogoutCsReq {
+}
+message PlayerGetTokenCsReq {
+    uint32 channel_id = 1;
+    string account_uid = 2;
+    string token = 3;
+    uint32 uid = 4;
+    string device = 5;
+}
+message PlayerGetTokenScRsp {
+    uint32 retcode = 1;
+    uint32 uid = 2;
+    BlackInfo black_info = 3;
+    string msg = 4;
+    uint64 secret_key_seed = 5;
+}
+message PlayerKeepAliveNotify {
+}
+message GmTalkScNotify {
+    string msg = 1;
+}
+enum KickType {
+    KICK_SQUEEZED = 0;
+    KICK_BLACK = 1;
+    KICK_CHANGE_PWD = 2;
+}
+message PlayerKickOutScNotify {
+    KickType kick_type = 1;
+    BlackInfo black_info = 2;
+}
+message GmTalkCsReq {
+    string msg = 1;
+}
+message GmTalkScRsp {
+    uint32 retcode = 1;
+    string retmsg = 2;
+}
+message GetStaminaExchangeCsReq {
+}
+message GetStaminaExchangeScRsp {
+    uint32 retcode = 1;
+    uint32 next_recover_time = 2;
+    uint32 exchange_times = 3;
+}
+message ExchangeStaminaCsReq {
+}
+message ExchangeStaminaScRsp {
+    uint32 retcode = 1;
+    uint32 stamina_add = 2;
+    repeated ItemCost item_cost_list = 3;
+    uint32 last_recover_time = 4;
+    uint32 exchange_times = 5;
+}
+message GetAuthkeyCsReq {
+    string auth_appid = 1;
+    uint32 sign_type = 2;
+    uint32 authkey_ver = 3;
+}
+message GetAuthkeyScRsp {
+    uint32 retcode = 1;
+    string authkey = 2;
+    string auth_appid = 3;
+    uint32 sign_type = 4;
+    uint32 authkey_ver = 5;
+}
+message RegionStopScNotify {
+    uint32 stop_begin_time = 1;
+    uint32 stop_end_time = 2;
+}
+message AntiAddictScNotify {
+    uint32 msg_type = 1;
+    string msg = 2;
+    string level = 3;
+}
+message SetNicknameCsReq {
+    string nickname = 1;
+    bool is_modify = 2;
+}
+message SetNicknameScRsp {
+    uint32 retcode = 1;
+}
+message GetLevelRewardTakenListCsReq {
+}
+message GetLevelRewardTakenListScRsp {
+    uint32 retcode = 1;
+    repeated uint32 taken_level_list = 2;
+}
+message GetLevelRewardCsReq {
+    uint32 level = 1;
+}
+message GetLevelRewardScRsp {
+    uint32 retcode = 1;
+    RewardData reward = 2;
+}
+message SyncTimeCsReq {
+    uint64 client_time_ms = 1;
+}
+message SyncTimeScRsp {
+    uint32 retcode = 1;
+    uint64 client_time_ms = 2;
+    uint64 server_time_ms = 3;
+}
+message SetLanguageCsReq {
+    LanguageType language = 1;
+}
+message SetLanguageScRsp {
+    uint32 retcode = 1;
+    LanguageType language = 2;
+}
+message AnnounceData {
+    uint32 config_id = 1;
+    uint32 begin_time = 2;
+    uint32 end_time = 3;
+    string center_system_text = 4;
+    string count_down_text = 5;
+    string dungeon_confirm_text = 6;
+    uint32 center_system_frequency = 7;
+    uint32 count_down_frequency = 8;
+    bool is_center_system_last_5_every_minutes = 9;
+}
+message ServerAnnounceNotify {
+    repeated AnnounceData announce_data_list = 1;
+}

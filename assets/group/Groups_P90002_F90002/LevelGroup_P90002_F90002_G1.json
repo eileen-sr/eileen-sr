@@ -1,0 +1,196 @@
+{
+  "GroupGUID": "4188660f-5c1f-45e5-bf6c-6c53b1005dc7",
+  "GroupName": "Model",
+  "ConfigPrefabPath": null,
+  "LevelGraph": "Config/Level/Maze/Chapter00/Train/TrainConfig.json",
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P90002_F90002_G1",
+  "SaveType": "Temporary",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "PlayerStartPoint",
+      "RotY": 133.42,
+      "Comment": null,
+      "ID": 1,
+      "PosX": -31.13,
+      "PosY": 3.993778,
+      "PosZ": 21.23,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor2",
+      "RotY": 180.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": -3.000065,
+      "PosZ": -65.04,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 102,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 1.5,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": 0,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 0,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": 0,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 0,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop2",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 300002,
+      "PosX": -32.51,
+      "PosY": 3.993778,
+      "PosZ": 23.04,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 103,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop5",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 300005,
+      "PosX": -25.23,
+      "PosY": 4.51,
+      "PosZ": 24.77,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 104,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 300001,
+      "PosX": -27.21,
+      "PosY": 3.993778,
+      "PosZ": 22.96,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [
+    {
+      "EnviroProfile": null,
+      "Tags": [
+        "BattleArea01"
+      ],
+      "Name": "BattleArea1",
+      "RotY": 234.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 10.4,
+      "PosY": 0.0,
+      "PosZ": 513.21,
+      "IsDelete": false
+    }
+  ],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

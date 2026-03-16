@@ -1,0 +1,397 @@
+{
+  "GroupGUID": "dabf9d7c-7635-4e9b-893d-cee855dfce4e",
+  "GroupName": "PlayerStart",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20123_F20123001_G2",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "RotY": 194.6781,
+      "Comment": null,
+      "ID": 1,
+      "PosX": -8.48,
+      "PosY": 25.39901,
+      "PosZ": 91.33,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor2",
+      "RotY": 0.0,
+      "Comment": "指引点01",
+      "ID": 2,
+      "PosX": -34.89,
+      "PosY": 20.00002,
+      "PosZ": 35.4,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor3",
+      "RotY": 0.0,
+      "Comment": "指引点03",
+      "ID": 3,
+      "PosX": -40.37,
+      "PosY": 20.00002,
+      "PosZ": 71.54,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor4",
+      "RotY": 180.0,
+      "Comment": "锚点02",
+      "ID": 4,
+      "PosX": -4.93,
+      "PosY": 20.10341,
+      "PosZ": 13.1,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor5",
+      "RotY": 0.0,
+      "Comment": "指引点02",
+      "ID": 5,
+      "PosX": 4.869,
+      "PosY": 22.98061,
+      "PosZ": 55.338,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor6",
+      "RotY": 146.7474,
+      "Comment": "boss战刷新点",
+      "ID": 6,
+      "PosX": -4.37,
+      "PosY": 20.0,
+      "PosZ": -33.46,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 101,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 6.0,
+        "DimX": 8.0,
+        "DimY": 2.0,
+        "DimZ": 8.0,
+        "TargetCamps": [],
+        "TriggerTimes": -1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": true
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [],
+        "SharedValues": []
+      },
+      "CampID": 0,
+      "State": "CheckPointEnable",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 2,
+      "AnchorID": 1,
+      "MapTeleportID": 2012301,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop1",
+      "RotY": 194.6781,
+      "Comment": "锚点1-trigger",
+      "ID": 300001,
+      "PosX": -9.54,
+      "PosY": 25.39901,
+      "PosZ": 87.28,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 102,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": 2,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 300001,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": 2,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 300001,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop2",
+      "RotY": 135.0,
+      "Comment": "锚点1-模型",
+      "ID": 300002,
+      "PosX": -11.34,
+      "PosY": 25.68126,
+      "PosZ": 87.71,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 101,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 6.0,
+        "DimX": 8.0,
+        "DimY": 2.0,
+        "DimZ": 16.0,
+        "TargetCamps": [],
+        "TriggerTimes": -1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": true
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [],
+        "SharedValues": []
+      },
+      "CampID": 0,
+      "State": "CheckPointDisable",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 2,
+      "AnchorID": 4,
+      "MapTeleportID": 2012302,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop3",
+      "RotY": 180.0,
+      "Comment": "锚点2-trigger",
+      "ID": 300003,
+      "PosX": -4.93,
+      "PosY": 20.10341,
+      "PosZ": 11.95,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 102,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": 2,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 300003,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": 2,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 300003,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop4",
+      "RotY": 270.0,
+      "Comment": "锚点2-模型",
+      "ID": 300004,
+      "PosX": -1.84,
+      "PosY": 20.38844,
+      "PosZ": 13.1,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 103,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Maze/Chapter01/MainStory/M2_2_F20122001/M202_MazeExit.json",
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.5,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop9",
+      "RotY": 225.0,
+      "Comment": "出口",
+      "ID": 300009,
+      "PosX": 34.52,
+      "PosY": 20.17721,
+      "PosZ": -58.62,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [
+    {
+      "EnviroProfile": null,
+      "Tags": [
+        "BattleArea01"
+      ],
+      "Name": "BattleArea1",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": -6.213479,
+      "PosY": 1.92,
+      "PosZ": 782.0,
+      "IsDelete": false
+    }
+  ],
+  "NPCList": [],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

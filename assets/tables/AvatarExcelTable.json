@@ -1,0 +1,2403 @@
+[
+  {
+    "AvatarID": 1001,
+    "AvatarName": {
+      "hash": 2517545
+    },
+    "AvatarFullName": {
+      "hash": 460125920
+    },
+    "AdventurePlayerID": 1001,
+    "AvatarVOTag": "mar7th",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Mar_7th_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Ice",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      100101,
+      100102,
+      100103,
+      100104,
+      100106,
+      100107
+    ],
+    "AvatarBaseType": "Knight",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Mar_7th_00/Avatar_Mar_7th_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1001.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Mar_7th.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Mar_7th_00/Manikin_Maid_Mar_7th_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/KnightSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 1002,
+    "AvatarName": {
+      "hash": 2517546
+    },
+    "AvatarFullName": {
+      "hash": 460125917
+    },
+    "AdventurePlayerID": 1002,
+    "AvatarVOTag": "danheng",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_DanHeng_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Wind",
+    "SPNeed": {
+      "RawValue": 343597383680
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      100201,
+      100202,
+      100203,
+      100204,
+      100206,
+      100207
+    ],
+    "AvatarBaseType": "Rogue",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/102.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/DanHeng_00/Avatar_DanHeng_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1002.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/102.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1002.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "SpriteOutput/AvatarTattooIcon/Tattoo_103.png",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_DanHeng.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/DanHeng_00/Manikin_Lad_DanHeng_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1002.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1002.png"
+  },
+  {
+    "AvatarID": 1003,
+    "AvatarName": {
+      "hash": 2517547
+    },
+    "AvatarFullName": {
+      "hash": 460125918
+    },
+    "AdventurePlayerID": 1003,
+    "AvatarVOTag": "himeko",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Himeko_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Fire",
+    "SPNeed": {
+      "RawValue": 472446402560
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      100301,
+      100302,
+      100303,
+      100304,
+      100306,
+      100307
+    ],
+    "AvatarBaseType": "Mage",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/103.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Himeko_00/Avatar_Himeko_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1003.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/103.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1003.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1003B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1003.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Himeko.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Himeko_00/Manikin_Lady_Himeko_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Himeko_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/MageSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1003.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1003.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1003.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1003.png"
+  },
+  {
+    "AvatarID": 1004,
+    "AvatarName": {
+      "hash": 2517548
+    },
+    "AvatarFullName": {
+      "hash": 460125923
+    },
+    "AdventurePlayerID": 1004,
+    "AvatarVOTag": "welt",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Welt_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Imaginary",
+    "SPNeed": {
+      "RawValue": 644245094400
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      100401,
+      100402,
+      100403,
+      100404,
+      100406,
+      100407
+    ],
+    "AvatarBaseType": "Warlock",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/103.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Welt_00/Avatar_Welt_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1004.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/104.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1004.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1004B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1004.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Welt.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Welt_00/Manikin_Male_Welt_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/WarlockSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1004.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1004.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1004.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1004.png"
+  },
+  {
+    "AvatarID": 1005,
+    "AvatarName": {
+      "hash": 2517549
+    },
+    "AvatarFullName": {
+      "hash": 460125924
+    },
+    "AdventurePlayerID": 1106,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Kafka_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Thunder",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      100501,
+      100502,
+      100503,
+      100504
+    ],
+    "AvatarBaseType": "Warlock",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Pela_00/Avatar_Pela_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1106.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/206.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "SpriteOutput/AvatarTattooIcon/Tattoo_103.png",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1106.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Pela.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Pela_00/Manikin_Girl_Pela_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Pela_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/WarlockSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 1007,
+    "AvatarName": {
+      "hash": 2517551
+    },
+    "AvatarFullName": {
+      "hash": 460125922
+    },
+    "AdventurePlayerID": 1007,
+    "AvatarVOTag": "playerboy",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_PlayerBoy_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Physical",
+    "SPNeed": {
+      "RawValue": 472446402560
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      100701,
+      100702,
+      100703,
+      100704,
+      100706,
+      100707,
+      100708,
+      100709
+    ],
+    "AvatarBaseType": "Warrior",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/103.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/PlayerBoy_00/Avatar_PlayerBoy_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1007.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/107.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1007.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1007B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1007.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Player.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/PlayerBoy_00/Manikin_Lad_PlayerBoy_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_PlayerBoy_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/WarriorSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1007.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1007.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1007.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1007.png"
+  },
+  {
+    "AvatarID": 1009,
+    "AvatarName": {
+      "hash": 2517537
+    },
+    "AvatarFullName": {
+      "hash": 460125928
+    },
+    "AdventurePlayerID": 1009,
+    "AvatarVOTag": "asta",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Asta_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Fire",
+    "SPNeed": {
+      "RawValue": 386547056640
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      100901,
+      100902,
+      100903,
+      100904,
+      100906,
+      100907
+    ],
+    "AvatarBaseType": "Shaman",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Asta_00/Avatar_Asta_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1009.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1009.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1009B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1009.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Asta.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Asta_00/Manikin_Maid_Asta_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/ShamanSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1009.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1009.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1009.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1009.png"
+  },
+  {
+    "AvatarID": 1101,
+    "AvatarName": {
+      "hash": 2517640
+    },
+    "AvatarFullName": {
+      "hash": 460125887
+    },
+    "AdventurePlayerID": 1101,
+    "AvatarVOTag": "bronya",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Bronya_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Wind",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      110101,
+      110102,
+      110103,
+      110104,
+      110106,
+      110107
+    ],
+    "AvatarBaseType": "Shaman",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/201.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Bronya_00/Avatar_Bronya_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1101.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/202.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1101.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1101B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "SpriteOutput/AvatarTattooIcon/Tattoo_103.png",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1101.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Bronya.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Bronya_00/Manikin_Maid_Bronya_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/ShamanSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1101.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1101.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1101.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1101.png"
+  },
+  {
+    "AvatarID": 1102,
+    "AvatarName": {
+      "hash": 2517643
+    },
+    "AvatarFullName": {
+      "hash": 460125886
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "seele",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Seele_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Quantum",
+    "SPNeed": {
+      "RawValue": 515396075520
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      110201,
+      110202,
+      110203,
+      110204,
+      110206,
+      110207
+    ],
+    "AvatarBaseType": "Rogue",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/202.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Seele_00/Avatar_Seele_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1102.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/202.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1102.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1102B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1102.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Seele.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1102.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1102.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1102.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1102.png"
+  },
+  {
+    "AvatarID": 1103,
+    "AvatarName": {
+      "hash": 2517642
+    },
+    "AvatarFullName": {
+      "hash": 460125885
+    },
+    "AdventurePlayerID": 1103,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Serval_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Thunder",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      110301,
+      110302,
+      110303,
+      110304,
+      110306,
+      110307
+    ],
+    "AvatarBaseType": "Mage",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Serval_00/Avatar_Serval_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1103.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/W203.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1103.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1103B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1103.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Serval.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Serval_00/Manikin_Lady_Serval_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/MageSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1103.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1103.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1103.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1103.png"
+  },
+  {
+    "AvatarID": 1104,
+    "AvatarName": {
+      "hash": 2517645
+    },
+    "AvatarFullName": {
+      "hash": 460125892
+    },
+    "AdventurePlayerID": 1104,
+    "AvatarVOTag": "gepard",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Gepard_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Ice",
+    "SPNeed": {
+      "RawValue": 386547056640
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      110401,
+      110402,
+      110403,
+      110404,
+      110406,
+      110407
+    ],
+    "AvatarBaseType": "Knight",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/204.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Gepard_00/Avatar_Gepard_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1104.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/204.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1104.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1104B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1104.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Gepard_00/Manikin_Male_Gepard_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/KnightSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1104.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1104.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1104.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1104.png"
+  },
+  {
+    "AvatarID": 1105,
+    "AvatarName": {
+      "hash": 2517644
+    },
+    "AvatarFullName": {
+      "hash": 460125891
+    },
+    "AdventurePlayerID": 1105,
+    "AvatarVOTag": "natasha",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Natasha_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Physical",
+    "SPNeed": {
+      "RawValue": 343597383680
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      110501,
+      110502,
+      110503,
+      110504,
+      110506,
+      110507
+    ],
+    "AvatarBaseType": "Priest",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Natasha_00/Avatar_Natasha_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1105.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/205.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1105.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1105.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Natasha.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Natasha_00/Manikin_Lady_Natasha_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Natasha_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/PriestSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1105.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1105.png"
+  },
+  {
+    "AvatarID": 1106,
+    "AvatarName": {
+      "hash": 2517647
+    },
+    "AvatarFullName": {
+      "hash": 460125890
+    },
+    "AdventurePlayerID": 1106,
+    "AvatarVOTag": "pela",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Pela_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Ice",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      110601,
+      110602,
+      110603,
+      110604,
+      110606,
+      110607
+    ],
+    "AvatarBaseType": "Warlock",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Pela_00/Avatar_Pela_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1106.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/206.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1106.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1106.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Pela.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Pela_00/Manikin_Girl_Pela_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Pela_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/WarlockSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1106.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1106.png"
+  },
+  {
+    "AvatarID": 1107,
+    "AvatarName": {
+      "hash": 2517646
+    },
+    "AvatarFullName": {
+      "hash": 460125889
+    },
+    "AdventurePlayerID": 1107,
+    "AvatarVOTag": "clara",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Klara_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Physical",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      110701,
+      110702,
+      110703,
+      110704,
+      110706,
+      110707
+    ],
+    "AvatarBaseType": "Warrior",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Klara_00/Avatar_Klara_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1107.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/207.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1107.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1107B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1107.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Klara.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Klara_00/Manikin_Girl_Klara_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/WarriorSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1107.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1107.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1107.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1107.png"
+  },
+  {
+    "AvatarID": 1108,
+    "AvatarName": {
+      "hash": 2517633
+    },
+    "AvatarFullName": {
+      "hash": 460125896
+    },
+    "AdventurePlayerID": 1108,
+    "AvatarVOTag": "sampo",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Sampo_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Wind",
+    "SPNeed": {
+      "RawValue": 515396075520
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      110801,
+      110802,
+      110803,
+      110804,
+      110806,
+      110807
+    ],
+    "AvatarBaseType": "Warlock",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Sampo_00/Avatar_Sampo_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1108.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/208.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1108.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1108B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1108.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Sampo.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Sampo_00/Manikin_Male_Sampo_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/WarlockSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1108.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1108.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1108.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1108.png"
+  },
+  {
+    "AvatarID": 1109,
+    "AvatarName": {
+      "hash": 2517632
+    },
+    "AvatarFullName": {
+      "hash": 460125895
+    },
+    "AdventurePlayerID": 1109,
+    "AvatarVOTag": "hook",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Hook_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Fire",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      110901,
+      110902,
+      110903,
+      110904,
+      110906,
+      110907,
+      110909
+    ],
+    "AvatarBaseType": "Warrior",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Hook_00/Avatar_Hook_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1109.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/209.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1109.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1109B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1109.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Hook.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Hook_00/Manikin_Kid_Hook_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/WarriorSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1109.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1109.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1109.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1109.png"
+  },
+  {
+    "AvatarID": 1008,
+    "AvatarName": {
+      "hash": 2517536
+    },
+    "AvatarFullName": {
+      "hash": 460125927
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Arlan_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Thunder",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      100801,
+      100802,
+      100803,
+      100804,
+      100807
+    ],
+    "AvatarBaseType": "Warrior",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Arlan_00/Avatar_Arlan_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1008.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/102.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1008B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/WarriorSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1008.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1008.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 1201,
+    "AvatarName": {
+      "hash": 2517611
+    },
+    "AvatarFullName": {
+      "hash": 460125854
+    },
+    "AdventurePlayerID": 1106,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/Avatar_QingQue_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Quantum",
+    "SPNeed": {
+      "RawValue": 343597383680
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      120101,
+      120102,
+      120103,
+      120104
+    ],
+    "AvatarBaseType": "Mage",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Pela_00/Avatar_Pela_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1106.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/206.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1106.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Pela.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Pela_00/Manikin_Girl_Pela_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Pela_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 1202,
+    "AvatarName": {
+      "hash": 2517608
+    },
+    "AvatarFullName": {
+      "hash": 460125855
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/Avatar_TingYun_Config.json",
+    "NatureID": 1,
+    "DamageType": "Thunder",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      120201,
+      120202,
+      120203,
+      120204
+    ],
+    "AvatarBaseType": "Shaman",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Eileen_00/Avatar_Eileen_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9001,
+    "AvatarName": {
+      "hash": 1131817553
+    },
+    "AvatarFullName": {
+      "hash": -669174088
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/Avatar_DaHuoJi_temp_Config.json",
+    "NatureID": 1,
+    "DamageType": "Physical",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      900101,
+      900102,
+      900103,
+      900104
+    ],
+    "AvatarBaseType": "Priest",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Eileen_00/Avatar_Eileen_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/JiaSP.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9002,
+    "AvatarName": {
+      "hash": 1131817554
+    },
+    "AvatarFullName": {
+      "hash": -669174091
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/Avatar_LaTiao_temp_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Wind",
+    "SPNeed": {
+      "RawValue": 300647710720
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      900201,
+      900202,
+      900203,
+      900204
+    ],
+    "AvatarBaseType": "Shaman",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Eileen_00/Avatar_Eileen_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/LaTiao.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "SpriteOutput/AvatarTattooIcon/Tattoo_103.png",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9006,
+    "AvatarName": {
+      "hash": 1131817558
+    },
+    "AvatarFullName": {
+      "hash": -669174087
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/Avatar_WB_IceShield_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Ice",
+    "SPNeed": {
+      "RawValue": 343597383680
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      900601,
+      900602,
+      900603,
+      900604
+    ],
+    "AvatarBaseType": "Priest",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Eileen_00/Avatar_Eileen_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9017,
+    "AvatarName": {
+      "hash": -1597065796
+    },
+    "AvatarFullName": {
+      "hash": 2059709269
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_SpeedAtk_Config.json",
+    "NatureID": 1,
+    "DamageType": "Wind",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      901701,
+      901702,
+      901703,
+      901704
+    ],
+    "AvatarBaseType": "Rogue",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/DanHeng_00/Avatar_DanHeng_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/102.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9024,
+    "AvatarName": {
+      "hash": -30981858
+    },
+    "AvatarFullName": {
+      "hash": -1831973499
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_FireShield_Config.json",
+    "NatureID": 1,
+    "DamageType": "Fire",
+    "SPNeed": {
+      "RawValue": 343597383680
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      902401,
+      902402,
+      902403,
+      902404
+    ],
+    "AvatarBaseType": "Knight",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Eileen_00/Avatar_Eileen_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "SpriteOutput/AvatarTattooIcon/Tattoo_103.png",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9025,
+    "AvatarName": {
+      "hash": -30981857
+    },
+    "AvatarFullName": {
+      "hash": -1831973498
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_Setsugekka_Config.json",
+    "NatureID": 1,
+    "DamageType": "Ice",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      902501,
+      902502,
+      902503,
+      902504
+    ],
+    "AvatarBaseType": "Mage",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Eileen_00/Avatar_Eileen_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9027,
+    "AvatarName": {
+      "hash": -30981855
+    },
+    "AvatarFullName": {
+      "hash": -1831973500
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_PassiveHeal_Config.json",
+    "NatureID": 1,
+    "DamageType": "Imaginary",
+    "SPNeed": {
+      "RawValue": 343597383680
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      902701,
+      902702,
+      902703,
+      902704
+    ],
+    "AvatarBaseType": "Priest",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Natasha_00/Avatar_Natasha_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/205.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9031,
+    "AvatarName": {
+      "hash": 1535102080
+    },
+    "AvatarFullName": {
+      "hash": 896909853
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_SPHeal_Config.json",
+    "NatureID": 1,
+    "DamageType": "Wind",
+    "SPNeed": {
+      "RawValue": 773094113280
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      903101,
+      903102,
+      903103,
+      903104
+    ],
+    "AvatarBaseType": "Priest",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Natasha_00/Avatar_Natasha_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1105.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/205.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9034,
+    "AvatarName": {
+      "hash": 1535102083
+    },
+    "AvatarFullName": {
+      "hash": 896909856
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_BPHeal_Config.json",
+    "NatureID": 1,
+    "DamageType": "Quantum",
+    "SPNeed": {
+      "RawValue": 515396075520
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      903401,
+      903402,
+      903403,
+      903404
+    ],
+    "AvatarBaseType": "Priest",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Natasha_00/Avatar_Natasha_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/205.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "SpriteOutput/AvatarTattooIcon/Tattoo_103.png",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9037,
+    "AvatarName": {
+      "hash": 1535102086
+    },
+    "AvatarFullName": {
+      "hash": 896909855
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_Wolf_Config.json",
+    "NatureID": 1,
+    "DamageType": "Physical",
+    "SPNeed": {
+      "RawValue": 386547056640
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      903701,
+      903702,
+      903703,
+      903704
+    ],
+    "AvatarBaseType": "Warlock",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Eileen_00/Avatar_Eileen_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9038,
+    "AvatarName": {
+      "hash": 1535102071
+    },
+    "AvatarFullName": {
+      "hash": 896909860
+    },
+    "AdventurePlayerID": 1002,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_Shechi_Config.json",
+    "NatureID": 1,
+    "DamageType": "Ice",
+    "SPNeed": {
+      "RawValue": 386547056640
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      903801,
+      903802,
+      903803,
+      903804
+    ],
+    "AvatarBaseType": "Rogue",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/102.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/DanHeng_00/Avatar_DanHeng_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1002.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/102.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_DanHeng.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/DanHeng_00/Manikin_Lad_DanHeng_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9040,
+    "AvatarName": {
+      "hash": -1193781276
+    },
+    "AvatarFullName": {
+      "hash": 1300194379
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_Stealth_Config.json",
+    "NatureID": 1,
+    "DamageType": "Thunder",
+    "SPNeed": {
+      "RawValue": 472446402560
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      904001,
+      904002,
+      904003,
+      904004
+    ],
+    "AvatarBaseType": "Rogue",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/202.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Seele_00/Avatar_Seele_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1102.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/202.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1102B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "SpriteOutput/AvatarTattooIcon/Tattoo_103.png",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1102.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Seele.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1102.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1102.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9041,
+    "AvatarName": {
+      "hash": -1193781275
+    },
+    "AvatarFullName": {
+      "hash": 1300194380
+    },
+    "AdventurePlayerID": 1106,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_ChargeSor_Config.json",
+    "NatureID": 1,
+    "DamageType": "Wind",
+    "SPNeed": {
+      "RawValue": 472446402560
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      904101,
+      904102,
+      904103,
+      904104
+    ],
+    "AvatarBaseType": "Mage",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Pela_00/Avatar_Pela_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1106.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/206.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1106.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Pela.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Pela_00/Manikin_Girl_Pela_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Pela_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9042,
+    "AvatarName": {
+      "hash": -1193781274
+    },
+    "AvatarFullName": {
+      "hash": 1300194377
+    },
+    "AdventurePlayerID": 1106,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_Herta_Config.json",
+    "NatureID": 1,
+    "DamageType": "Fire",
+    "SPNeed": {
+      "RawValue": 472446402560
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      904201,
+      904202,
+      904203,
+      904204
+    ],
+    "AvatarBaseType": "Mage",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Pela_00/Avatar_Pela_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1106.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/206.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1106.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Pela.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Pela_00/Manikin_Girl_Pela_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Pela_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9047,
+    "AvatarName": {
+      "hash": -1193781269
+    },
+    "AvatarFullName": {
+      "hash": 1300194382
+    },
+    "AdventurePlayerID": 1106,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_SilverWolf_Config.json",
+    "NatureID": 1,
+    "DamageType": "Quantum",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      904701,
+      904702,
+      904703,
+      904704
+    ],
+    "AvatarBaseType": "Warlock",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Pela_00/Avatar_Pela_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1106.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/206.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1106.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Pela.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Pela_00/Manikin_Girl_Pela_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Pela_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9048,
+    "AvatarName": {
+      "hash": -1193781284
+    },
+    "AvatarFullName": {
+      "hash": 1300194387
+    },
+    "AdventurePlayerID": 1106,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_SilverWolf2_Config.json",
+    "NatureID": 1,
+    "DamageType": "Quantum",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      904801,
+      904802,
+      904803,
+      904804
+    ],
+    "AvatarBaseType": "Warlock",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Pela_00/Avatar_Pela_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1106.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/206.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "SpriteOutput/AvatarTattooIcon/Tattoo_103.png",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1106.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Pela.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Pela_00/Manikin_Girl_Pela_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Pela_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1106.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9050,
+    "AvatarName": {
+      "hash": 372302665
+    },
+    "AvatarFullName": {
+      "hash": -265889562
+    },
+    "AdventurePlayerID": 1009,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_Phoenix_Config.json",
+    "NatureID": 1,
+    "DamageType": "Fire",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      905001,
+      905002,
+      905003,
+      905004
+    ],
+    "AvatarBaseType": "Priest",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Asta_00/Avatar_Asta_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1009.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Natasha_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9051,
+    "AvatarName": {
+      "hash": 372302666
+    },
+    "AvatarFullName": {
+      "hash": -265889561
+    },
+    "AdventurePlayerID": 1001,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_Taunt_Config.json",
+    "NatureID": 1,
+    "DamageType": "Fire",
+    "SPNeed": {
+      "RawValue": 472446402560
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      905101,
+      905102,
+      905103,
+      905104
+    ],
+    "AvatarBaseType": "Knight",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Mar_7th_00/Avatar_Mar_7th_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9053,
+    "AvatarName": {
+      "hash": 372302668
+    },
+    "AvatarFullName": {
+      "hash": -265889563
+    },
+    "AdventurePlayerID": 1106,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_Pinghengnai_Config.json",
+    "NatureID": 1,
+    "DamageType": "Thunder",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      905301,
+      905302,
+      905303,
+      905304
+    ],
+    "AvatarBaseType": "Priest",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/205.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Natasha_00/Avatar_Natasha_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1105.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/205.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "SpriteOutput/AvatarTattooIcon/Tattoo_103.png",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1105.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Natasha.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Natasha_00/Manikin_Lady_Natasha_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Natasha_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1105.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9054,
+    "AvatarName": {
+      "hash": 372302669
+    },
+    "AvatarFullName": {
+      "hash": -265889558
+    },
+    "AdventurePlayerID": 1102,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_Sakura_Config.json",
+    "NatureID": 1,
+    "DamageType": "Ice",
+    "SPNeed": {
+      "RawValue": 515396075520
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      905401,
+      905402,
+      905403,
+      905404,
+      905408
+    ],
+    "AvatarBaseType": "Rogue",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/202.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Seele_00/Avatar_Seele_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1102.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/202.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1102.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1102B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1102.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Seele.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Seele_00/Manikin_Maid_Seele_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1102.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1102.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9056,
+    "AvatarName": {
+      "hash": 372302671
+    },
+    "AvatarFullName": {
+      "hash": -265889560
+    },
+    "AdventurePlayerID": 1001,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_ShieldAtk_Config.json",
+    "NatureID": 1,
+    "DamageType": "Ice",
+    "SPNeed": {
+      "RawValue": 386547056640
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      905601,
+      905602,
+      905603,
+      905604
+    ],
+    "AvatarBaseType": "Warrior",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Mar_7th_00/Avatar_Mar_7th_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1002.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Gepard.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Mar_7th_00/Manikin_Maid_Mar_7th_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Seele_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9057,
+    "AvatarName": {
+      "hash": 372302672
+    },
+    "AvatarFullName": {
+      "hash": -265889559
+    },
+    "AdventurePlayerID": 1003,
+    "AvatarVOTag": "test",
+    "Rarity": 5,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_Dracula_Config.json",
+    "NatureID": 1,
+    "DamageType": "Physical",
+    "SPNeed": {
+      "RawValue": 386547056640
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      905701,
+      905702,
+      905703,
+      905704
+    ],
+    "AvatarBaseType": "Warrior",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/103.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Himeko_00/Avatar_Himeko_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1003.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/103.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1003.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1003B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1003.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Himeko.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Himeko_00/Manikin_Lady_Himeko_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Himeko_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1003.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1003.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9061,
+    "AvatarName": {
+      "hash": 1938386607
+    },
+    "AvatarFullName": {
+      "hash": 137394966
+    },
+    "AdventurePlayerID": 1003,
+    "AvatarVOTag": "test",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/W_GuardianPlayer_Config.json",
+    "NatureID": 1,
+    "DamageType": "Fire",
+    "SPNeed": {
+      "RawValue": 515396075520
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      906101,
+      906102,
+      906103,
+      906104,
+      906108
+    ],
+    "AvatarBaseType": "Knight",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/101.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Mar_7th_00/Avatar_Mar_7th_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1001.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/101.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1001.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Mar_7th.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Mar_7th_00/Manikin_Maid_Mar_7th_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_Himeko_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  },
+  {
+    "AvatarID": 9901,
+    "AvatarName": {
+      "hash": 1131817384
+    },
+    "AvatarFullName": {
+      "hash": -669173857
+    },
+    "AdventurePlayerID": 1007,
+    "AvatarVOTag": "playerboy",
+    "Rarity": 4,
+    "JsonPath": "Config/ConfigCharacter/WhiteBox/Avatar/Avatar_Test_00_Config.json",
+    "NatureID": 1,
+    "DamageType": "Physical",
+    "SPNeed": {
+      "RawValue": 429496729600
+    },
+    "ExpGroup": 2,
+    "MaxPromotion": 5,
+    "MaxRank": 6,
+    "RankUpCostList": [
+      "100001:1"
+    ],
+    "MaxRankRepay": 2001,
+    "SkillList": [
+      990101,
+      990102,
+      990103,
+      990104
+    ],
+    "AvatarBaseType": "Warrior",
+    "DefaultAvatarImagePath": "SpriteOutput/AvatarCardFigures/103.png",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/PlayerBoy_00/Avatar_PlayerBoy_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/1007.png",
+    "DefaultAvatarHalfImagePath": "SpriteOutput/AvatarQTEFigures/107.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/1007.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1007B.png",
+    "DefaultAvatarQHeadIconPath": "SpriteOutput/AvatarChibi/Chibi101.png",
+    "AvatarBaseTypeIconPath": "",
+    "AvatarDialogHalfImagePath": "SpriteOutput/AvatarCutinFigures/Test/New/1007.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/UltraSkillCutIn_Player.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/PlayerBoy_00/Manikin_Lad_PlayerBoy_00.prefab",
+    "ManikinJsonPath": "Config/Manikin/Avatar/Manikin_PlayerBoy_00_Config.json",
+    "AvatarDesc": {
+      "hash": 371857150
+    },
+    "AIPath": "Config/ConfigAI/Avatar_ThreeSkill_AutoFight_AI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": false,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1007.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1007.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png"
+  }
+]

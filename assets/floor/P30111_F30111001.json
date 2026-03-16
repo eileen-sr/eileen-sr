@@ -1,0 +1,82 @@
+{
+  "FloorID": 30111001,
+  "FloorName": "FloorName_30111001",
+  "SceneName": null,
+  "StartGroupID": 1,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "ce5eaae3-b749-4212-864d-58f4c283ab28",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P30111_F30111001/LevelGroup_P30111_F30111001_G1.json",
+      "Name": "DefaultData",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "30316f21-ba60-4169-a34e-5e464774bbe0",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P30111_F30111001/LevelGroup_P30111_F30111001_G3.json",
+      "Name": "Contents",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "ca5946bd-40f7-491c-8f66-631677568c81",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P30111_F30111001/LevelGroup_P30111_F30111001_G4.json",
+      "Name": "Props",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": true
+    }
+  ],
+  "DefaultGroupIDList": [
+    1,
+    3,
+    4
+  ],
+  "UnlockMainMissionGroupIDList": [],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_Maze_01.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M101_MainLine_01_StageData/Chap01_MAZ_M101_MainLine_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_30111001.asset",
+  "MinimapVolume": null,
+  "CameraType": "Maze",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Size": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Scale": 0.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": null,
+    "Atlas": null,
+    "Sections": null,
+    "BackgroundMapSprite": null,
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

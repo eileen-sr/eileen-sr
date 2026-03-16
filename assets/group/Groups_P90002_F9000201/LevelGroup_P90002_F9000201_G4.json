@@ -1,0 +1,173 @@
+{
+  "GroupGUID": "9d80a802-f804-439b-964e-f2d9a6898ad4",
+  "GroupName": "Door",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P90002_F9000201_G4",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 9010133,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 5.0,
+        "DimY": 3.0,
+        "DimZ": 2.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": 4,
+            "Key": "Maze_Prop_Chap01_IronGate06_GroupID"
+          },
+          {
+            "Value": 300001,
+            "Key": "Maze_Prop_Chap01_IronGate06_PropID"
+          },
+          {
+            "Value": 4,
+            "Key": "Maze_Prop_Chap01_IronGate06Controller_GroupID"
+          },
+          {
+            "Value": 300002,
+            "Key": "Maze_Prop_Chap01_IronGate06Controller_PropID"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": 4,
+            "Key": "Maze_Prop_Chap01_IronGate06_GroupID"
+          },
+          {
+            "Value": 300001,
+            "Key": "Maze_Prop_Chap01_IronGate06_PropID"
+          },
+          {
+            "Value": 4,
+            "Key": "Maze_Prop_Chap01_IronGate06Controller_GroupID"
+          },
+          {
+            "Value": 300002,
+            "Key": "Maze_Prop_Chap01_IronGate06Controller_PropID"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop1",
+      "RotY": 135.0,
+      "Comment": null,
+      "ID": 300001,
+      "PosX": 68.54,
+      "PosY": 3.064757,
+      "PosZ": -97.13,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 9010134,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 1.5,
+        "DimX": 5.0,
+        "DimY": 3.0,
+        "DimZ": 2.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": "4,300001",
+            "Key": "Maze_Prop_Chap01_BaseControllSimpleDoor"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": "4,300001",
+            "Key": "Maze_Prop_Chap01_BaseControllSimpleDoor"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop2",
+      "RotY": 135.0,
+      "Comment": null,
+      "ID": 300002,
+      "PosX": 71.43,
+      "PosY": 3.064757,
+      "PosZ": -98.04,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

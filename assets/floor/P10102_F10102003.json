@@ -1,0 +1,121 @@
+{
+  "FloorID": 10102003,
+  "FloorName": "FloorName_10102003",
+  "SceneName": null,
+  "StartGroupID": 2,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "06436216-46be-42bb-9947-3855883eec0c",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102003/LevelGroup_P10102_F10102003_G2.json",
+      "Name": "Default",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "b7fae1c2-52b6-4745-957e-0d9f5cbd57a3",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102003/LevelGroup_P10102_F10102003_G5.json",
+      "Name": "NPCs",
+      "RotY": 0.0,
+      "Comment": "常驻NPC",
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "a31e6f54-9a30-4d79-bf2c-1e6b42ee45a1",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102003/LevelGroup_P10102_F10102003_G4.json",
+      "Name": "Books",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "60d6262d-99de-4a47-8281-1dad625c364c",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102003/LevelGroup_P10102_F10102003_G3.json",
+      "Name": "1010403",
+      "RotY": 0.0,
+      "Comment": "主线_秘药NPC",
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "e345fc9b-2448-46a6-ac39-f1acd51931a6",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102003/LevelGroup_P10102_F10102003_G6.json",
+      "Name": "SubMission",
+      "RotY": 0.0,
+      "Comment": "人怕入错行",
+      "ID": 6,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    2,
+    5,
+    4,
+    6
+  ],
+  "UnlockMainMissionGroupIDList": [],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_INT_HospitalRoom_01.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_INT_HospitalRoom_01_StageData/Chap01_INT_HospitalRoom_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_10102003.asset",
+  "MinimapVolume": null,
+  "CameraType": "Room",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": -0.573631,
+      "y": 1.869193,
+      "z": -0.240247,
+      "normalized": {
+        "x": -0.2911925,
+        "y": 0.948859036,
+        "z": -0.121956661,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 1.96993744,
+      "sqrMagnitude": 3.88065338
+    },
+    "Size": {
+      "x": 16.54439,
+      "y": 4.700254,
+      "z": 17.16761,
+      "normalized": {
+        "x": 0.680812538,
+        "y": 0.193418548,
+        "z": 0.706458449,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 24.3009472,
+      "sqrMagnitude": 590.536
+    },
+    "Scale": 1.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": null,
+    "Atlas": null,
+    "Sections": null,
+    "BackgroundMapSprite": null,
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

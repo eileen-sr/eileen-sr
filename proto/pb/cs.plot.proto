@@ -1,0 +1,16 @@
+syntax = "proto3";
+package proto;
+
+
+enum CmdPlotType {
+    CmdPlotTypeNone = 0;
+    CmdFinishPlotCsReq = 1101;
+    CmdFinishPlotScRsp = 1102;
+}
+message FinishPlotCsReq {
+    uint32 plot_id = 1;
+}
+message FinishPlotScRsp {
+    uint32 retcode = 1;
+    uint32 plot_id = 2;
+}

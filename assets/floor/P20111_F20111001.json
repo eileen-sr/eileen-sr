@@ -1,0 +1,1522 @@
+{
+  "FloorID": 20111001,
+  "FloorName": "FloorName_20111001",
+  "SceneName": null,
+  "StartGroupID": 2,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "c30ac7bc-9105-41fe-bf40-0a5ec5a9fbea",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G2.json",
+      "Name": "Public01",
+      "RotY": 0.0,
+      "Comment": "公共地块数据：出生点，复苏之门，战斗区域",
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "c7e839ef-17da-4ab9-be05-1f26fe25a807",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G21.json",
+      "Name": "DefaultData_Props",
+      "RotY": 0.0,
+      "Comment": "基础Prop",
+      "ID": 21,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "7fcb2707-01a7-4806-9a30-7955f8cf7ac4",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G3.json",
+      "Name": "DefaultData_Props",
+      "RotY": 0.0,
+      "Comment": "NPC，布点数据",
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "3a97d783-a74b-46a3-92ad-8df27f1d3c88",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G4.json",
+      "Name": "MainMission01_Trigger",
+      "RotY": 0.0,
+      "Comment": "主线任务01：Trigger",
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "72f2dd78-05f0-4b7d-9445-3555db7776eb",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G5.json",
+      "Name": "DefaultChest",
+      "RotY": 0.0,
+      "Comment": "宝箱",
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "5a611975-56d4-4e03-ae1a-59a8ac5111cf",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G6.json",
+      "Name": "DefaultDestructibleItem",
+      "RotY": 0.0,
+      "Comment": "可破坏物",
+      "ID": 6,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "6528180c-6094-4939-8ff8-d499768c0e31",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G7.json",
+      "Name": "DefaultMonsterArea01",
+      "RotY": 0.0,
+      "Comment": "怪物组",
+      "ID": 7,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "18ab4b1f-2b82-49da-b53a-10d6e70194b5",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G8.json",
+      "Name": "DefaultMonsterArea02",
+      "RotY": 0.0,
+      "Comment": "怪物组",
+      "ID": 8,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "e8ed7c8b-86c7-4295-b32a-24b8e8051214",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G10.json",
+      "Name": "DefaultMonsterArea04",
+      "RotY": 0.0,
+      "Comment": "怪物组",
+      "ID": 10,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "f9b4c760-b49e-4338-bc1d-ff59d34b3042",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G11.json",
+      "Name": "PropTalk",
+      "RotY": 0.0,
+      "Comment": "物件阅读临时组",
+      "ID": 11,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "8d79bd5c-25b6-4c43-99c3-84d3df8309c2",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G12.json",
+      "Name": "SubMissionProp",
+      "RotY": 0.0,
+      "Comment": "支线区域门",
+      "ID": 12,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "10447134-fad5-4c18-85ed-1e45a23df88f",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G19.json",
+      "Name": "SpecialBoss",
+      "RotY": 0.0,
+      "Comment": "虚妄之茧",
+      "ID": 19,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "f8d60867-bd72-428b-a848-d1f1dd724742",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G23.json",
+      "Name": "DefaultCocoon",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 23,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "0e4b5a5d-71dc-4293-a7af-66082a74a207",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G14.json",
+      "Name": "Mission_MonsterArea",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 14,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "6c954a74-26a7-4286-8ffb-04fb17520b73",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G15.json",
+      "Name": "Mission_MonsterArea",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 15,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "491540d2-4e31-4f52-9a0a-fffa9d4cd1e5",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G16.json",
+      "Name": "Mission_MonsterArea",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 16,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "284da79c-18c0-4044-b528-e0cd8c7d6ea8",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G9.json",
+      "Name": "Mission_MonsterArea",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 9,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "b2b28232-af34-4f5b-9f75-7ecac7f3948c",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G17.json",
+      "Name": "Tutorial_Maze20111",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 17,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "655df394-c5ae-48b0-9b2d-2ade1039f351",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G18.json",
+      "Name": "DayMission",
+      "RotY": 0.0,
+      "Comment": "每日任务301030101",
+      "ID": 18,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "8ca00dc1-3749-491d-9580-5bb55a11fcc1",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G20.json",
+      "Name": "AllHit_Puzzle",
+      "RotY": 0.0,
+      "Comment": "全开",
+      "ID": 20,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "8a3eb26c-b8a1-4473-9ef1-8961a12ab6dd",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G13.json",
+      "Name": "DayMission",
+      "RotY": 0.0,
+      "Comment": "每日任务301030201",
+      "ID": 13,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "171dae60-0913-4d1a-83dd-7673b72cb882",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G22.json",
+      "Name": "DailyCollect",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 22,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "4c71d7ec-ea46-4835-aab1-434e7fd0519d",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20111_F20111001/LevelGroup_P20111_F20111001_G24.json",
+      "Name": "01_Puzzle",
+      "RotY": 0.0,
+      "Comment": "01柱",
+      "ID": 24,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    2,
+    21,
+    3,
+    4,
+    5,
+    6,
+    10,
+    11,
+    12,
+    17,
+    20,
+    24
+  ],
+  "UnlockMainMissionGroupIDList": [
+    7,
+    8,
+    19,
+    23
+  ],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_Maze_01.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M101_MainLine_01_StageData/Chap01_MAZ_M101_MainLine_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_20111001.asset",
+  "MinimapVolume": null,
+  "CameraType": "Maze",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": -18.14235,
+      "y": 17.77002,
+      "z": -114.9622,
+      "normalized": {
+        "x": -0.154096484,
+        "y": 0.150934011,
+        "z": -0.9764595,
+        "normalized": {
+          "x": -0.1540965,
+          "y": 0.150934026,
+          "z": -0.976459563,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.99999994
+      },
+      "magnitude": 117.7337,
+      "sqrMagnitude": 13861.2246
+    },
+    "Size": {
+      "x": 295.3605,
+      "y": 54.45174,
+      "z": 320.5264,
+      "normalized": {
+        "x": 0.672421038,
+        "y": 0.123965442,
+        "z": 0.729714,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 439.249359,
+      "sqrMagnitude": 192940.0
+    },
+    "Scale": 3.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": [
+      {
+        "x": 63.33916,
+        "y": 140.5847,
+        "normalized": {
+          "x": 0.410774767,
+          "y": 0.911736846,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 154.194382,
+        "sqrMagnitude": 23775.9082
+      },
+      {
+        "x": 63.33916,
+        "y": 75.54552,
+        "normalized": {
+          "x": 0.642483652,
+          "y": 0.766299367,
+          "normalized": {
+            "x": 0.6424837,
+            "y": 0.7662994,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 98.58486,
+        "sqrMagnitude": 9718.975
+      },
+      {
+        "x": 35.33658,
+        "y": 75.54552,
+        "normalized": {
+          "x": 0.423692733,
+          "y": 0.905806,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 83.40143,
+        "sqrMagnitude": 6955.799
+      },
+      {
+        "x": 35.33658,
+        "y": 140.5847,
+        "normalized": {
+          "x": 0.243771672,
+          "y": 0.969832659,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 144.957687,
+        "sqrMagnitude": 21012.7324
+      },
+      {
+        "x": 20.00185,
+        "y": 140.5847,
+        "normalized": {
+          "x": 0.140857637,
+          "y": 0.9900298,
+          "normalized": {
+            "x": 0.140857652,
+            "y": 0.9900299,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 142.000473,
+        "sqrMagnitude": 20164.1328
+      },
+      {
+        "x": 20.00185,
+        "y": 108.8989,
+        "normalized": {
+          "x": 0.1806516,
+          "y": 0.983547151,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 110.720573,
+        "sqrMagnitude": 12259.0449
+      },
+      {
+        "x": 35.33658,
+        "y": 93.22282,
+        "normalized": {
+          "x": 0.354445517,
+          "y": 0.935076654,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 99.69537,
+        "sqrMagnitude": 9939.167
+      },
+      {
+        "x": 20.00185,
+        "y": 131.5793,
+        "normalized": {
+          "x": 0.150287136,
+          "y": 0.9886424,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 133.0909,
+        "sqrMagnitude": 17713.1855
+      },
+      {
+        "x": -19.00175,
+        "y": 131.5793,
+        "normalized": {
+          "x": -0.14293021,
+          "y": 0.989732862,
+          "normalized": {
+            "x": -0.1429302,
+            "y": 0.989732742,
+            "normalized": {
+              "x": -0.14293021,
+              "y": 0.9897328,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000024
+        },
+        "magnitude": 132.94426,
+        "sqrMagnitude": 17674.1777
+      },
+      {
+        "x": -19.00175,
+        "y": 108.8989,
+        "normalized": {
+          "x": -0.171892673,
+          "y": 0.9851157,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 110.544273,
+        "sqrMagnitude": 12220.0371
+      },
+      {
+        "x": 20.00185,
+        "y": 159.5961,
+        "normalized": {
+          "x": 0.124355108,
+          "y": 0.992237747,
+          "normalized": {
+            "x": 0.124355115,
+            "y": 0.9922378,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 160.84462,
+        "sqrMagnitude": 25870.99
+      },
+      {
+        "x": 0.666731,
+        "y": 159.5961,
+        "normalized": {
+          "x": 0.004177578,
+          "y": 0.9999912,
+          "normalized": {
+            "x": 0.00417757826,
+            "y": 0.9999913,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.9999999,
+          "sqrMagnitude": 0.9999998
+        },
+        "magnitude": 159.5975,
+        "sqrMagnitude": 25471.3613
+      },
+      {
+        "x": 0.666731,
+        "y": 131.5793,
+        "normalized": {
+          "x": 0.005067077,
+          "y": 0.9999871,
+          "normalized": {
+            "x": 0.00506707747,
+            "y": 0.9999872,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 131.581,
+        "sqrMagnitude": 17313.5566
+      },
+      {
+        "x": 11.00101,
+        "y": 75.54552,
+        "normalized": {
+          "x": 0.1441011,
+          "y": 0.9895629,
+          "normalized": {
+            "x": 0.144101113,
+            "y": 0.989563,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 76.34231,
+        "sqrMagnitude": 5828.14746
+      },
+      {
+        "x": 11.00101,
+        "y": 46.86155,
+        "normalized": {
+          "x": 0.2285425,
+          "y": 0.973533869,
+          "normalized": {
+            "x": 0.228542522,
+            "y": 0.9735339,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 48.13551,
+        "sqrMagnitude": 2317.027
+      },
+      {
+        "x": 35.33658,
+        "y": 46.86155,
+        "normalized": {
+          "x": 0.6020743,
+          "y": 0.79844,
+          "normalized": {
+            "x": 0.6020744,
+            "y": 0.798440039,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 58.6913872,
+        "sqrMagnitude": 3444.67871
+      },
+      {
+        "x": 0.666731,
+        "y": 46.86155,
+        "normalized": {
+          "x": 0.0142262364,
+          "y": 0.999898732,
+          "normalized": {
+            "x": 0.0142262382,
+            "y": 0.999898851,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.9999999,
+          "sqrMagnitude": 0.9999998
+        },
+        "magnitude": 46.8662949,
+        "sqrMagnitude": 2196.44946
+      },
+      {
+        "x": 0.666731,
+        "y": 29.18424,
+        "normalized": {
+          "x": 0.0228396226,
+          "y": 0.9997391,
+          "normalized": {
+            "x": 0.0228396244,
+            "y": 0.99973917,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 29.1918564,
+        "sqrMagnitude": 852.1644
+      },
+      {
+        "x": 57.00525,
+        "y": 29.18424,
+        "normalized": {
+          "x": 0.8901293,
+          "y": 0.455708027,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 64.0415344,
+        "sqrMagnitude": 4101.31836
+      },
+      {
+        "x": 57.00525,
+        "y": 46.86155,
+        "normalized": {
+          "x": 0.7724882,
+          "y": 0.6350291,
+          "normalized": {
+            "x": 0.772488236,
+            "y": 0.635029137,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 73.7943344,
+        "sqrMagnitude": 5445.60352
+      },
+      {
+        "x": 75.0069,
+        "y": 29.18424,
+        "normalized": {
+          "x": 0.931942165,
+          "y": 0.362606972,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 80.4845,
+        "sqrMagnitude": 6477.75439
+      },
+      {
+        "x": 75.0069,
+        "y": -5.169775,
+        "normalized": {
+          "x": 0.9976332,
+          "y": -0.0687608644,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 75.184845,
+        "sqrMagnitude": 5652.761
+      },
+      {
+        "x": 40.67041,
+        "y": -5.169775,
+        "normalized": {
+          "x": 0.9920176,
+          "y": -0.126099244,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 40.99767,
+        "sqrMagnitude": 1680.80884
+      },
+      {
+        "x": 40.67041,
+        "y": 29.18424,
+        "normalized": {
+          "x": 0.812465966,
+          "y": 0.583008647,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 50.0579872,
+        "sqrMagnitude": 2505.80225
+      },
+      {
+        "x": 0.666731,
+        "y": -5.169775,
+        "normalized": {
+          "x": 0.127907783,
+          "y": -0.991786,
+          "normalized": {
+            "x": 0.1279078,
+            "y": -0.991786063,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 5.212591,
+        "sqrMagnitude": 27.1711044
+      },
+      {
+        "x": 0.666731,
+        "y": -38.18966,
+        "normalized": {
+          "x": 0.0174557567,
+          "y": -0.9998476,
+          "normalized": {
+            "x": 0.0174557585,
+            "y": -0.999847651,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 38.19548,
+        "sqrMagnitude": 1458.89465
+      },
+      {
+        "x": 75.0069,
+        "y": -38.18966,
+        "normalized": {
+          "x": 0.8911423,
+          "y": -0.4537239,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 84.16938,
+        "sqrMagnitude": 7084.485
+      },
+      {
+        "x": 49.00451,
+        "y": -38.18966,
+        "normalized": {
+          "x": 0.7887665,
+          "y": -0.6146929,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 62.12803,
+        "sqrMagnitude": 3859.892
+      },
+      {
+        "x": 49.00451,
+        "y": -51.53105,
+        "normalized": {
+          "x": 0.689119,
+          "y": -0.7246482,
+          "normalized": {
+            "x": 0.689119041,
+            "y": -0.724648237,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 71.111824,
+        "sqrMagnitude": 5056.891
+      },
+      {
+        "x": 34.3365,
+        "y": -63.87181,
+        "normalized": {
+          "x": 0.473500878,
+          "y": -0.880793333,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 72.51623,
+        "sqrMagnitude": 5258.60352
+      },
+      {
+        "x": 15.00138,
+        "y": -63.87181,
+        "normalized": {
+          "x": 0.228645325,
+          "y": -0.973509848,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 65.6098251,
+        "sqrMagnitude": 4304.64941
+      },
+      {
+        "x": 15.00138,
+        "y": -38.18966,
+        "normalized": {
+          "x": 0.365616471,
+          "y": -0.930765569,
+          "normalized": {
+            "x": 0.3656165,
+            "y": -0.9307656,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 41.0303726,
+        "sqrMagnitude": 1683.49146
+      },
+      {
+        "x": 34.3365,
+        "y": -101.2276,
+        "normalized": {
+          "x": 0.321224332,
+          "y": -0.947003067,
+          "normalized": {
+            "x": 0.321224362,
+            "y": -0.9470031,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 106.892578,
+        "sqrMagnitude": 11426.0225
+      },
+      {
+        "x": 15.00138,
+        "y": -101.2276,
+        "normalized": {
+          "x": 0.146593586,
+          "y": -0.989196837,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 102.333122,
+        "sqrMagnitude": 10472.0684
+      },
+      {
+        "x": 34.3365,
+        "y": -107.2313,
+        "normalized": {
+          "x": 0.304956853,
+          "y": -0.9523662,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 112.594612,
+        "sqrMagnitude": 12677.5469
+      },
+      {
+        "x": 82.67428,
+        "y": -107.2313,
+        "normalized": {
+          "x": 0.610585749,
+          "y": -0.7919501,
+          "normalized": {
+            "x": 0.6105858,
+            "y": -0.791950166,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 135.401581,
+        "sqrMagnitude": 18333.5879
+      },
+      {
+        "x": 82.67428,
+        "y": -51.53105,
+        "normalized": {
+          "x": 0.84864527,
+          "y": -0.5289624,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 97.41912,
+        "sqrMagnitude": 9490.485
+      },
+      {
+        "x": -44.67078,
+        "y": -38.18966,
+        "normalized": {
+          "x": -0.7600932,
+          "y": -0.649814069,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 58.770134,
+        "sqrMagnitude": 3453.92871
+      },
+      {
+        "x": -54.67169,
+        "y": -27.51658,
+        "normalized": {
+          "x": -0.8932429,
+          "y": -0.449574351,
+          "normalized": {
+            "x": -0.893242955,
+            "y": -0.449574381,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 61.2058525,
+        "sqrMagnitude": 3746.15625
+      },
+      {
+        "x": -78.34055,
+        "y": -51.53105,
+        "normalized": {
+          "x": -0.835460067,
+          "y": -0.54955107,
+          "normalized": {
+            "x": -0.8354601,
+            "y": -0.5495511,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 93.7693558,
+        "sqrMagnitude": 8792.691
+      },
+      {
+        "x": -44.67078,
+        "y": -82.54972,
+        "normalized": {
+          "x": -0.4759235,
+          "y": -0.8794866,
+          "normalized": {
+            "x": -0.475923538,
+            "y": -0.8794867,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 93.86126,
+        "sqrMagnitude": 8809.936
+      },
+      {
+        "x": 15.00138,
+        "y": -82.54972,
+        "normalized": {
+          "x": 0.178797051,
+          "y": -0.983885944,
+          "normalized": {
+            "x": 0.178797066,
+            "y": -0.983886,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 83.90172,
+        "sqrMagnitude": 7039.498
+      }
+    ],
+    "Atlas": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_Atlas.spriteatlas",
+    "Sections": [
+      {
+        "ID": 1,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_1.png",
+        "IsRect": true,
+        "Indices": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "UIPosition": {
+          "x": 549.0,
+          "y": 707.0,
+          "normalized": {
+            "x": 0.6133217,
+            "y": 0.789833248,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 895.1257,
+          "sqrMagnitude": 801250.0
+        },
+        "InitialHidden": false,
+        "Type": "Normal",
+        "Center": {
+          "x": -147.6803,
+          "y": 160.2632,
+          "normalized": {
+            "x": -0.6776481,
+            "y": 0.735386252,
+            "normalized": {
+              "x": -0.6776482,
+              "y": 0.7353863,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 217.930649,
+          "sqrMagnitude": 47493.7656
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 2,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_2.png",
+        "IsRect": false,
+        "Indices": [
+          4,
+          5,
+          6,
+          3
+        ],
+        "UIPosition": {
+          "x": 503.0,
+          "y": 760.0,
+          "normalized": {
+            "x": 0.551911831,
+            "y": 0.833902538,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 911.3775,
+          "sqrMagnitude": 830609.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 3,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_3.png",
+        "IsRect": true,
+        "Indices": [
+          5,
+          7,
+          8,
+          9
+        ],
+        "UIPosition": {
+          "x": 386.0,
+          "y": 807.0,
+          "normalized": {
+            "x": 0.431495041,
+            "y": 0.9021153,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 894.564148,
+          "sqrMagnitude": 800245.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 0,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_0.png",
+        "IsRect": true,
+        "Indices": [
+          10,
+          11,
+          12,
+          7
+        ],
+        "UIPosition": {
+          "x": 445.0,
+          "y": 875.0,
+          "normalized": {
+            "x": 0.4533153,
+            "y": 0.891350269,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 981.656738,
+          "sqrMagnitude": 963650.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": -147.6803,
+          "y": 160.2632,
+          "normalized": {
+            "x": -0.6776481,
+            "y": 0.735386252,
+            "normalized": {
+              "x": -0.6776482,
+              "y": 0.7353863,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 217.930649,
+          "sqrMagnitude": 47493.7656
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 4,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_4.png",
+        "IsRect": false,
+        "Indices": [
+          6,
+          5,
+          9,
+          13,
+          2
+        ],
+        "UIPosition": {
+          "x": 386.0,
+          "y": 707.0,
+          "normalized": {
+            "x": 0.4792,
+            "y": 0.877705753,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 805.509155,
+          "sqrMagnitude": 648845.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 5,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_5.png",
+        "IsRect": true,
+        "Indices": [
+          2,
+          13,
+          14,
+          15
+        ],
+        "UIPosition": {
+          "x": 476.0,
+          "y": 621.0,
+          "normalized": {
+            "x": 0.608351052,
+            "y": 0.793668032,
+            "normalized": {
+              "x": 0.6083511,
+              "y": 0.7936681,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 782.443,
+          "sqrMagnitude": 612217.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 7,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_7.png",
+        "IsRect": true,
+        "Indices": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "UIPosition": {
+          "x": 445.0,
+          "y": 568.0,
+          "normalized": {
+            "x": 0.616719246,
+            "y": 0.787183166,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 721.5601,
+          "sqrMagnitude": 520649.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 6,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_6.png",
+        "IsRect": true,
+        "Indices": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "UIPosition": {
+          "x": 565.0,
+          "y": 465.0,
+          "normalized": {
+            "x": 0.77212745,
+            "y": 0.6354677,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 731.7445,
+          "sqrMagnitude": 535450.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 8,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_8.png",
+        "IsRect": true,
+        "Indices": [
+          22,
+          23,
+          17,
+          24
+        ],
+        "UIPosition": {
+          "x": 445.0,
+          "y": 465.0,
+          "normalized": {
+            "x": 0.691399038,
+            "y": 0.722473145,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 643.622559,
+          "sqrMagnitude": 414250.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 9,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_9.png",
+        "IsRect": true,
+        "Indices": [
+          26,
+          21,
+          24,
+          25
+        ],
+        "UIPosition": {
+          "x": 445.0,
+          "y": 366.0,
+          "normalized": {
+            "x": 0.7723309,
+            "y": 0.635220468,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 576.1779,
+          "sqrMagnitude": 331981.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": -147.6803,
+          "y": 160.2632,
+          "normalized": {
+            "x": -0.6776481,
+            "y": 0.735386252,
+            "normalized": {
+              "x": -0.6776482,
+              "y": 0.7353863,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 217.930649,
+          "sqrMagnitude": 47493.7656
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 10,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_10.png",
+        "IsRect": false,
+        "Indices": [
+          30,
+          31,
+          27,
+          28,
+          29
+        ],
+        "UIPosition": {
+          "x": 488.0,
+          "y": 289.0,
+          "normalized": {
+            "x": 0.8604348,
+            "y": 0.509560764,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 567.155151,
+          "sqrMagnitude": 321665.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 12,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_12.png",
+        "IsRect": false,
+        "Indices": [
+          35,
+          36,
+          28,
+          29,
+          34
+        ],
+        "UIPosition": {
+          "x": 546.0,
+          "y": 159.0,
+          "normalized": {
+            "x": 0.960118055,
+            "y": 0.279594839,
+            "normalized": {
+              "x": 0.9601181,
+              "y": 0.279594868,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 568.680054,
+          "sqrMagnitude": 323397.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 13,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_13.png",
+        "IsRect": true,
+        "Indices": [
+          30,
+          29,
+          32,
+          33
+        ],
+        "UIPosition": {
+          "x": 488.0,
+          "y": 177.0,
+          "normalized": {
+            "x": 0.940074265,
+            "y": 0.340969563,
+            "normalized": {
+              "x": 0.9400743,
+              "y": 0.3409696,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 519.1079,
+          "sqrMagnitude": 269473.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      },
+      {
+        "ID": 11,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/SectionAtlas/MinimapSection_20111001_11.png",
+        "IsRect": false,
+        "Indices": [
+          39,
+          40,
+          41,
+          31,
+          37,
+          38
+        ],
+        "UIPosition": {
+          "x": 208.0,
+          "y": 233.0,
+          "normalized": {
+            "x": 0.665952146,
+            "y": 0.7459945,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 312.334747,
+          "sqrMagnitude": 97553.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      }
+    ],
+    "BackgroundMapSprite": "SpriteOutput/MapPics/Minimap/Minimap_20111001/Background.png",
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

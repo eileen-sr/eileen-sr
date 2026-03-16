@@ -1,0 +1,902 @@
+[
+  {
+    "EquipmentID": 29019,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1833798979
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Priest",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 29019,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/29006.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/29006.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "AvatarDetailOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "BattleDialogOffset": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "EquipmentID": 29020,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 895084367
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Warrior",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 29020,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/29006.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/29006.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "AvatarDetailOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "BattleDialogOffset": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "EquipmentID": 29021,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 895084368
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Warlock",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 29021,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/29006.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/29006.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "AvatarDetailOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "BattleDialogOffset": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "EquipmentID": 29022,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 895084365
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Shaman",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 29022,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/29006.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/29006.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "AvatarDetailOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "BattleDialogOffset": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "EquipmentID": 29023,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 895084366
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Mage",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 29023,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/29006.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/29006.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "AvatarDetailOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "BattleDialogOffset": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "EquipmentID": 29024,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 895084371
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Mage",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 29024,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/29006.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/29006.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "AvatarDetailOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "BattleDialogOffset": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "EquipmentID": 29000,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -267715047
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 3,
+    "AvatarBaseType": "Unknown",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 1,
+    "SkillID": 29000,
+    "ExpProvide": 500,
+    "CoinCost": 50,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/20003.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/20003.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "AvatarDetailOffset": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "BattleDialogOffset": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "EquipmentID": 20000,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 1311665324
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 3,
+    "AvatarBaseType": "Rogue",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 1,
+    "SkillID": 20000,
+    "ExpProvide": 500,
+    "CoinCost": 50,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/20000.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/20000.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -40.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      150.0,
+      14.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      22.0,
+      24.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 20001,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 1311665325
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 3,
+    "AvatarBaseType": "Priest",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 1,
+    "SkillID": 20001,
+    "ExpProvide": 500,
+    "CoinCost": 50,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/20001.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/20001.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -52.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      150.0,
+      -40.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      22.0,
+      24.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 20002,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 1311665322
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 3,
+    "AvatarBaseType": "Warrior",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 1,
+    "SkillID": 20002,
+    "ExpProvide": 500,
+    "CoinCost": 50,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/20002.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/20002.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -101.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      150.0,
+      -28.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      22.0,
+      24.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 20003,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 1311665323
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 3,
+    "AvatarBaseType": "Knight",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 1,
+    "SkillID": 20003,
+    "ExpProvide": 500,
+    "CoinCost": 50,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/20003.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/20003.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -14.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      150.0,
+      54.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      -28.0,
+      14.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 20004,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 1311665328
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 3,
+    "AvatarBaseType": "Warlock",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 1,
+    "SkillID": 20004,
+    "ExpProvide": 500,
+    "CoinCost": 50,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/20004.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/20004.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -114.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      150.0,
+      -58.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      32.0,
+      -25.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 20005,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 1311665329
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 3,
+    "AvatarBaseType": "Shaman",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 1,
+    "SkillID": 20005,
+    "ExpProvide": 500,
+    "CoinCost": 50,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/20005.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/20005.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -114.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      143.0,
+      -52.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      -1.0,
+      -56.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 20006,
+    "Release": false,
+    "EquipmentName": {
+      "hash": 1311665326
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 3,
+    "AvatarBaseType": "Mage",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 1,
+    "SkillID": 20006,
+    "ExpProvide": 500,
+    "CoinCost": 50,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/20006.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/20006.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -134.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      143.0,
+      5.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      91.0,
+      -62.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 21000,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1397015055
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Priest",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 21000,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/21000.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/21000.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -138.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      143.0,
+      -62.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      32.0,
+      -63.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 21001,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1397015054
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Warlock",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 21001,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/21001.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/21001.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -15.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      143.0,
+      51.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      32.0,
+      24.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 21002,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1397015057
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Knight",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 21002,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/21002.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/21002.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -148.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      143.0,
+      -84.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      -12.0,
+      -40.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 21003,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1397015056
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Rogue",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 21003,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/21003.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/21003.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -114.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      143.0,
+      -52.0,
+      0.600000024
+    ],
+    "BattleDialogOffset": [
+      -1.0,
+      -56.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 21004,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1397015051
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 4,
+    "AvatarBaseType": "Shaman",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 2,
+    "SkillID": 21004,
+    "ExpProvide": 1000,
+    "CoinCost": 100,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/21004.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/21004.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -45.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      143.0,
+      24.0,
+      0.550000012
+    ],
+    "BattleDialogOffset": [
+      -14.0,
+      -40.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 23000,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1679340057
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 5,
+    "AvatarBaseType": "Mage",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 3,
+    "SkillID": 23000,
+    "ExpProvide": 2500,
+    "CoinCost": 250,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/23000.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/23000.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -118.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      143.0,
+      -120.0,
+      0.850000024
+    ],
+    "BattleDialogOffset": [
+      -12.0,
+      -40.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 23001,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1679340056
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 5,
+    "AvatarBaseType": "Rogue",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 3,
+    "SkillID": 23001,
+    "ExpProvide": 2500,
+    "CoinCost": 250,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/23001.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/23001.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -118.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      182.0,
+      -113.0,
+      0.850000024
+    ],
+    "BattleDialogOffset": [
+      -12.0,
+      -40.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 23002,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1679340059
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 5,
+    "AvatarBaseType": "Warrior",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 3,
+    "SkillID": 23002,
+    "ExpProvide": 2500,
+    "CoinCost": 250,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/23002.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/23002.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -118.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      143.0,
+      -120.0,
+      0.850000024
+    ],
+    "BattleDialogOffset": [
+      -12.0,
+      -40.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 23003,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1679340058
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 5,
+    "AvatarBaseType": "Shaman",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 3,
+    "SkillID": 23003,
+    "ExpProvide": 2500,
+    "CoinCost": 250,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/23003.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/23003.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -58.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      182.0,
+      -23.0,
+      0.75
+    ],
+    "BattleDialogOffset": [
+      15.0,
+      -24.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 23004,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -1679340053
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 5,
+    "AvatarBaseType": "Warlock",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 3,
+    "SkillID": 23004,
+    "ExpProvide": 2500,
+    "CoinCost": 250,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/23004.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/23004.png",
+    "ItemRightPanelOffset": [
+      0.0,
+      -137.0,
+      0.699999988
+    ],
+    "AvatarDetailOffset": [
+      148.0,
+      -109.0,
+      0.75
+    ],
+    "BattleDialogOffset": [
+      -26.0,
+      -58.0,
+      0.75
+    ]
+  },
+  {
+    "EquipmentID": 29008,
+    "Release": false,
+    "EquipmentName": {
+      "hash": -267715039
+    },
+    "EquipmentDesc": {
+      "hash": 371857150
+    },
+    "Rarity": 3,
+    "AvatarBaseType": "Unknown",
+    "MaxPromotion": 5,
+    "MaxRank": 5,
+    "ExpType": 1,
+    "SkillID": 3008,
+    "ExpProvide": 500,
+    "CoinCost": 50,
+    "RankUpCost": 0,
+    "ThumbnailPath": "SpriteOutput/LightConeFigures/29007.png",
+    "ImagePath": "SpriteOutput/LightConeFigures/29007.png",
+    "ItemRightPanelOffset": [
+      143.0,
+      -66.0,
+      0.5
+    ],
+    "AvatarDetailOffset": [
+      143.0,
+      -66.0,
+      0.5
+    ],
+    "BattleDialogOffset": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+{
+  "GroupGUID": "284da79c-18c0-4044-b528-e0cd8c7d6ea8",
+  "GroupName": "Mission_MonsterArea",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20111_F20111001_G9",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 1022020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 1,
+      "EventID": 20111104,
+      "Name": "Monster2",
+      "RotY": 180.0,
+      "Comment": "巡逻1",
+      "ID": 200002,
+      "PosX": -2.0,
+      "PosY": -2.034004,
+      "PosZ": -101.31,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 8001020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_XP_Minion_Ice_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 9,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 1
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 1,
+      "EventID": 20111006,
+      "Name": "Monster4",
+      "RotY": 180.0,
+      "Comment": "巡逻2",
+      "ID": 200004,
+      "PosX": 21.7,
+      "PosY": -2.033944,
+      "PosZ": -149.3,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 1,
+      "EventID": 20111107,
+      "Name": "Monster6",
+      "RotY": 0.0,
+      "Comment": "巡逻3",
+      "ID": 200006,
+      "PosX": 4.8,
+      "PosY": -2.034004,
+      "PosZ": -207.05,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": 21.17,
+      "PosY": -2.034004,
+      "PosZ": -149.97,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": 21.01,
+      "PosY": -2.033944,
+      "PosZ": -163.1,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

@@ -1,0 +1,69 @@
+{
+  "FloorID": 10101003,
+  "FloorName": "FloorName_10101003",
+  "SceneName": null,
+  "StartGroupID": 1,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "6b455829-3d07-430e-adeb-e069665ab686",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G1.json",
+      "Name": "Default",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "10f7bb17-9e83-4024-bfc4-4379c39366da",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G3.json",
+      "Name": "NPCs",
+      "RotY": 0.0,
+      "Comment": "常驻NPC",
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    1,
+    3
+  ],
+  "UnlockMainMissionGroupIDList": [],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_INT_FlowerShop_01.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_INT_FlowerShop_01_StageData/Chap01_INT_FlowerShop_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_10101003.asset",
+  "MinimapVolume": null,
+  "CameraType": "Room",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Size": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Scale": 0.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": null,
+    "Atlas": null,
+    "Sections": null,
+    "BackgroundMapSprite": null,
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "GroupGUID": "10efa69e-e371-4900-89ed-622e4eb40ce4",
+  "GroupName": "mapdata",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P99999_F99999001_G3",
+  "SaveType": "Temporary",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "RotY": 272.81,
+      "Comment": null,
+      "ID": 1,
+      "PosX": -8.23,
+      "PosY": 1.876387,
+      "PosZ": 10.64,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 8003010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 3,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 1
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 99999011,
+      "Name": "Monster1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 200001,
+      "PosX": -6.78,
+      "PosY": 1.876387,
+      "PosZ": 21.85,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 601,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 1.5,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "ChestClosed",
+      "RecordID": 0,
+      "EventID": 20111602,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Treasure1",
+      "RotY": 40.97608,
+      "Comment": "宝箱",
+      "ID": 300001,
+      "PosX": 6.54,
+      "PosY": -2.139024,
+      "PosZ": -21.65,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -6.57,
+      "PosY": 1.876387,
+      "PosZ": 31.7,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": -6.66,
+      "PosY": 1.876387,
+      "PosZ": 23.1,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

@@ -1,0 +1,58 @@
+{
+  "GroupGUID": "4546411a-04af-4d1a-98ec-de02f3ccb846",
+  "GroupName": "DefaultTreasureUnlock",
+  "ConfigPrefabPath": null,
+  "LevelGraph": "Config/Level/Maze/Chapter01/Maze302/Maze_Chap01_M302_TreasureCheck1.json",
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20132_F20132001_G20",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 8003020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132110,
+      "Name": "Monster1",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200001,
+      "PosX": 64.6,
+      "PosY": 3.944304,
+      "PosZ": 255.94,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

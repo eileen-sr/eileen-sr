@@ -1,0 +1,1601 @@
+[
+  {
+    "EntryID": 1000001,
+    "EntranceType": 4,
+    "IsShowInMapMenu": 1,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 807309910
+    },
+    "MapEntranceName": {
+      "hash": -622442446
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 10000,
+    "FloorID": 10000000,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1010101
+    ],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 1010101,
+    "EntranceType": "Town",
+    "IsShowInMapMenu": 1,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 28883702
+    },
+    "MapEntranceName": {
+      "hash": -622443438
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 10101,
+    "FloorID": 10101001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1010101
+    ],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 1010102,
+    "EntranceType": "Town",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 10101,
+    "FloorID": 10101002,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 1010103,
+    "EntranceType": "Town",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 10101,
+    "FloorID": 10101003,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 1010104,
+    "EntranceType": "Town",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 10101,
+    "FloorID": 10101004,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 1010105,
+    "EntranceType": "Town",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 10101,
+    "FloorID": 10101005,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 1010106,
+    "EntranceType": "Town",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 10101,
+    "FloorID": 10101006,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 1010107,
+    "EntranceType": "Town",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 10101,
+    "FloorID": 10101007,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 1010201,
+    "EntranceType": "Town",
+    "IsShowInMapMenu": 1,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": -1234672261
+    },
+    "MapEntranceName": {
+      "hash": -622443537
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 10102,
+    "FloorID": 10102001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1010301
+    ],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 1010202,
+    "EntranceType": "Town",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 10102,
+    "FloorID": 10102002,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 1010203,
+    "EntranceType": "Town",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneVallige.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 10102,
+    "FloorID": 10102003,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 2010101,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 1,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 2026273467
+    },
+    "MapEntranceName": {
+      "hash": -622411857
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 9001011,
+    "PlaneID": 20101,
+    "FloorID": 20101001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1010503
+    ],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 2011101,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 1,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 2026273498
+    },
+    "MapEntranceName": {
+      "hash": 681550058
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 9001012,
+    "PlaneID": 20111,
+    "FloorID": 20111001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [
+      1010203
+    ],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1010203
+    ],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 2012101,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 1,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 2026273533
+    },
+    "MapEntranceName": {
+      "hash": -904736859
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 9001013,
+    "PlaneID": 20121,
+    "FloorID": 20121001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [
+      1010404
+    ],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1010500
+    ],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 2012201,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 1,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": -1005137800
+    },
+    "MapEntranceName": {
+      "hash": -904736760
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 9001012,
+    "PlaneID": 20122,
+    "FloorID": 20122001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [
+      1010503
+    ],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1010414
+    ],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 2012301,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 1,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1743948531
+    },
+    "MapEntranceName": {
+      "hash": -904736793
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 9001013,
+    "PlaneID": 20123,
+    "FloorID": 20123001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [
+      1010701
+    ],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1010700
+    ],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 2013101,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 1,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 2026273564
+    },
+    "MapEntranceName": {
+      "hash": 399225056
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 9001014,
+    "PlaneID": 20131,
+    "FloorID": 20131001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [
+      1010803
+    ],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1010803
+    ],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 2013201,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 1,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": -1005137769
+    },
+    "MapEntranceName": {
+      "hash": 399225155
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 9001015,
+    "PlaneID": 20132,
+    "FloorID": 20132001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [
+      1010809
+    ],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1010812
+    ],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3000101,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30101,
+    "FloorID": 30101001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3000201,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30102,
+    "FloorID": 30102001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3000301,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30103,
+    "FloorID": 30103001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3000401,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30104,
+    "FloorID": 30104001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3000501,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30105,
+    "FloorID": 30105001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3000601,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30106,
+    "FloorID": 30106001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3000701,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30107,
+    "FloorID": 30107001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3000801,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30108,
+    "FloorID": 30108001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3000901,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30109,
+    "FloorID": 30109001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3001001,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30110,
+    "FloorID": 30110001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3001101,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30111,
+    "FloorID": 30111001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3001201,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30112,
+    "FloorID": 30112001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3001301,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30113,
+    "FloorID": 30113001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3001401,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30114,
+    "FloorID": 30114001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3001501,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30115,
+    "FloorID": 30115001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3001601,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30116,
+    "FloorID": 30116001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3001701,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30117,
+    "FloorID": 30117001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3001801,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30118,
+    "FloorID": 30118001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3001901,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30119,
+    "FloorID": 30119001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 3002001,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 30120,
+    "FloorID": 30120001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9020101,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 90201,
+    "FloorID": 90201001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9020201,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 90202,
+    "FloorID": 90201002,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9030101,
+    "EntranceType": "Explore",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 90301,
+    "FloorID": 90301001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999801,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 0,
+    "PlaneID": 99998,
+    "FloorID": 99998,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999802,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 0,
+    "PlaneID": 90002,
+    "FloorID": 90002,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999803,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 0,
+    "PlaneID": 90002,
+    "FloorID": 9000201,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999811,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      6,
+      7
+    ],
+    "ShowReward": 0,
+    "PlaneID": 99998,
+    "FloorID": 99998001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999601,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 99996,
+    "FloorID": 99996001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999602,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 99996,
+    "FloorID": 99996002,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999603,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 99996,
+    "FloorID": 99996003,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999604,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 99996,
+    "FloorID": 99996004,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999605,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 99996,
+    "FloorID": 99996005,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999606,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 99996,
+    "FloorID": 99996006,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999607,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 99996,
+    "FloorID": 99996007,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999608,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [
+      4
+    ],
+    "ShowReward": 0,
+    "PlaneID": 99996,
+    "FloorID": 99996008,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  },
+  {
+    "EntryID": 9999901,
+    "EntranceType": "Mission",
+    "IsShowInMapMenu": 0,
+    "EntranceGroupID": 0,
+    "Name": {
+      "hash": 1354018532
+    },
+    "MapEntranceName": {
+      "hash": 1354018532
+    },
+    "Desc": {
+      "hash": 1354018532
+    },
+    "ImagePath": "SpriteOutput/LevelDetailPic/PicSceneMaze01.png",
+    "MiniMapIconHintList": [],
+    "ShowReward": 0,
+    "PlaneID": 99999,
+    "FloorID": 99999001,
+    "StartGroupID": 0,
+    "StartAnchorID": 0,
+    "TargetMission": 0,
+    "TargetMainMissionList": [],
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishQuestList": [],
+    "UnlockQuest": 0
+  }
+]

@@ -1,0 +1,519 @@
+{
+  "GroupGUID": "dc1fd437-10b3-4fff-b0dc-9908024b7bfa",
+  "GroupName": "Group2",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P99999_F99999001_G2",
+  "SaveType": "Temporary",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "CHeckPoint01",
+      "RotY": 270.0,
+      "Comment": "玩家起点默认/复活点01",
+      "ID": 1,
+      "PosX": 34.19,
+      "PosY": -2.167227,
+      "PosZ": -8.49,
+      "IsDelete": false
+    },
+    {
+      "Name": "CHeckPoint02",
+      "RotY": 90.0,
+      "Comment": "复活点02",
+      "ID": 2,
+      "PosX": 9.37,
+      "PosY": -2.134002,
+      "PosZ": -77.16,
+      "IsDelete": false
+    },
+    {
+      "Name": "CHeckPoint03",
+      "RotY": 270.0,
+      "Comment": "复活点03",
+      "ID": 3,
+      "PosX": -16.59,
+      "PosY": -2.033928,
+      "PosZ": -170.3,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 101,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Maze/MazeProp/Maze_Prop_CheckPoint_NoHint.json",
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 6.0,
+        "DimX": 8.0,
+        "DimY": 2.0,
+        "DimZ": 8.0,
+        "TargetCamps": [],
+        "TriggerTimes": -1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": true
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [],
+        "SharedValues": []
+      },
+      "CampID": 0,
+      "State": "CheckPointEnable",
+      "RecordID": 1,
+      "EventID": 0,
+      "AnchorGroupID": 2,
+      "AnchorID": 1,
+      "MapTeleportID": 2011101,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop1_CheckPointTrigger01",
+      "RotY": 0.0,
+      "Comment": "复苏之门01",
+      "ID": 300001,
+      "PosX": 36.03,
+      "PosY": -2.034807,
+      "PosZ": -8.73,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 101,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Maze/MazeProp/Maze_Prop_CheckPoint_NoHint.json",
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 8.0,
+        "DimX": 8.0,
+        "DimY": 2.0,
+        "DimZ": 4.0,
+        "TargetCamps": [],
+        "TriggerTimes": -1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": true
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [],
+        "SharedValues": []
+      },
+      "CampID": 0,
+      "State": "CheckPointDisable",
+      "RecordID": 1,
+      "EventID": 0,
+      "AnchorGroupID": 2,
+      "AnchorID": 2,
+      "MapTeleportID": 2011102,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop2_CheckPointTrigger02",
+      "RotY": 0.0,
+      "Comment": "复苏之门02",
+      "ID": 300002,
+      "PosX": 7.97,
+      "PosY": -1.134002,
+      "PosZ": -77.45,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 101,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Maze/MazeProp/Maze_Prop_CheckPoint_NoHint.json",
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 4.0,
+        "DimX": 4.0,
+        "DimY": 2.0,
+        "DimZ": 10.0,
+        "TargetCamps": [],
+        "TriggerTimes": -1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": true
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [],
+        "SharedValues": []
+      },
+      "CampID": 0,
+      "State": "CheckPointDisable",
+      "RecordID": 1,
+      "EventID": 0,
+      "AnchorGroupID": 2,
+      "AnchorID": 3,
+      "MapTeleportID": 2011103,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop4_CheckPointTrigger03",
+      "RotY": 0.0,
+      "Comment": "复苏之门03",
+      "ID": 300004,
+      "PosX": -16.29,
+      "PosY": -2.131,
+      "PosZ": -167.74,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 1010106,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Maze/Chapter01/Town/Town_Chapter01_EntryMaze.json",
+      "Trigger": {
+        "Shape": "Sphere",
+        "Radius": 2.0,
+        "DimX": 1.0,
+        "DimY": 1.0,
+        "DimZ": 1.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 1,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop5_OutPoint",
+      "RotY": 133.8628,
+      "Comment": "迷宫出口",
+      "ID": 300005,
+      "PosX": -4.67,
+      "PosY": -2.103028,
+      "PosZ": -17.79,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 102,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Maze/MazeProp/Maze_Prop_CheckPoint_Recover.json",
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 3.0,
+        "DimY": 2.0,
+        "DimZ": 3.0,
+        "TargetCamps": [],
+        "TriggerTimes": 1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": 2,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 300001,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": 2,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 300001,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 1,
+      "EventID": 0,
+      "AnchorGroupID": 2,
+      "AnchorID": 1,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop9_CheckPointProp01",
+      "RotY": 270.0,
+      "Comment": "复苏之门01模型",
+      "ID": 300009,
+      "PosX": 41.4,
+      "PosY": -2.167227,
+      "PosZ": -8.57,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 102,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Maze/MazeProp/Maze_Prop_CheckPoint_Recover.json",
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 4.0,
+        "DimY": 2.0,
+        "DimZ": 3.0,
+        "TargetCamps": [],
+        "TriggerTimes": -1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "x": 0.0,
+            "y": 0.707106769,
+            "z": 0.707106769,
+            "normalized": {
+              "x": 0.0,
+              "y": 0.7071068,
+              "z": 0.7071068,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.41421354,
+          "sqrMagnitude": 2.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": 2,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 300002,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": 2,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 300002,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 1,
+      "EventID": 0,
+      "AnchorGroupID": 2,
+      "AnchorID": 2,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop10_CheckPointProp02",
+      "RotY": 0.0,
+      "Comment": "复苏之门02模型",
+      "ID": 300010,
+      "PosX": 8.25,
+      "PosY": -2.102401,
+      "PosZ": -80.91,
+      "IsDelete": false
+    },
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 102,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": "Config/Level/Maze/MazeProp/Maze_Prop_CheckPoint_Recover.json",
+      "Trigger": {
+        "Shape": "Box",
+        "Radius": 1.0,
+        "DimX": 4.0,
+        "DimY": 2.0,
+        "DimZ": 3.0,
+        "TargetCamps": [],
+        "TriggerTimes": -1,
+        "CD": 0.0,
+        "Offset": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 1.0,
+          "normalized": {
+            "x": 0.0,
+            "y": 0.707106769,
+            "z": 0.707106769,
+            "normalized": {
+              "x": 0.0,
+              "y": 0.7071068,
+              "z": 0.7071068,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.00000012
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.41421354,
+          "sqrMagnitude": 2.0
+        },
+        "Server": false
+      },
+      "CreateOnInitial": true,
+      "ValueSource": {
+        "Values": [
+          {
+            "Value": 2,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 300004,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ],
+        "SharedValues": [
+          {
+            "Value": 2,
+            "Key": "Maze_CheckPoint_RefreshGroupID"
+          },
+          {
+            "Value": 300004,
+            "Key": "Maze_CheckPoint_RefreshPropID"
+          }
+        ]
+      },
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 1,
+      "EventID": 0,
+      "AnchorGroupID": 2,
+      "AnchorID": 3,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop11_CheckPointProp03",
+      "RotY": 180.0,
+      "Comment": "复苏之门03模型",
+      "ID": 300011,
+      "PosX": -16.72,
+      "PosY": -2.131,
+      "PosZ": -167.07,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [
+    {
+      "EnviroProfile": null,
+      "Tags": [
+        "BattleArea01"
+      ],
+      "Name": "BattleArea1",
+      "RotY": 271.69,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 1235.5,
+      "PosY": 0.0,
+      "PosZ": -1593.2,
+      "IsDelete": false
+    }
+  ],
+  "NPCList": [],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

@@ -1,0 +1,230 @@
+{
+  "FloorID": 90002,
+  "FloorName": "FloorName_90002",
+  "SceneName": null,
+  "StartGroupID": 1,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "4188660f-5c1f-45e5-bf6c-6c53b1005dc7",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90002_F90002/LevelGroup_P90002_F90002_G1.json",
+      "Name": "Model",
+      "RotY": 0.0,
+      "Comment": "TrainStage",
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "4114fe6e-da79-4471-aaa3-0fd4e1459a3b",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90002_F90002/LevelGroup_P90002_F90002_G3.json",
+      "Name": "Prop1",
+      "RotY": 0.0,
+      "Comment": "门和控制台",
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "bc8f61d4-62e9-469d-a831-56b80bfc9272",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90002_F90002/LevelGroup_P90002_F90002_G4.json",
+      "Name": "Prop2",
+      "RotY": 0.0,
+      "Comment": "宝箱",
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "39c0f168-a8c1-4f6a-853e-06fbe498fa5e",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90002_F90002/LevelGroup_P90002_F90002_G5.json",
+      "Name": "Prop3",
+      "RotY": 0.0,
+      "Comment": "瘫痪机器人",
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "113de7bc-78b7-4a71-9214-0c7020ddffd1",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90002_F90002/LevelGroup_P90002_F90002_G6.json",
+      "Name": "Prop4",
+      "RotY": 0.0,
+      "Comment": "可破坏物",
+      "ID": 6,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    1,
+    3,
+    4,
+    5,
+    6
+  ],
+  "UnlockMainMissionGroupIDList": [],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_Maze_01.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M301_MainLine_01_StageData/Chap01_MAZ_M301_MainLine_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_90002.asset",
+  "MinimapVolume": null,
+  "CameraType": "Maze",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": -18.14235,
+      "y": 17.77002,
+      "z": -114.9622,
+      "normalized": {
+        "x": -0.154096484,
+        "y": 0.150934011,
+        "z": -0.9764595,
+        "normalized": {
+          "x": -0.1540965,
+          "y": 0.150934026,
+          "z": -0.976459563,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.99999994
+      },
+      "magnitude": 117.7337,
+      "sqrMagnitude": 13861.2246
+    },
+    "Size": {
+      "x": 295.3605,
+      "y": 54.45174,
+      "z": 320.5264,
+      "normalized": {
+        "x": 0.672421038,
+        "y": 0.123965442,
+        "z": 0.729714,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 439.249359,
+      "sqrMagnitude": 192940.0
+    },
+    "Scale": 1.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": [
+      {
+        "x": -147.6803,
+        "y": 160.2632,
+        "normalized": {
+          "x": -0.6776481,
+          "y": 0.735386252,
+          "normalized": {
+            "x": -0.6776482,
+            "y": 0.7353863,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 217.930649,
+        "sqrMagnitude": 47493.7656
+      },
+      {
+        "x": 147.6803,
+        "y": 160.2632,
+        "normalized": {
+          "x": 0.6776481,
+          "y": 0.735386252,
+          "normalized": {
+            "x": 0.6776482,
+            "y": 0.7353863,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 217.930649,
+        "sqrMagnitude": 47493.7656
+      },
+      {
+        "x": 147.6803,
+        "y": -160.2632,
+        "normalized": {
+          "x": 0.6776481,
+          "y": -0.735386252,
+          "normalized": {
+            "x": 0.6776482,
+            "y": -0.7353863,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 217.930649,
+        "sqrMagnitude": 47493.7656
+      },
+      {
+        "x": -147.6803,
+        "y": -160.2632,
+        "normalized": {
+          "x": -0.6776481,
+          "y": -0.735386252,
+          "normalized": {
+            "x": -0.6776482,
+            "y": -0.7353863,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 217.930649,
+        "sqrMagnitude": 47493.7656
+      }
+    ],
+    "Atlas": "SpriteOutput/MapPics/Minimap/Minimap_90002/SectionAtlas/MinimapSection_90002_Atlas.spriteatlas",
+    "Sections": [
+      {
+        "ID": 0,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_90002/SectionAtlas/MinimapSection_90002_0.png",
+        "IsRect": true,
+        "Indices": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "UIPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "InitialHidden": true,
+        "Type": "Normal",
+        "Center": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "GroupID": 0,
+        "PropID": 0
+      }
+    ],
+    "BackgroundMapSprite": "SpriteOutput/MapPics/Minimap/Minimap_90002/Background.png",
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

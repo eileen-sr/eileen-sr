@@ -1,0 +1,764 @@
+{
+  "GroupGUID": "7fcb2707-01a7-4806-9a30-7955f8cf7ac4",
+  "GroupName": "DefaultData_Props",
+  "ConfigPrefabPath": "Level/Mission/1010301/Mission_1010301_temp.prefab",
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20111_F20111001_G3",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "PlayerStartPoint01",
+      "RotY": 270.0,
+      "Comment": "玩家起点",
+      "ID": 1,
+      "PosX": 32.15,
+      "PosY": -2.167227,
+      "PosZ": -8.43,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor2",
+      "RotY": 136.6,
+      "Comment": "背刺教学玩家站点",
+      "ID": 2,
+      "PosX": -4.61,
+      "PosY": -2.006609,
+      "PosZ": -16.87,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor3",
+      "RotY": 0.0,
+      "Comment": "背刺教学怪物导航点1",
+      "ID": 3,
+      "PosX": 0.39,
+      "PosY": -2.006609,
+      "PosZ": -22.38,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor4",
+      "RotY": 0.0,
+      "Comment": "背刺教学怪物导航点2",
+      "ID": 4,
+      "PosX": 1.82,
+      "PosY": -2.006609,
+      "PosZ": -23.92,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor5",
+      "RotY": 0.0,
+      "Comment": "大队长站点",
+      "ID": 5,
+      "PosX": 4.7,
+      "PosY": -2.033952,
+      "PosZ": -207.52,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor6",
+      "RotY": 180.0,
+      "Comment": "不开打的玩家站点",
+      "ID": 6,
+      "PosX": 4.63,
+      "PosY": -2.006081,
+      "PosZ": -201.93,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor7",
+      "RotY": 180.0,
+      "Comment": "打完大队长的玩家站点",
+      "ID": 7,
+      "PosX": 4.72,
+      "PosY": -2.033948,
+      "PosZ": -205.1,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor8",
+      "RotY": 270.0,
+      "Comment": "遇到boss的玩家站点",
+      "ID": 8,
+      "PosX": -52.55,
+      "PosY": -2.041062,
+      "PosZ": -170.15,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor9",
+      "RotY": 90.0,
+      "Comment": "Monster11导航点",
+      "ID": 9,
+      "PosX": -6.03,
+      "PosY": 1.976387,
+      "PosZ": 9.81,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor10",
+      "RotY": 0.0,
+      "Comment": "Monster12导航点",
+      "ID": 10,
+      "PosX": 29.15,
+      "PosY": -1.034004,
+      "PosZ": -92.55,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor11",
+      "RotY": 0.0,
+      "Comment": "第一个怪导航点1",
+      "ID": 11,
+      "PosX": -12.4,
+      "PosY": -0.384595,
+      "PosZ": -3.46,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor12",
+      "RotY": 0.0,
+      "Comment": "第一个怪导航点2",
+      "ID": 12,
+      "PosX": -8.44,
+      "PosY": 1.876387,
+      "PosZ": 9.79,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor13",
+      "RotY": 324.3,
+      "Comment": "追兵1导航点1",
+      "ID": 13,
+      "PosX": 20.15,
+      "PosY": -2.039023,
+      "PosZ": -9.92,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor14",
+      "RotY": 324.3,
+      "Comment": "追兵1导航点2",
+      "ID": 14,
+      "PosX": 0.02,
+      "PosY": 1.976387,
+      "PosZ": 8.16,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor15",
+      "RotY": 307.5,
+      "Comment": "追兵2导航点1",
+      "ID": 15,
+      "PosX": 21.66,
+      "PosY": -2.039023,
+      "PosZ": -7.73,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor16",
+      "RotY": 324.3,
+      "Comment": "追兵2导航点2",
+      "ID": 16,
+      "PosX": 2.33,
+      "PosY": 1.976387,
+      "PosZ": 9.41,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor17",
+      "RotY": 149.2,
+      "Comment": "追兵封路玩家站点",
+      "ID": 17,
+      "PosX": -11.49,
+      "PosY": -2.039023,
+      "PosZ": -9.11,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor18",
+      "RotY": 90.0,
+      "Comment": "岔路封路玩家站点",
+      "ID": 18,
+      "PosX": 3.94,
+      "PosY": -2.034004,
+      "PosZ": -78.59,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor19",
+      "RotY": 90.0,
+      "Comment": "打开第一个开关后玩家站点",
+      "ID": 19,
+      "PosX": -7.550002,
+      "PosY": -1.034004,
+      "PosZ": -20.35001,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor20",
+      "RotY": 0.0,
+      "Comment": "刺杀表演",
+      "ID": 20,
+      "PosX": 8.04,
+      "PosY": -2.134002,
+      "PosZ": -75.86,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor21",
+      "RotY": 0.0,
+      "Comment": "刺杀表演2",
+      "ID": 21,
+      "PosX": 8.04,
+      "PosY": -2.134002,
+      "PosZ": -70.297,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor22",
+      "RotY": 180.0,
+      "Comment": "刺杀表演2",
+      "ID": 22,
+      "PosX": 8.04,
+      "PosY": -2.134002,
+      "PosZ": -72.123,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor23",
+      "RotY": 112.98,
+      "Comment": "101030108_37移动点",
+      "ID": 23,
+      "PosX": 29.269,
+      "PosY": -1.134002,
+      "PosZ": -91.244,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor24",
+      "RotY": 97.7,
+      "Comment": "101030108_丹恒移动点",
+      "ID": 24,
+      "PosX": 27.67,
+      "PosY": -1.134002,
+      "PosZ": -91.22,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor25",
+      "RotY": 145.2,
+      "Comment": "101030108_player移动点",
+      "ID": 25,
+      "PosX": 30.324,
+      "PosY": -1.134002,
+      "PosZ": -89.968,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor26",
+      "RotY": 314.4,
+      "Comment": "101030108_Enemy移动点",
+      "ID": 26,
+      "PosX": 31.844,
+      "PosY": -1.134002,
+      "PosZ": -92.438,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor27",
+      "RotY": 270.0,
+      "Comment": "101030103_丹恒移动点",
+      "ID": 27,
+      "PosX": -2.32,
+      "PosY": 1.976387,
+      "PosZ": 11.04,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor28",
+      "RotY": 270.0,
+      "Comment": "101030103_37移动点",
+      "ID": 28,
+      "PosX": -1.37,
+      "PosY": 1.976387,
+      "PosZ": 11.6,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor29",
+      "RotY": 270.0,
+      "Comment": "101030103_player移动点",
+      "ID": 29,
+      "PosX": -0.99,
+      "PosY": 1.976387,
+      "PosZ": 10.45,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor30",
+      "RotY": 247.1,
+      "Comment": "101030103_丹恒移动点2",
+      "ID": 30,
+      "PosX": -6.5,
+      "PosY": 1.976387,
+      "PosZ": 10.02,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor31",
+      "RotY": 216.28,
+      "Comment": "101030103_37移动点2",
+      "ID": 31,
+      "PosX": -7.185,
+      "PosY": 1.876387,
+      "PosZ": 11.511,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor32",
+      "RotY": 223.5,
+      "Comment": "101030103_player移动点2",
+      "ID": 32,
+      "PosX": -5.56,
+      "PosY": 1.976387,
+      "PosZ": 10.3,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor33",
+      "RotY": 286.8,
+      "Comment": "101030108_Enemy移动点2",
+      "ID": 33,
+      "PosX": 31.659,
+      "PosY": -1.034003,
+      "PosZ": -92.068,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor34",
+      "RotY": 121.3,
+      "Comment": "101030108_37移动点2",
+      "ID": 34,
+      "PosX": 28.964,
+      "PosY": -1.034003,
+      "PosZ": -91.029,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor35",
+      "RotY": 117.2,
+      "Comment": "101030108_丹恒移动点2",
+      "ID": 35,
+      "PosX": 27.86,
+      "PosY": -1.034003,
+      "PosZ": -91.065,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor36",
+      "RotY": 121.9,
+      "Comment": "101030108_player移动点2",
+      "ID": 36,
+      "PosX": 28.99,
+      "PosY": -1.034003,
+      "PosZ": -89.6,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor37",
+      "RotY": 39.97,
+      "Comment": "第一个怪导航点3",
+      "ID": 37,
+      "PosX": -12.38,
+      "PosY": 1.976387,
+      "PosZ": 5.18,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor38",
+      "RotY": 132.75,
+      "Comment": "101030104_丹恒移动点",
+      "ID": 38,
+      "PosX": 2.977,
+      "PosY": -2.039023,
+      "PosZ": -21.703,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor39",
+      "RotY": 133.34,
+      "Comment": "101030104_37移动点",
+      "ID": 39,
+      "PosX": 2.26,
+      "PosY": -2.039023,
+      "PosZ": -21.5,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor40",
+      "RotY": 131.89,
+      "Comment": "101030104_player移动点",
+      "ID": 40,
+      "PosX": 2.396,
+      "PosY": -2.013672,
+      "PosZ": -20.655,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor41",
+      "RotY": 195.7,
+      "Comment": "101030105_角色传送点",
+      "ID": 41,
+      "PosX": 11.07,
+      "PosY": -2.045313,
+      "PosZ": -35.5,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor42",
+      "RotY": 180.0,
+      "Comment": "刺杀保护点",
+      "ID": 42,
+      "PosX": 8.12,
+      "PosY": -2.134003,
+      "PosZ": -65.86,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor43",
+      "RotY": 270.0,
+      "Comment": "NBoss战保护点",
+      "ID": 43,
+      "PosX": -40.47,
+      "PosY": -2.133928,
+      "PosZ": -170.4,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor44",
+      "RotY": 157.35,
+      "Comment": "N表演2角色保护点",
+      "ID": 44,
+      "PosX": 28.06,
+      "PosY": -1.134002,
+      "PosZ": -82.247,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor45",
+      "RotY": 188.6,
+      "Comment": "N表演角色保护点",
+      "ID": 45,
+      "PosX": 5.75,
+      "PosY": -2.006081,
+      "PosZ": -172.32,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor46",
+      "RotY": 255.94,
+      "Comment": "N表演1角色保护点",
+      "ID": 46,
+      "PosX": 1.16,
+      "PosY": 1.876387,
+      "PosZ": 9.28,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 100006,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 400001,
+      "PosX": -13.02,
+      "PosY": -2.039024,
+      "PosZ": -6.52,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 100008,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC2",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 400002,
+      "PosX": 13.34,
+      "PosY": -2.134002,
+      "PosZ": -76.11,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 100008,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC3",
+      "RotY": 314.98,
+      "Comment": null,
+      "ID": 400003,
+      "PosX": 33.799,
+      "PosY": -1.134002,
+      "PosZ": -94.161,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 100008,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC4",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 400004,
+      "PosX": 4.76,
+      "PosY": -2.03395,
+      "PosZ": -207.46,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 101012,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC5",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 400005,
+      "PosX": 29.78,
+      "PosY": -2.167227,
+      "PosZ": -6.77,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 101012,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC6",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 400006,
+      "PosX": 28.99,
+      "PosY": -2.167227,
+      "PosZ": -10.59,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 101012,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC7",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 400007,
+      "PosX": -10.14,
+      "PosY": 1.876387,
+      "PosZ": 5.59,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 101012,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": null,
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC8",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 400008,
+      "PosX": -14.32,
+      "PosY": 2.376387,
+      "PosZ": 5.1,
+      "IsDelete": false
+    }
+  ],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

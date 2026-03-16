@@ -1,0 +1,176 @@
+{
+  "GroupGUID": "f0f71a69-230a-40dd-a9e0-e1d2ecf56cdf",
+  "GroupName": "DefaultMonster02",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20121_F20121001_G8",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 1010503,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 8,
+            "UseID": 4,
+            "Type": "Loop",
+            "StartAt": 10
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20121004,
+      "Name": "Monster5",
+      "RotY": 45.0,
+      "Comment": "4",
+      "ID": 200005,
+      "PosX": 55.9,
+      "PosY": 2.999998,
+      "PosZ": -98.96,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 8001020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_XP_Minion_Ice_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 8,
+            "UseID": 5,
+            "Type": "Loop",
+            "StartAt": 13
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20121005,
+      "Name": "Monster6",
+      "RotY": 135.0,
+      "Comment": "5",
+      "ID": 200006,
+      "PosX": 51.9,
+      "PosY": 2.999998,
+      "PosZ": -131.2,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [
+    {
+      "ID": 10,
+      "PosX": 62.58,
+      "PosY": 2.999998,
+      "PosZ": -91.46,
+      "IsDelete": false
+    },
+    {
+      "ID": 11,
+      "PosX": 49.4,
+      "PosY": 2.999998,
+      "PosZ": -104.4,
+      "IsDelete": false
+    },
+    {
+      "ID": 12,
+      "PosX": 65.81,
+      "PosY": 2.999998,
+      "PosZ": -94.61,
+      "IsDelete": false
+    },
+    {
+      "ID": 13,
+      "PosX": 57.35,
+      "PosY": 2.999998,
+      "PosZ": -136.73,
+      "IsDelete": false
+    },
+    {
+      "ID": 14,
+      "PosX": 52.71,
+      "PosY": 2.999998,
+      "PosZ": -132.37,
+      "IsDelete": false
+    },
+    {
+      "ID": 23,
+      "PosX": 62.88,
+      "PosY": 2.999998,
+      "PosZ": -131.96,
+      "IsDelete": false
+    },
+    {
+      "ID": 24,
+      "PosX": 64.1,
+      "PosY": 6.99998,
+      "PosZ": -110.3,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        10,
+        11,
+        10,
+        12
+      ],
+      "Name": "Pathway4",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        13,
+        14,
+        13,
+        23
+      ],
+      "Name": "Pathway5",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 1001,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

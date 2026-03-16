@@ -1,0 +1,1027 @@
+{
+  "GroupGUID": "455dbdb5-6527-47cf-a680-39b2fa4c87bc",
+  "GroupName": "MainMission01_Monster",
+  "ConfigPrefabPath": null,
+  "LevelGraph": "Config/Level/Maze/Chapter01/Maze302/Maze_Chap01_M302_Group2KillMonsterElite.json",
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20132_F20132001_G2",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 8003010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132104,
+      "Name": "Monster4",
+      "RotY": 180.0,
+      "Comment": "主线1阶段强敌",
+      "ID": 200007,
+      "PosX": 32.94,
+      "PosY": 4.1,
+      "PosZ": 194.65,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 2,
+            "UseID": 6,
+            "Type": "Loop",
+            "StartAt": 15
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132007,
+      "Name": "Area02Monster03",
+      "RotY": 270.0,
+      "Comment": "解污染冰强敌（改成了普通怪）",
+      "ID": 200006,
+      "PosX": 43.01,
+      "PosY": 2.097347,
+      "PosZ": 91.45,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 2,
+            "UseID": 13,
+            "Type": "Loop",
+            "StartAt": 32
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132015,
+      "Name": "Area04Monster07",
+      "RotY": 180.0,
+      "Comment": "普通——巡逻怪",
+      "ID": 200018,
+      "PosX": 39.44,
+      "PosY": 0.942146,
+      "PosZ": 257.28,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132111,
+      "Name": "Area04Monster02",
+      "RotY": 90.0,
+      "Comment": "解炉心怪01",
+      "ID": 200015,
+      "PosX": 119.81,
+      "PosY": -5.059991,
+      "PosZ": 324.49,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 2,
+            "UseID": 12,
+            "Type": "Loop",
+            "StartAt": 17
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132012,
+      "Name": "Area04Monster05",
+      "RotY": 270.0,
+      "Comment": "解炉心怪02",
+      "ID": 200010,
+      "PosX": 122.18,
+      "PosY": -1.965088,
+      "PosZ": 367.31,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 2,
+            "UseID": 14,
+            "Type": "Loop",
+            "StartAt": 33
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132113,
+      "Name": "Area04Monster03",
+      "RotY": 0.0,
+      "Comment": "解炉心怪03",
+      "ID": 200012,
+      "PosX": 33.06,
+      "PosY": -2.890851,
+      "PosZ": 310.41,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 2,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 1
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132001,
+      "Name": "Area01Monster01",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 200001,
+      "PosX": -29.47,
+      "PosY": 0.1,
+      "PosZ": 76.19,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 2,
+            "UseID": 2,
+            "Type": "Loop",
+            "StartAt": 3
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132002,
+      "Name": "Area02Monster01",
+      "RotY": 180.0,
+      "Comment": null,
+      "ID": 200002,
+      "PosX": -9.32,
+      "PosY": 2.1,
+      "PosZ": 106.06,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 2,
+            "UseID": 9,
+            "Type": "Loop",
+            "StartAt": 9
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132005,
+      "Name": "Monster1",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200003,
+      "PosX": 26.99,
+      "PosY": 4.1,
+      "PosZ": 172.95,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 2,
+            "UseID": 4,
+            "Type": "Loop",
+            "StartAt": 7
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132006,
+      "Name": "Monster2",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200004,
+      "PosX": 40.55,
+      "PosY": 4.0,
+      "PosZ": 183.89,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 2,
+            "UseID": 21,
+            "Type": "Loop",
+            "StartAt": 41
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132008,
+      "Name": "Monster1",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200021,
+      "PosX": 80.71,
+      "PosY": -5.025855,
+      "PosZ": 284.16,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 2,
+            "UseID": 22,
+            "Type": "Loop",
+            "StartAt": 46
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132009,
+      "Name": "Monster2",
+      "RotY": 90.0,
+      "Comment": null,
+      "ID": 200022,
+      "PosX": 86.46,
+      "PosY": -1.968068,
+      "PosZ": 251.47,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 8003020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 0,
+            "UseID": 0,
+            "Type": "Loop",
+            "StartAt": 0
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20132110,
+      "Name": "Monster3",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200023,
+      "PosX": 64.6,
+      "PosY": 3.944304,
+      "PosZ": 255.94,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -29.44,
+      "PosY": 0.1,
+      "PosZ": 76.15,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": -29.48,
+      "PosY": 0.1,
+      "PosZ": 87.58,
+      "IsDelete": false
+    },
+    {
+      "ID": 3,
+      "PosX": -10.05,
+      "PosY": 2.1,
+      "PosZ": 106.3,
+      "IsDelete": false
+    },
+    {
+      "ID": 4,
+      "PosX": 8.5,
+      "PosY": 2.1,
+      "PosZ": 106.4,
+      "IsDelete": false
+    },
+    {
+      "ID": 5,
+      "PosX": 12.03,
+      "PosY": 2.1,
+      "PosZ": 103.85,
+      "IsDelete": false
+    },
+    {
+      "ID": 6,
+      "PosX": 12.13,
+      "PosY": 2.1,
+      "PosZ": 109.87,
+      "IsDelete": false
+    },
+    {
+      "ID": 7,
+      "PosX": 39.5,
+      "PosY": 4.1,
+      "PosZ": 184.7,
+      "IsDelete": false
+    },
+    {
+      "ID": 8,
+      "PosX": 39.5,
+      "PosY": 4.1,
+      "PosZ": 194.61,
+      "IsDelete": false
+    },
+    {
+      "ID": 9,
+      "PosX": 26.9,
+      "PosY": 4.0,
+      "PosZ": 172.65,
+      "IsDelete": false
+    },
+    {
+      "ID": 10,
+      "PosX": 40.14,
+      "PosY": 4.0,
+      "PosZ": 172.74,
+      "IsDelete": false
+    },
+    {
+      "ID": 11,
+      "PosX": 26.8,
+      "PosY": 3.941978,
+      "PosZ": 184.6,
+      "IsDelete": false
+    },
+    {
+      "ID": 12,
+      "PosX": 26.7,
+      "PosY": 4.0,
+      "PosZ": 194.58,
+      "IsDelete": false
+    },
+    {
+      "ID": 13,
+      "PosX": 32.82,
+      "PosY": 4.0,
+      "PosZ": 186.59,
+      "IsDelete": false
+    },
+    {
+      "ID": 14,
+      "PosX": 32.89,
+      "PosY": 4.0,
+      "PosZ": 192.2,
+      "IsDelete": false
+    },
+    {
+      "ID": 15,
+      "PosX": 44.11,
+      "PosY": 2.09734,
+      "PosZ": 91.2,
+      "IsDelete": false
+    },
+    {
+      "ID": 16,
+      "PosX": 30.11,
+      "PosY": 2.1,
+      "PosZ": 91.2,
+      "IsDelete": false
+    },
+    {
+      "ID": 17,
+      "PosX": 22.54,
+      "PosY": 2.1,
+      "PosZ": 84.02,
+      "IsDelete": false
+    },
+    {
+      "ID": 18,
+      "PosX": 80.58,
+      "PosY": -5.169999,
+      "PosZ": 356.32,
+      "IsDelete": false
+    },
+    {
+      "ID": 19,
+      "PosX": 80.58,
+      "PosY": -5.169999,
+      "PosZ": 366.66,
+      "IsDelete": false
+    },
+    {
+      "ID": 20,
+      "PosX": 94.41,
+      "PosY": -5.169999,
+      "PosZ": 366.66,
+      "IsDelete": false
+    },
+    {
+      "ID": 21,
+      "PosX": 119.93,
+      "PosY": -5.026077,
+      "PosZ": 339.43,
+      "IsDelete": false
+    },
+    {
+      "ID": 22,
+      "PosX": 119.93,
+      "PosY": -5.026077,
+      "PosZ": 350.17,
+      "IsDelete": false
+    },
+    {
+      "ID": 23,
+      "PosX": 122.28,
+      "PosY": -2.023083,
+      "PosZ": 362.66,
+      "IsDelete": false
+    },
+    {
+      "ID": 24,
+      "PosX": 113.05,
+      "PosY": -2.023083,
+      "PosZ": 362.66,
+      "IsDelete": false
+    },
+    {
+      "ID": 25,
+      "PosX": 113.05,
+      "PosY": -2.023083,
+      "PosZ": 371.73,
+      "IsDelete": false
+    },
+    {
+      "ID": 26,
+      "PosX": 122.48,
+      "PosY": -2.023083,
+      "PosZ": 371.73,
+      "IsDelete": false
+    },
+    {
+      "ID": 27,
+      "PosX": 34.97,
+      "PosY": 0.942088,
+      "PosZ": 251.3,
+      "IsDelete": false
+    },
+    {
+      "ID": 28,
+      "PosX": 47.17,
+      "PosY": 0.942088,
+      "PosZ": 251.3,
+      "IsDelete": false
+    },
+    {
+      "ID": 29,
+      "PosX": 47.36,
+      "PosY": 0.942146,
+      "PosZ": 257.43,
+      "IsDelete": false
+    },
+    {
+      "ID": 30,
+      "PosX": -10.08,
+      "PosY": 2.1,
+      "PosZ": 109.99,
+      "IsDelete": false
+    },
+    {
+      "ID": 31,
+      "PosX": -3.76,
+      "PosY": 2.1,
+      "PosZ": 109.96,
+      "IsDelete": false
+    },
+    {
+      "ID": 32,
+      "PosX": 34.96,
+      "PosY": 0.942088,
+      "PosZ": 257.56,
+      "IsDelete": false
+    },
+    {
+      "ID": 33,
+      "PosX": 33.06,
+      "PosY": -2.890851,
+      "PosZ": 310.41,
+      "IsDelete": false
+    },
+    {
+      "ID": 34,
+      "PosX": 36.38,
+      "PosY": -2.890852,
+      "PosZ": 314.0,
+      "IsDelete": false
+    },
+    {
+      "ID": 35,
+      "PosX": 43.61,
+      "PosY": -5.057852,
+      "PosZ": 321.62,
+      "IsDelete": false
+    },
+    {
+      "ID": 36,
+      "PosX": 51.12,
+      "PosY": -5.057852,
+      "PosZ": 325.97,
+      "IsDelete": false
+    },
+    {
+      "ID": 37,
+      "PosX": 51.17,
+      "PosY": -5.057852,
+      "PosZ": 323.82,
+      "IsDelete": false
+    },
+    {
+      "ID": 41,
+      "PosX": 80.71,
+      "PosY": -5.025855,
+      "PosZ": 284.16,
+      "IsDelete": false
+    },
+    {
+      "ID": 42,
+      "PosX": 102.19,
+      "PosY": -5.025855,
+      "PosZ": 262.08,
+      "IsDelete": false
+    },
+    {
+      "ID": 43,
+      "PosX": 100.3,
+      "PosY": -4.984546,
+      "PosZ": 258.75,
+      "IsDelete": false
+    },
+    {
+      "ID": 44,
+      "PosX": 94.8,
+      "PosY": -2.025854,
+      "PosZ": 253.69,
+      "IsDelete": false
+    },
+    {
+      "ID": 45,
+      "PosX": 90.0,
+      "PosY": -2.025854,
+      "PosZ": 251.71,
+      "IsDelete": false
+    },
+    {
+      "ID": 46,
+      "PosX": 82.78,
+      "PosY": -2.025854,
+      "PosZ": 251.84,
+      "IsDelete": false
+    },
+    {
+      "ID": 47,
+      "PosX": 80.01,
+      "PosY": -1.965376,
+      "PosZ": 254.19,
+      "IsDelete": false
+    },
+    {
+      "ID": 48,
+      "PosX": 72.67,
+      "PosY": 0.974147,
+      "PosZ": 260.95,
+      "IsDelete": false
+    },
+    {
+      "ID": 49,
+      "PosX": 73.3,
+      "PosY": 0.974147,
+      "PosZ": 263.19,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        4,
+        3
+      ],
+      "Name": "Pathway2",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        7,
+        11
+      ],
+      "Name": "Pathway4",
+      "RotY": 0.0,
+      "Comment": "巡逻怪4",
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        12,
+        8
+      ],
+      "Name": "Pathway5",
+      "RotY": 0.0,
+      "Comment": "巡逻怪5",
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        10,
+        9
+      ],
+      "Name": "Pathway9",
+      "RotY": 0.0,
+      "Comment": "巡逻怪6",
+      "ID": 9,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        13,
+        14
+      ],
+      "Name": "Pathway10",
+      "RotY": 0.0,
+      "Comment": "巡逻怪7",
+      "ID": 10,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        15,
+        16
+      ],
+      "Name": "Pathway6",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 6,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        16,
+        17
+      ],
+      "Name": "Pathway7",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 7,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        18,
+        19,
+        20
+      ],
+      "Name": "Pathway8",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 8,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        21,
+        22
+      ],
+      "Name": "Pathway11",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 11,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        23,
+        24,
+        25,
+        26,
+        23
+      ],
+      "Name": "Pathway12",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 12,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        27,
+        28,
+        29,
+        32,
+        27
+      ],
+      "Name": "Pathway13",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 13,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "Name": "Pathway14",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 14,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        41,
+        42
+      ],
+      "Name": "Pathway15",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 21,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "Name": "Pathway16",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 22,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

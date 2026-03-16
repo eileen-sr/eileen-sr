@@ -1,0 +1,507 @@
+{
+  "FloorID": 10102001,
+  "FloorName": "FloorName_10102001",
+  "SceneName": null,
+  "StartGroupID": 2,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "df6697e8-c5d2-4637-aac8-dac278591c9b",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G30.json",
+      "Name": "Default",
+      "RotY": 0.0,
+      "Comment": "锚点",
+      "ID": 30,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "2ffd12c1-9e80-4adc-9985-c7b92a1f207b",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G2.json",
+      "Name": "Exits",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "9ca05efd-600e-459f-8129-48e27e190a09",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G23.json",
+      "Name": "ChallengeMaze",
+      "RotY": 0.0,
+      "Comment": "挑战关",
+      "ID": 23,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "7a684621-b306-414b-89a6-1e5011dc195e",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G3.json",
+      "Name": "MapNPC",
+      "RotY": 0.0,
+      "Comment": "常驻NPC",
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "51dec533-83f9-4065-ae4e-f4a1c1744589",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G26.json",
+      "Name": "MainMission",
+      "RotY": 0.0,
+      "Comment": "常驻奥列格",
+      "ID": 26,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "c5cec737-e7dc-4244-a094-77199731c856",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G24.json",
+      "Name": "EnvNPCs",
+      "RotY": 0.0,
+      "Comment": "气氛组",
+      "ID": 24,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "0e0217cf-780e-47a2-9380-59150282b10e",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G8.json",
+      "Name": "Books",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 8,
+      "PosX": 0.0,
+      "PosY": 0.5,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "6162b109-f77c-4c3c-a47f-b81cb74890db",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G4.json",
+      "Name": "MainMission01",
+      "RotY": 0.0,
+      "Comment": "1010402_地下",
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "8f481ca0-011b-4222-ace3-5ce3249e27a9",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G5.json",
+      "Name": "MainMission02",
+      "RotY": 0.0,
+      "Comment": "1010402_2地火",
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "30c408cb-27c4-474c-bc5c-3aaa750d1550",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G22.json",
+      "Name": "MainMission02_2",
+      "RotY": 0.0,
+      "Comment": "1010402_与首谈判前",
+      "ID": 22,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "83094bbb-38dc-458e-b2c9-0adbd00cd650",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G6.json",
+      "Name": "MainMission03",
+      "RotY": 0.0,
+      "Comment": "1010403_追捕",
+      "ID": 6,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "b397c9dd-cc67-45d6-81e9-fc72be38b736",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G7.json",
+      "Name": "MainMission04",
+      "RotY": 0.0,
+      "Comment": "1010407",
+      "ID": 7,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "57435c20-aaa6-4d1a-8acd-72d00b2233c2",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G9.json",
+      "Name": "MainMission",
+      "RotY": 0.0,
+      "Comment": "2-2前衔接_101041101_奥列格对话前",
+      "ID": 9,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "13d949b9-2a69-43ab-8714-832986bc1687",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G10.json",
+      "Name": "MainMission",
+      "RotY": 0.0,
+      "Comment": "2-2前衔接_101041201_奥列格对话后",
+      "ID": 10,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "6d4b67a1-cd94-4f6a-88a3-0909993d0935",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G11.json",
+      "Name": "MainMission",
+      "RotY": 0.0,
+      "Comment": "2-2前衔接_101041204_旅店门口",
+      "ID": 11,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "2097e9b1-1fd5-4802-b879-452899ea602a",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G12.json",
+      "Name": "MainMission",
+      "RotY": 0.0,
+      "Comment": "2-2前衔接_1010413_矿区入口",
+      "ID": 12,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "08a79b96-9415-4a7b-ad5c-7da6eace25ba",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G13.json",
+      "Name": "MainMission",
+      "RotY": 0.0,
+      "Comment": "2-3衔接任务_101042101",
+      "ID": 13,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "0a3b8e5f-3a0d-4996-b1ad-af8195be72b1",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G14.json",
+      "Name": "MainMission",
+      "RotY": 0.0,
+      "Comment": "2-3衔接任务_101042102",
+      "ID": 14,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "4c029a54-4e29-4534-8f24-6dfb399986e7",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G15.json",
+      "Name": "MainMission",
+      "RotY": 0.0,
+      "Comment": "2-3衔接任务_101042103",
+      "ID": 15,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "18fc98dd-f4a4-43f2-836a-7bd65db6d650",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G16.json",
+      "Name": "SubMission",
+      "RotY": 0.0,
+      "Comment": "支线任务201050101",
+      "ID": 16,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "4a9aeb90-5bd4-4c2f-a1f7-401275c29347",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G17.json",
+      "Name": "New Group",
+      "RotY": 0.0,
+      "Comment": "3-1前置剧情",
+      "ID": 17,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "4cdc5493-a87e-4a81-b75b-fb25905b511e",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G18.json",
+      "Name": "SubMission",
+      "RotY": 0.0,
+      "Comment": "支线任务201050101",
+      "ID": 18,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "52388a6d-4049-4754-b42c-8b6ca08a36fb",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G19.json",
+      "Name": "SubMission",
+      "RotY": 0.0,
+      "Comment": "支线任务201070201",
+      "ID": 19,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "99168472-c4b0-4116-8449-6d2f835e037a",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G20.json",
+      "Name": "SubMission",
+      "RotY": 0.0,
+      "Comment": "支线前谭雅",
+      "ID": 20,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "d64f4739-c6d6-47db-909c-67d57fc48097",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G21.json",
+      "Name": "SubMission",
+      "RotY": 0.0,
+      "Comment": "支线后谭雅",
+      "ID": 21,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "0505c837-fd54-4768-a40c-c10925ba2c8c",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G25.json",
+      "Name": "SubMission",
+      "RotY": 0.0,
+      "Comment": "巴列维支线前谭雅",
+      "ID": 25,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "58cfda85-d2b9-409d-af3b-5f50908eb345",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G27.json",
+      "Name": "SubMission",
+      "RotY": 0.0,
+      "Comment": "歌蒂支线任务气氛组",
+      "ID": 27,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "28d74399-95db-4d77-94fb-f6d4c62eee54",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G28.json",
+      "Name": "MapNPC",
+      "RotY": 0.0,
+      "Comment": "常驻匹克",
+      "ID": 28,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "a0bfb533-0aa5-4de2-8461-0c5897b8ef06",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10102_F10102001/LevelGroup_P10102_F10102001_G29.json",
+      "Name": "Mainmission",
+      "RotY": 0.0,
+      "Comment": "临时桑博",
+      "ID": 29,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    30,
+    2,
+    3,
+    24,
+    8,
+    16
+  ],
+  "UnlockMainMissionGroupIDList": [
+    23,
+    26,
+    18,
+    21,
+    28
+  ],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_UnderCity_01_Day.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_ADV_Area_UnderCity_01_StageData/Chap01_ADV_Area_UnderCity_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_10102001.asset",
+  "MinimapVolume": "Level/MinimapVolume/MinimapVolume-Floor_10102001.prefab",
+  "CameraType": "Base",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": -34.29,
+      "y": 18.99258,
+      "z": 4.26,
+      "normalized": {
+        "x": -0.8696578,
+        "y": 0.48168695,
+        "z": 0.10804148,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 39.4293022,
+      "sqrMagnitude": 1554.66992
+    },
+    "Size": {
+      "x": 169.81,
+      "y": 62.0148,
+      "z": 228.4908,
+      "normalized": {
+        "x": 0.582823038,
+        "y": 0.212847635,
+        "z": 0.784227669,
+        "normalized": {
+          "x": 0.5828231,
+          "y": 0.21284765,
+          "z": 0.7842277,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.9999999
+      },
+      "magnitude": 291.357727,
+      "sqrMagnitude": 84889.32
+    },
+    "Scale": 3.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": [
+      {
+        "x": -84.905,
+        "y": 114.2454,
+        "normalized": {
+          "x": -0.596491456,
+          "y": 0.802619457,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 142.340683,
+        "sqrMagnitude": 20260.8711
+      },
+      {
+        "x": 84.905,
+        "y": 114.2454,
+        "normalized": {
+          "x": 0.596491456,
+          "y": 0.802619457,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 142.340683,
+        "sqrMagnitude": 20260.8711
+      },
+      {
+        "x": 84.905,
+        "y": -114.2454,
+        "normalized": {
+          "x": 0.596491456,
+          "y": -0.802619457,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 142.340683,
+        "sqrMagnitude": 20260.8711
+      },
+      {
+        "x": -84.905,
+        "y": -114.2454,
+        "normalized": {
+          "x": -0.596491456,
+          "y": -0.802619457,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 142.340683,
+        "sqrMagnitude": 20260.8711
+      }
+    ],
+    "Atlas": "SpriteOutput/MapPics/Minimap/Minimap_10102001/SectionAtlas/MinimapSection_10102001_Atlas.spriteatlas",
+    "Sections": [
+      {
+        "ID": 0,
+        "Sprite": "SpriteOutput/MapPics/Minimap/Minimap_10102001/SectionAtlas/MinimapSection_10102001_0.png",
+        "IsRect": true,
+        "Indices": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "UIPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "InitialHidden": false,
+        "Type": "Normal",
+        "Center": {
+          "x": -84.905,
+          "y": 114.2454,
+          "normalized": {
+            "x": -0.596491456,
+            "y": 0.802619457,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 142.340683,
+          "sqrMagnitude": 20260.8711
+        },
+        "GroupID": 0,
+        "PropID": 0
+      }
+    ],
+    "BackgroundMapSprite": "SpriteOutput/MapPics/Minimap/Minimap_10102001/Background.png",
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

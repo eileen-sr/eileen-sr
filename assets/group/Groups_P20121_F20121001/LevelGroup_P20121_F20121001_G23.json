@@ -1,0 +1,104 @@
+{
+  "GroupGUID": "0efc3905-5865-4073-b7fa-48ed3fa8ebe1",
+  "GroupName": "DayMission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20121_F20121001_G23",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 23,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 1
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 202212,
+      "Name": "Monster1",
+      "RotY": 90.17999,
+      "Comment": null,
+      "ID": 200001,
+      "PosX": -46.97,
+      "PosY": -1.110339,
+      "PosZ": -43.76,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -46.97,
+      "PosY": -1.110339,
+      "PosZ": -43.76,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": -40.74,
+      "PosY": -1.110339,
+      "PosZ": -43.78,
+      "IsDelete": false
+    },
+    {
+      "ID": 3,
+      "PosX": -40.72,
+      "PosY": -1.110339,
+      "PosZ": -37.81,
+      "IsDelete": false
+    },
+    {
+      "ID": 4,
+      "PosX": -46.47,
+      "PosY": -1.110339,
+      "PosZ": -37.81,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        2
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

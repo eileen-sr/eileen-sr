@@ -1,0 +1,116 @@
+{
+  "FloorID": 99999001,
+  "FloorName": "FloorName_99999001",
+  "SceneName": null,
+  "StartGroupID": 2,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "dc1fd437-10b3-4fff-b0dc-9908024b7bfa",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P99999_F99999001/LevelGroup_P99999_F99999001_G2.json",
+      "Name": "Group2",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "10efa69e-e371-4900-89ed-622e4eb40ce4",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P99999_F99999001/LevelGroup_P99999_F99999001_G3.json",
+      "Name": "mapdata",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "c912d0dc-6f0a-47d4-98f1-fee1e63227d1",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P99999_F99999001/LevelGroup_P99999_F99999001_G4.json",
+      "Name": "trigger",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "4bad7c1d-f1fa-4cc4-afd1-1587910bec52",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P99999_F99999001/LevelGroup_P99999_F99999001_G5.json",
+      "Name": "NPC",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 5,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "UnlockMainMissionGroupIDList": [],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_Maze_01.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M101_MainLine_01_StageData/Chap01_MAZ_M101_MainLine_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_99999001.asset",
+  "MinimapVolume": null,
+  "CameraType": "Maze",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": -18.14235,
+      "y": 17.77002,
+      "z": -114.9622,
+      "normalized": {
+        "x": -0.154096484,
+        "y": 0.150934011,
+        "z": -0.9764595,
+        "normalized": {
+          "x": -0.1540965,
+          "y": 0.150934026,
+          "z": -0.976459563,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.99999994
+      },
+      "magnitude": 117.7337,
+      "sqrMagnitude": 13861.2246
+    },
+    "Size": {
+      "x": 295.3605,
+      "y": 54.45174,
+      "z": 320.5264,
+      "normalized": {
+        "x": 0.672421038,
+        "y": 0.123965442,
+        "z": 0.729714,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 439.249359,
+      "sqrMagnitude": 192940.0
+    },
+    "Scale": 3.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": null,
+    "Atlas": null,
+    "Sections": null,
+    "BackgroundMapSprite": null,
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

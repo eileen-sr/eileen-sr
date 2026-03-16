@@ -1,0 +1,294 @@
+{
+  "GroupGUID": "14c30aca-a36e-4f73-a653-6edab24e2a39",
+  "GroupName": "ExploreMonster",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P20101_F20101001_G15",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 1010301,
+  "AnchorList": [],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 1001010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 15,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 1
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20101003,
+      "Name": "Monster1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 200001,
+      "PosX": -86.02,
+      "PosY": 15.6542,
+      "PosZ": -4.7,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1001010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 15,
+            "UseID": 2,
+            "Type": "Loop",
+            "StartAt": 3
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20101004,
+      "Name": "Monster2",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 200002,
+      "PosX": -63.0,
+      "PosY": 15.93196,
+      "PosZ": -19.56,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1001010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 15,
+            "UseID": 3,
+            "Type": "Loop",
+            "StartAt": 5
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20101005,
+      "Name": "Monster3",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 200003,
+      "PosX": -22.1,
+      "PosY": 18.89044,
+      "PosZ": -3.0,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1001010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [
+          {
+            "UseGroup": 15,
+            "UseID": 4,
+            "Type": "Loop",
+            "StartAt": 7
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 20101006,
+      "Name": "Monster4",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 200004,
+      "PosX": 13.4,
+      "PosY": 13.48753,
+      "PosZ": -32.53,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -95.88,
+      "PosY": 16.22736,
+      "PosZ": 9.69,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": -87.05,
+      "PosY": 16.1542,
+      "PosZ": -4.68,
+      "IsDelete": false
+    },
+    {
+      "ID": 3,
+      "PosX": -63.0,
+      "PosY": 15.93196,
+      "PosZ": -19.56,
+      "IsDelete": false
+    },
+    {
+      "ID": 4,
+      "PosX": -48.15,
+      "PosY": 15.56346,
+      "PosZ": -10.82,
+      "IsDelete": false
+    },
+    {
+      "ID": 5,
+      "PosX": -22.1,
+      "PosY": 18.89044,
+      "PosZ": -3.0,
+      "IsDelete": false
+    },
+    {
+      "ID": 6,
+      "PosX": -4.09,
+      "PosY": 19.17851,
+      "PosZ": -1.03,
+      "IsDelete": false
+    },
+    {
+      "ID": 7,
+      "PosX": 13.4,
+      "PosY": 13.48753,
+      "PosZ": -32.53,
+      "IsDelete": false
+    },
+    {
+      "ID": 8,
+      "PosX": 15.36,
+      "PosY": 15.77942,
+      "PosZ": -6.7,
+      "IsDelete": false
+    },
+    {
+      "ID": 9,
+      "PosX": -41.19,
+      "PosY": 16.04098,
+      "PosZ": 2.01,
+      "IsDelete": false
+    },
+    {
+      "ID": 10,
+      "PosX": -72.3,
+      "PosY": 15.80717,
+      "PosZ": 4.7,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2,
+        10
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        3,
+        4,
+        9,
+        4
+      ],
+      "Name": "Pathway2",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        5,
+        6
+      ],
+      "Name": "Pathway3",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        7,
+        8
+      ],
+      "Name": "Pathway4",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "GroupRefreshID": 1001,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

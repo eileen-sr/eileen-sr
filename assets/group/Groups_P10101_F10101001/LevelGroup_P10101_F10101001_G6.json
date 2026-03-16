@@ -1,0 +1,281 @@
+{
+  "GroupGUID": "1e155f69-3993-4415-9d5a-02f55e868e43",
+  "GroupName": "Mission",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P10101_F10101001_G6",
+  "SaveType": "Permanent",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "RotY": 154.7,
+      "Comment": null,
+      "ID": 1,
+      "PosX": -24.55,
+      "PosY": -5.09037,
+      "PosZ": 60.54,
+      "IsDelete": false
+    },
+    {
+      "Name": "Anchor2",
+      "RotY": 180.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 1.91,
+      "PosY": 0.233772,
+      "PosZ": 9.03,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "RotX": 0.0,
+      "RotZ": 0.0,
+      "PropID": 100,
+      "IsLimitedLife": false,
+      "LifeTime": 0.0,
+      "InitLevelGraph": null,
+      "Trigger": null,
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 0,
+      "State": "Closed",
+      "RecordID": 0,
+      "EventID": 0,
+      "AnchorGroupID": 0,
+      "AnchorID": 0,
+      "MapTeleportID": 0,
+      "ChestID": 0,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [
+        10001,
+        10004
+      ],
+      "OverrideTriggerHint": false,
+      "HintRange": 0.0,
+      "ServerInteractVerificationIDList": [],
+      "StageObjectCapture": null,
+      "Name": "Prop1",
+      "RotY": 317.25,
+      "Comment": null,
+      "ID": 300001,
+      "PosX": 0.412,
+      "PosY": -5.090385,
+      "PosZ": 51.723,
+      "IsDelete": false
+    }
+  ],
+  "WaypointList": [
+    {
+      "ID": 1,
+      "PosX": -21.42,
+      "PosY": -5.090439,
+      "PosZ": 54.78,
+      "IsDelete": false
+    },
+    {
+      "ID": 2,
+      "PosX": 2.21,
+      "PosY": -4.987709,
+      "PosZ": 34.43,
+      "IsDelete": false
+    },
+    {
+      "ID": 3,
+      "PosX": 2.2,
+      "PosY": 0.233772,
+      "PosZ": 8.91,
+      "IsDelete": false
+    },
+    {
+      "ID": 4,
+      "PosX": 2.99,
+      "PosY": 0.233772,
+      "PosZ": 5.47,
+      "IsDelete": false
+    },
+    {
+      "ID": 5,
+      "PosX": 3.910004,
+      "PosY": 0.009628,
+      "PosZ": -15.92999,
+      "IsDelete": false
+    },
+    {
+      "ID": 6,
+      "PosX": -10.56,
+      "PosY": -0.093048,
+      "PosZ": -39.46,
+      "IsDelete": false
+    }
+  ],
+  "PathwayList": [
+    {
+      "WaypointIDList": [
+        1,
+        2,
+        3
+      ],
+      "Name": "Pathway1",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "WaypointIDList": [
+        4,
+        5,
+        6
+      ],
+      "Name": "Pathway2",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 101045,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer.json",
+        "PathwayList": [
+          {
+            "UseGroup": 6,
+            "UseID": 1,
+            "Type": "Loop",
+            "StartAt": 1
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC1",
+      "RotY": 154.91,
+      "Comment": null,
+      "ID": 400001,
+      "PosX": -22.51,
+      "PosY": -5.095506,
+      "PosZ": 57.1,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 101046,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer.json",
+        "PathwayList": [
+          {
+            "UseGroup": 6,
+            "UseID": 2,
+            "Type": "Loop",
+            "StartAt": 1
+          }
+        ],
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC2",
+      "RotY": 180.0,
+      "Comment": null,
+      "ID": 400002,
+      "PosX": 2.83,
+      "PosY": 2E-05,
+      "PosZ": 7.5,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 101047,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_101020201.json",
+        "PathwayList": null,
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC3",
+      "RotY": 154.91,
+      "Comment": null,
+      "ID": 400003,
+      "PosX": -22.51,
+      "PosY": -5.095506,
+      "PosZ": 57.1,
+      "IsDelete": false
+    },
+    {
+      "NPCID": 101048,
+      "LevelGraph": null,
+      "CreateOnInitial": false,
+      "ValueSource": null,
+      "CampID": 0,
+      "Trigger": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_101020202.json",
+        "PathwayList": null,
+        "DefaultAIPathwayIndex": 0
+      },
+      "RecordID": 0,
+      "EventID": 0,
+      "Stable": false,
+      "DialogueTriggerAngle": 120,
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "DefaultIdleStateName": null,
+      "Name": "NPC4",
+      "RotY": 180.0,
+      "Comment": null,
+      "ID": 400004,
+      "PosX": 2.83,
+      "PosY": 2E-05,
+      "PosZ": 7.5,
+      "IsDelete": false
+    }
+  ],
+  "GroupRefreshID": 1,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}

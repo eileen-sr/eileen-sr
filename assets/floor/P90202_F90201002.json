@@ -1,0 +1,69 @@
+{
+  "FloorID": 90201002,
+  "FloorName": "FloorName_90201002",
+  "SceneName": null,
+  "StartGroupID": 1,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "5a5ac7c7-a438-4cc4-9de0-260a151510dd",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90202_F90201002/LevelGroup_P90202_F90201002_G1.json",
+      "Name": "DefaultData",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "2001dc9c-1196-4e3a-b19e-f8ed35aba6c3",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90202_F90201002/LevelGroup_P90202_F90201002_G3.json",
+      "Name": "Contents",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    1,
+    3
+  ],
+  "UnlockMainMissionGroupIDList": null,
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_Maze_01.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M902_Challenge_01_StageData/Chap01_MAZ_M902_Challenge_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_90201002.asset",
+  "MinimapVolume": null,
+  "CameraType": "Maze",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Size": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Scale": 0.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": null,
+    "Atlas": null,
+    "Sections": null,
+    "BackgroundMapSprite": null,
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

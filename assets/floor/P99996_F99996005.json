@@ -1,0 +1,56 @@
+{
+  "FloorID": 99996005,
+  "FloorName": "FloorName_99996005",
+  "SceneName": null,
+  "StartGroupID": 2,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "ad331754-e31e-44e5-92f3-e6a0b9a70755",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P99996_F99996005/LevelGroup_P99996_F99996005_G2.json",
+      "Name": "New Group",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    2
+  ],
+  "UnlockMainMissionGroupIDList": null,
+  "EnviroProfile": null,
+  "StageData": "Stages/Outputs/ChapterTA/Stages/ChapterTA_Stage_PerformanceTest400K/ChapterTA_Stage_PerformanceTest400K.stage",
+  "NavMesh": null,
+  "MinimapVolume": null,
+  "CameraType": "Base",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Size": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "Scale": 0.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": null,
+    "Atlas": null,
+    "Sections": null,
+    "BackgroundMapSprite": null,
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

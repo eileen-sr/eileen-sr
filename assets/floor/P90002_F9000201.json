@@ -1,0 +1,96 @@
+{
+  "FloorID": 9000201,
+  "FloorName": "FloorName_9000201",
+  "SceneName": null,
+  "StartGroupID": 2,
+  "StartAnchorID": 1,
+  "LevelGraph": null,
+  "GroupList": [
+    {
+      "GroupGUID": "886ba2ac-1ae2-4911-9a13-4d7db508cfca",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90002_F9000201/LevelGroup_P90002_F9000201_G2.json",
+      "Name": "New Group",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 2,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "93e73ada-2b6e-424b-9ce4-c8bb36d31997",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90002_F9000201/LevelGroup_P90002_F9000201_G3.json",
+      "Name": "LiftGroup",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 3,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    },
+    {
+      "GroupGUID": "9d80a802-f804-439b-964e-f2d9a6898ad4",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P90002_F9000201/LevelGroup_P90002_F9000201_G4.json",
+      "Name": "Door",
+      "RotY": 0.0,
+      "Comment": null,
+      "ID": 4,
+      "PosX": 0.0,
+      "PosY": 0.0,
+      "PosZ": 0.0,
+      "IsDelete": false
+    }
+  ],
+  "DefaultGroupIDList": [
+    2,
+    3,
+    4
+  ],
+  "UnlockMainMissionGroupIDList": [],
+  "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_Maze_01.enviroProfile.asset",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M201_MainLine_01_StageData/Chap01_MAZ_M201_MainLine_01_StageData.stage",
+  "NavMesh": "Level/NavMesh/NavMesh-Floor_9000201.asset",
+  "MinimapVolume": null,
+  "CameraType": "Base",
+  "MinimapVolumeData": {
+    "BackgroundMapSpriteInstance": null,
+    "Center": {
+      "x": -8.00695,
+      "y": 23.35259,
+      "z": 282.973,
+      "normalized": {
+        "x": -0.02818874,
+        "y": 0.08221359,
+        "z": 0.996216,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 284.047821,
+      "sqrMagnitude": 80683.1641
+    },
+    "Size": {
+      "x": 211.5037,
+      "y": 128.7455,
+      "z": 938.637,
+      "normalized": {
+        "x": 0.217877388,
+        "y": 0.132625267,
+        "z": 0.966923,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.00000012
+      },
+      "magnitude": 970.7464,
+      "sqrMagnitude": 942348.6
+    },
+    "Scale": 1.0,
+    "CompleteScale": 3.0,
+    "SectionVertices": null,
+    "Atlas": null,
+    "Sections": null,
+    "BackgroundMapSprite": null,
+    "CombineLayerAutomatic": false,
+    "Rotation": 0.0
+  }
+}

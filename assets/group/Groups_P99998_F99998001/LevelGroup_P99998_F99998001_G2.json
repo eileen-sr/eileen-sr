@@ -1,0 +1,637 @@
+{
+  "GroupGUID": "36afbc2c-c84b-4825-8ccb-795f4bc0fa56",
+  "GroupName": "DefaultData",
+  "ConfigPrefabPath": null,
+  "LevelGraph": null,
+  "Model": null,
+  "AreaAnchorName": "LevelArea_P99998_F99998001_G2",
+  "SaveType": "Temporary",
+  "CheckClearMainMissionID": 0,
+  "UnlockMainMissionID": 0,
+  "AnchorList": [
+    {
+      "Name": "PlayerStartPoint",
+      "RotY": 90.0,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 14.9,
+      "PosY": -9.89637,
+      "PosZ": -38.7,
+      "IsDelete": false
+    }
+  ],
+  "ModelList": [],
+  "MonsterList": [
+    {
+      "NPCMonsterID": 1001010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 61,
+      "Name": "Monster1",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200001,
+      "PosX": 31.3,
+      "PosY": -9.89637,
+      "PosZ": -15.0,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1001010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 62,
+      "Name": "Monster2",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200002,
+      "PosX": 31.3,
+      "PosY": -9.89637,
+      "PosZ": -32.94,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1003010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 63,
+      "Name": "Monster3",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200003,
+      "PosX": 31.3,
+      "PosY": -9.89637,
+      "PosZ": -51.8,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1003020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 64,
+      "Name": "Monster4",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200004,
+      "PosX": 31.3,
+      "PosY": -9.89637,
+      "PosZ": -71.9,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1004010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 65,
+      "Name": "Monster5",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200005,
+      "PosX": 52.4,
+      "PosY": -9.89637,
+      "PosZ": -71.9,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 9002050,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 66,
+      "Name": "Monster6",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200006,
+      "PosX": 52.4,
+      "PosY": -9.89637,
+      "PosZ": -51.5,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1012020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 67,
+      "Name": "Monster7",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200007,
+      "PosX": 52.4,
+      "PosY": -9.89637,
+      "PosZ": -33.1,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1013010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 68,
+      "Name": "Monster8",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200008,
+      "PosX": 52.4,
+      "PosY": -9.89637,
+      "PosZ": -14.9,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1013020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 69,
+      "Name": "Monster9",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200009,
+      "PosX": 52.4,
+      "PosY": -9.89637,
+      "PosZ": 9.8,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 70,
+      "Name": "Monster10",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200010,
+      "PosX": 52.4,
+      "PosY": -9.89637,
+      "PosZ": 29.4,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1022020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 71,
+      "Name": "Monster11",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200011,
+      "PosX": 87.6,
+      "PosY": -9.89637,
+      "PosZ": 29.4,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 8001010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_XP_Minion_Ice_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 72,
+      "Name": "Monster12",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200012,
+      "PosX": 87.6,
+      "PosY": -9.89637,
+      "PosZ": 10.7,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 8001020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_XP_Minion_Ice_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 73,
+      "Name": "Monster13",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200013,
+      "PosX": 87.6,
+      "PosY": -9.89637,
+      "PosZ": -12.7,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 8003010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 74,
+      "Name": "Monster14",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200014,
+      "PosX": 87.6,
+      "PosY": -9.89637,
+      "PosZ": -32.1,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 8003020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 75,
+      "Name": "Monster15",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200015,
+      "PosX": 87.6,
+      "PosY": -9.89637,
+      "PosZ": -50.9,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1023010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 76,
+      "Name": "Monster16",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200016,
+      "PosX": 87.6,
+      "PosY": -9.89637,
+      "PosZ": -72.0,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1002020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 77,
+      "Name": "Monster17",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200017,
+      "PosX": 87.6,
+      "PosY": -9.89637,
+      "PosZ": -90.3,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1012030,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_Soldier_Common_Patrol_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 78,
+      "Name": "Monster18",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200018,
+      "PosX": 87.6,
+      "PosY": -9.89637,
+      "PosZ": -112.3,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1004020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 79,
+      "Name": "Monster19",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200019,
+      "PosX": 108.4,
+      "PosY": -9.89637,
+      "PosZ": -112.5,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1023020,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 80,
+      "Name": "Monster20",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200020,
+      "PosX": 129.1,
+      "PosY": -9.89637,
+      "PosZ": -112.5,
+      "IsDelete": false
+    },
+    {
+      "NPCMonsterID": 1003010,
+      "LevelGraph": null,
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeMonster_LV3Common_idle_Loop.json",
+        "PathwayList": [],
+        "DefaultAIPathwayIndex": 0
+      },
+      "CreateOnInitial": true,
+      "ValueSource": null,
+      "CampID": 3,
+      "BattleArea": {
+        "GroupID": 2,
+        "ID": 1
+      },
+      "Trigger": null,
+      "InitialAnimState": "None",
+      "RecordID": 0,
+      "EventID": 81,
+      "Name": "Monster21",
+      "RotY": 270.0,
+      "Comment": null,
+      "ID": 200021,
+      "PosX": 129.1,
+      "PosY": -9.89637,
+      "PosZ": -84.1,
+      "IsDelete": false
+    }
+  ],
+  "PropList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [
+    {
+      "EnviroProfile": null,
+      "Tags": [
+        "BattleArea01"
+      ],
+      "Name": "BattleArea1",
+      "RotY": 45.25999,
+      "Comment": null,
+      "ID": 1,
+      "PosX": 1235.9,
+      "PosY": 0.0,
+      "PosZ": -1594.38,
+      "IsDelete": false
+    }
+  ],
+  "NPCList": [],
+  "GroupRefreshID": 0,
+  "RandomNPCMonsterList": null,
+  "InitialRandomNPCMonsterIDList": null
+}
