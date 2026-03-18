@@ -3,9 +3,9 @@ const log = std.log.scoped(.avatar);
 pub fn onFirstLogin(txn: Transaction, argument: notifies.Argument.FirstLogin) !void {
     _ = argument;
 
-    for (txn.assets.tables.avatar.rows) |row| {
+    for (txn.assets.tables.avatar.rows) |row| if (row.Release) {
         _ = try txn.modules.avatar.add(txn.gpa, .{ .avatar_id = row.AvatarID });
-    }
+    };
 
     saveAvatarList(txn.io, &txn.modules.avatar, txn.modules.login.uid) catch |err| {
         log.err("failed to save avatar list: {t}", .{err});
