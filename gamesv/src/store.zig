@@ -136,7 +136,7 @@ pub fn saveStruct(comptime S: type, io: Io, path: []const u8, s: *const S) SaveE
     defer file.close(io);
 
     var writer = file.writer(io, "");
-    writer.interface.writeAll(@ptrCast(&s)) catch return error.InputOutput;
+    writer.interface.writeAll(@ptrCast(s)) catch return error.InputOutput;
 }
 
 pub const SaveStructError = error{InputOutput};
