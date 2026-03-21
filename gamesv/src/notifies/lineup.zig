@@ -41,6 +41,14 @@ pub fn onLineupSlotsChanged(txn: Transaction, argument: notifies.Argument.Lineup
     };
 }
 
+pub fn onLineupNameChanged(txn: Transaction, argument: notifies.Argument.LineupNameChanged) !void {
+    _ = argument;
+
+    saveLineupList(txn.io, &txn.modules.lineup, txn.modules.login.uid) catch |err| {
+        log.err("failed to save lineup list: {t}", .{err});
+    };
+}
+
 fn saveLineupList(io: Io, module: *const Lineup, uid: modules.Login.Uid) !void {
     const old_cancel_protection = io.swapCancelProtection(.blocked);
     defer _ = io.swapCancelProtection(old_cancel_protection);

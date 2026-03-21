@@ -37,6 +37,21 @@ pub fn onGetCurLineupDataCsReq(txn: Transaction, request: pb.GetCurLineupDataCsR
     try txn.sendMessage(rsp);
 }
 
+pub fn onSetLineupNameCsReq(txn: Transaction, request: pb.SetLineupNameCsReq) !void {
+    try txn.modules.login.step.ensureExact(.finished);
+
+    txn.modules.lineup.list.items(.name)[request.index].set(request.name) catch {
+        return txn.sendError(pb.SetLineupNameScRsp, .RET_LINEUP_NAME_FORMAT_ERROR);
+    };
+
+    try txn.notify(.lineup_name_changed, .{});
+
+    try txn.sendMessage(pb.SetLineupNameScRsp{
+        .name = request.name,
+        .index = request.index,
+    });
+}
+
 pub fn onChangeLineupLeaderCsReq(txn: Transaction, request: pb.ChangeLineupLeaderCsReq) !void {
     try txn.modules.login.step.ensureExact(.finished);
 
