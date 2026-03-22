@@ -13,6 +13,7 @@ pub const Container = struct {
     avatar: Avatar,
     lineup: Lineup,
     inventory: Inventory,
+    scene: Scene,
 
     pub const init: Container = .{
         .login = .init,
@@ -20,6 +21,7 @@ pub const Container = struct {
         .avatar = .init,
         .lineup = .init,
         .inventory = .init,
+        .scene = .init,
     };
 
     pub fn deinit(container: *Container, gpa: Allocator) void {
@@ -38,6 +40,7 @@ pub const Player = @import("modules/Player.zig");
 pub const Avatar = @import("modules/Avatar.zig");
 pub const Lineup = @import("modules/Lineup.zig");
 pub const Inventory = @import("modules/Inventory.zig");
+pub const Scene = @import("modules/Scene.zig");
 
 const Allocator = std.mem.Allocator;
 const std = @import("std");

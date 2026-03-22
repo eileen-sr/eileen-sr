@@ -1,6 +1,15 @@
 const group_dir_path = "assets/group/";
 
+AnchorList: ?[]const AnchorDescription = null,
 PropList: ?[]const PropDescription = null,
+
+pub const AnchorDescription = struct {
+    ID: u32,
+    PosX: f32,
+    PosY: f32,
+    PosZ: f32,
+    RotY: f32,
+};
 
 pub const PropDescription = struct {
     ID: u32,

@@ -9,6 +9,7 @@ pub const Type = enum {
     lineup_slots_changed,
     avatar_modified,
     equipment_modified,
+    scene_changed,
 };
 
 pub const Argument = union(Type) {
@@ -28,11 +29,14 @@ pub const Argument = union(Type) {
         equipment_unique_id: u32,
     };
 
+    pub const SceneChanged = struct {};
+
     first_login: FirstLogin,
     lineup_leader_changed: LineupLeaderChanged,
     lineup_slots_changed: LineupSlotsChanged,
     avatar_modified: AvatarModified,
     equipment_modified: EquipmentModified,
+    scene_changed: SceneChanged,
 };
 
 // A subset of requests.Transaction.
@@ -71,6 +75,7 @@ const namespaces: []const type = &.{
     @import("notifies/avatar.zig"),
     @import("notifies/lineup.zig"),
     @import("notifies/inventory.zig"),
+    @import("notifies/scene.zig"),
 };
 
 const Allocator = std.mem.Allocator;

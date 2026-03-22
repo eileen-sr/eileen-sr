@@ -1,13 +1,18 @@
-const default_entry_id: u32 = 2012101;
-
 pub fn onGetCurSceneInfoCsReq(txn: Transaction, request: pb.GetCurSceneInfoCsReq) !void {
     _ = request;
     try txn.modules.login.step.ensureAtLeast(.waiting_key_packets);
 
-    const entry = txn.assets.tables.map_entry.map.get(@enumFromInt(default_entry_id)).?;
+    const entry_id = txn.modules.scene.entry_id;
+    const entry = txn.assets.tables.map_entry.map.get(@enumFromInt(entry_id)).?;
 
     try txn.sendMessage(pb.GetCurSceneInfoScRsp{
-        .scene = try packSceneInfo(txn.arena, txn.assets, entry),
+        .scene = try packSceneInfo(
+            txn.arena,
+            txn.assets,
+            entry,
+            txn.modules.scene.motion,
+            txn.modules.login.uid,
+        ),
     });
 
     if (txn.modules.login.step == .waiting_key_packets)
@@ -15,7 +20,7 @@ pub fn onGetCurSceneInfoCsReq(txn: Transaction, request: pb.GetCurSceneInfoCsReq
 
     std.log.scoped(.scene).info(
         "entering maze {d} (plane={d}, floor={d})",
-        .{ default_entry_id, entry.PlaneID, entry.FloorID },
+        .{ entry_id, entry.PlaneID, entry.FloorID },
     );
 }
 
@@ -34,13 +39,30 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
         return txn.sendError(pb.EnterMazeScRsp, .RET_FLOOR_ID_NOT_MATCH);
     }
 
+    if (Scene.getStartMotion(txn.assets, entry)) |motion| {
+        txn.modules.scene.entry_id = entry.EntryID.toInt();
+        txn.modules.scene.motion = motion;
+    }
+
+    if (txn.modules.scene.entry_id != entry.EntryID.toInt()) {
+        return txn.sendError(pb.EnterMazeScRsp, .RET_SCENE_ENTRY_ID_NOT_MATCH);
+    }
+
+    try txn.notify(.scene_changed, .{});
+
     try txn.sendMessage(pb.EnterMazeScRsp{
         .maze = .{
             .id = entry.PlaneID,
             .map_entry_id = entry.EntryID.toInt(),
             .floor = .{
                 .floor_id = entry.FloorID,
-                .scene = try packSceneInfo(txn.arena, txn.assets, entry),
+                .scene = try packSceneInfo(
+                    txn.arena,
+                    txn.assets,
+                    entry,
+                    txn.modules.scene.motion,
+                    txn.modules.login.uid,
+                ),
             },
         },
     });
@@ -51,12 +73,44 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
     );
 }
 
+pub fn onSceneEntityMoveCsReq(txn: Transaction, request: pb.SceneEntityMoveCsReq) !void {
+    try txn.modules.login.step.ensureAtLeast(.waiting_key_packets);
+
+    for (request.entity_motion_list.items) |item| if (item.entity_id == 0) if (item.motion) |motion| {
+        txn.modules.scene = .{
+            .entry_id = request.entry_id,
+            .motion = .{
+                .pos = .from(pb.Vector, motion.pos.?),
+                .rot = .from(pb.Vector, motion.rot.?),
+            },
+        };
+
+        try txn.notify(.scene_changed, .{});
+    };
+
+    try txn.sendMessage(pb.SceneEntityMoveScRsp{});
+}
+
 fn packSceneInfo(
     arena: Allocator,
     assets: *const Assets,
     entry: *const MapEntryRow,
+    motion: Scene.Motion,
+    uid: Login.Uid,
 ) Allocator.Error!pb.SceneInfo {
     var entity_list: std.ArrayList(pb.SceneEntityInfo) = .empty;
+
+    try entity_list.append(arena, .{
+        .motion = .{
+            .pos = motion.pos.to(pb.Vector),
+            .rot = motion.rot.to(pb.Vector),
+        },
+        .entity = .{
+            .actor = .{
+                .uid = uid.toInt(),
+            },
+        },
+    });
 
     for (assets.floor.map.get(entry.FloorID).?.GroupList) |group_desc| {
         const group = assets.group.map.get(.{
@@ -65,7 +119,7 @@ fn packSceneInfo(
         }).?;
 
         if (group.PropList) |prop_list| for (prop_list) |prop| if (prop.CreateOnInitial) {
-            const entity_id: u32 = @truncate(entity_list.items.len + 1);
+            const entity_id: u32 = @truncate(entity_list.items.len);
 
             try entity_list.append(arena, .{
                 .entity_id = entity_id,
@@ -198,6 +252,8 @@ pub fn onStartCocoonStageCsReq(txn: Transaction, request: pb.StartCocoonStageCsR
     });
 }
 
+const Login = modules.Login;
+const Scene = modules.Scene;
 const Lineup = modules.Lineup;
 const Allocator = std.mem.Allocator;
 const MapEntryRow = Assets.ExcelTables.MapEntryRow;

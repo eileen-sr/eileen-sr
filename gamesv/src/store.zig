@@ -5,6 +5,7 @@ pub const active_lineup_path = "store/player/{d}/active_lineup.bytes";
 pub const material_list_path = "store/player/{d}/material_list.bytes";
 pub const equipment_list_path = "store/player/{d}/equipment_list.bytes";
 pub const equipment_uid_path = "store/player/{d}/equipment_uid.bytes";
+pub const scene_module_path = "store/player/{d}/scene.bytes";
 
 pub fn loadModules(gpa: Allocator, io: Io, uid: Uid, container: *modules.Container) !void {
     var path_buf: [128]u8 = undefined;
@@ -14,6 +15,10 @@ pub fn loadModules(gpa: Allocator, io: Io, uid: Uid, container: *modules.Contain
 
     if (try readStruct(modules.Player, io, makePath(player_module_path, &path_buf, uid))) |player| {
         container.player = player;
+    }
+
+    if (try readStruct(modules.Scene, io, makePath(scene_module_path, &path_buf, uid))) |scene| {
+        container.scene = scene;
     }
 
     const avatar_list = try readMultiArray(
