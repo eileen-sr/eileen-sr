@@ -25,13 +25,12 @@ zig build run-dpsv &
 zig build run-gamesv
 ```
 #### Windows
-```bat
-# Assuming you have git and zig installed.
+```sh
+# Assuming you have git installed and are using powershell.
 git clone https://git.xeondev.com/eileen-sr/eileen-sr.git
 cd eileen-sr
-zig build run-dpsv -Doptimize=ReleaseSmall
-# Open another instance of cmd.exe in this directory, then run:
-zig build run-gamesv -Doptimize=ReleaseSmall
+./setup-env.ps1 # In case you don't have zig installed, `setup-env.ps1` can do this for you.
+Start-Process zig -ArgumentList "build run-dpsv -Doptimize=ReleaseSmall" -NoNewWindow; zig build run-gamesv -Doptimize=ReleaseSmall
 ```
 
 ### Logging in
