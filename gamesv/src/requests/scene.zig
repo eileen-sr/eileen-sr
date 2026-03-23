@@ -118,31 +118,102 @@ fn packSceneInfo(
             .group_id = group_desc.ID,
         }).?;
 
-        if (group.PropList) |prop_list| for (prop_list) |prop| if (prop.CreateOnInitial) {
-            const entity_id: u32 = @truncate(entity_list.items.len);
+        if (group.PropList) |prop_list| for (prop_list) |prop|
+            if (prop.CreateOnInitial)
+                if (assets.tables.prop.map.get(@enumFromInt(prop.PropID))) |prop_row| {
+                    const entity_id: u32 = @truncate(entity_list.items.len);
 
-            try entity_list.append(arena, .{
-                .entity_id = entity_id,
-                .motion = .{
-                    .pos = .{
-                        .x = @intFromFloat(prop.PosX * 1000),
-                        .y = @intFromFloat(prop.PosY * 1000),
-                        .z = @intFromFloat(prop.PosZ * 1000),
-                    },
-                    .rot = .{
-                        .x = @intFromFloat(prop.RotX * 1000),
-                        .y = @intFromFloat(prop.RotY * 1000),
-                        .z = @intFromFloat(prop.RotZ * 1000),
-                    },
-                },
-                .group_id = group_desc.ID,
-                .inst_id = prop.ID,
-                .entity = .{ .prop = .{
-                    .prop_id = prop.PropID,
-                    .prop_state = 1,
-                } },
-            });
-        };
+                    // We want all doors, gates and exits to be opened by default
+                    const is_door = std.mem.find(u8, prop_row.PrefabPath, "Door") != null or
+                        std.mem.find(u8, prop_row.InitLevelGraph, "Door") != null;
+                    const is_gate = std.mem.find(u8, prop_row.PrefabPath, "Gate") != null or
+                        std.mem.find(u8, prop_row.InitLevelGraph, "Gate") != null;
+                    const is_exit = if (prop.InitLevelGraph) |g| std.mem.find(u8, g, "_Exit.") != null else false;
+                    const is_area_block = if (prop.InitLevelGraph) |g| std.mem.find(u8, g, "_AreaBlock_") != null else false;
+
+                    const prop_state = if (!is_door and !is_gate and !is_exit and !is_area_block)
+                        if (prop.State) |s|
+                            s
+                        else if (prop_row.PropStateList.len > 0)
+                            prop_row.PropStateList[0]
+                        else
+                            .Open
+                    else
+                        .Open;
+
+                    try entity_list.append(arena, .{
+                        .entity_id = entity_id,
+                        .motion = .{
+                            .pos = .{
+                                .x = @intFromFloat(prop.PosX * 1000),
+                                .y = @intFromFloat(prop.PosY * 1000),
+                                .z = @intFromFloat(prop.PosZ * 1000),
+                            },
+                            .rot = .{
+                                .x = @intFromFloat(prop.RotX * 1000),
+                                .y = @intFromFloat(prop.RotY * 1000),
+                                .z = @intFromFloat(prop.RotZ * 1000),
+                            },
+                        },
+                        .group_id = group_desc.ID,
+                        .inst_id = prop.ID,
+                        .entity = .{ .prop = .{
+                            .prop_id = prop.PropID,
+                            .prop_state = @intFromEnum(prop_state),
+                        } },
+                    });
+                };
+
+        if (group.MonsterList) |monster_list| for (monster_list) |monster|
+            if (monster.CreateOnInitial)
+                if (assets.tables.monster.map.get(@enumFromInt(monster.NPCMonsterID)) != null) {
+                    const entity_id: u32 = @truncate(entity_list.items.len);
+
+                    try entity_list.append(arena, .{
+                        .entity_id = entity_id,
+                        .motion = .{
+                            .pos = .{
+                                .x = @intFromFloat(monster.PosX * 1000),
+                                .y = @intFromFloat(monster.PosY * 1000),
+                                .z = @intFromFloat(monster.PosZ * 1000),
+                            },
+                            .rot = .{
+                                .y = @intFromFloat(monster.RotY * 1000),
+                            },
+                        },
+                        .group_id = group_desc.ID,
+                        .inst_id = monster.ID,
+                        .entity = .{
+                            .npc_monster = .{
+                                .monster_id = monster.NPCMonsterID,
+                                .is_gen_monster = false,
+                            },
+                        },
+                    });
+                };
+
+        if (group.NPCList) |npc_list| for (npc_list) |npc|
+            if (npc.CreateOnInitial)
+                if (assets.tables.npc.map.get(@enumFromInt(npc.NPCID)) != null) {
+                    const entity_id: u32 = @truncate(entity_list.items.len);
+
+                    try entity_list.append(arena, .{
+                        .entity_id = entity_id,
+                        .motion = .{
+                            .pos = .{
+                                .x = @intFromFloat(npc.PosX * 1000),
+                                .y = @intFromFloat(npc.PosY * 1000),
+                                .z = @intFromFloat(npc.PosZ * 1000),
+                            },
+                            .rot = .{
+                                .y = @intFromFloat(npc.RotY * 1000),
+                            },
+                        },
+                        .group_id = group_desc.ID,
+                        .inst_id = npc.ID,
+                        .entity = .{ .npc = .{ .npc_id = npc.NPCID } },
+                    });
+                };
     }
 
     return .{

@@ -1,0 +1,4821 @@
+[
+  {
+    "MonsterID": 1001010,
+    "MonsterTemplateID": 1001010,
+    "MonsterName": { "hash": -98569355 },
+    "MonsterIntroduction": { "hash": -612052632 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100101001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1001011,
+    "MonsterTemplateID": 1001011,
+    "MonsterName": { "hash": -98569356 },
+    "MonsterIntroduction": { "hash": -612052633 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100101101],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1001020,
+    "MonsterTemplateID": 1001020,
+    "MonsterName": { "hash": 304715172 },
+    "MonsterIntroduction": { "hash": -1015337159 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100102001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1002011,
+    "MonsterTemplateID": 1002011,
+    "MonsterName": { "hash": 1729636611 },
+    "MonsterIntroduction": { "hash": -1035540136 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100201101],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1002012,
+    "MonsterTemplateID": 1002012,
+    "MonsterName": { "hash": 1729636614 },
+    "MonsterIntroduction": { "hash": -1035540133 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100201201],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1002020,
+    "MonsterTemplateID": 1002020,
+    "MonsterName": { "hash": 1326352085 },
+    "MonsterIntroduction": { "hash": -632255608 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100202001, 100202002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1003010,
+    "MonsterTemplateID": 1003010,
+    "MonsterName": { "hash": 183755647 },
+    "MonsterIntroduction": { "hash": -894377634 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100301001, 100301002, 100301003, 100301004],
+    "CustomValues": [
+      { "IBEOHHGAGPJ": "SummonID1", "BNHLMJGNADI": 1001010 },
+      { "IBEOHHGAGPJ": "SummonID2", "BNHLMJGNADI": 1001010 },
+      { "IBEOHHGAGPJ": "SummonID3", "BNHLMJGNADI": 1001020 }
+    ],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1003011,
+    "MonsterTemplateID": 1003011,
+    "MonsterName": { "hash": 183755646 },
+    "MonsterIntroduction": { "hash": -894377635 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100301101, 100301102, 100301103],
+    "CustomValues": [
+      { "IBEOHHGAGPJ": "SummonID1", "BNHLMJGNADI": 1001010 },
+      { "IBEOHHGAGPJ": "SummonID2", "BNHLMJGNADI": 1001010 },
+      { "IBEOHHGAGPJ": "SummonID3", "BNHLMJGNADI": 1001020 }
+    ],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1003020,
+    "MonsterTemplateID": 1003020,
+    "MonsterName": { "hash": -1382328294 },
+    "MonsterIntroduction": { "hash": 671706307 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      100302001, 100302002, 100302003, 100302004, 100302005
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1003021,
+    "MonsterTemplateID": 1003021,
+    "MonsterName": { "hash": -1382328295 },
+    "MonsterIntroduction": { "hash": 671706306 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      100302101, 100302102, 100302103, 100302104, 100302105
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1004010,
+    "MonsterTemplateID": 1004010,
+    "MonsterName": { "hash": 2011961614 },
+    "MonsterIntroduction": { "hash": -1317865137 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      100401001, 100401002, 100401003, 100401004, 100401005, 100401006
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 2576980380 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1004011,
+    "MonsterTemplateID": 1004011,
+    "MonsterName": { "hash": 2011961613 },
+    "MonsterIntroduction": { "hash": -1317865138 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100401101],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1004012,
+    "MonsterTemplateID": 1004012,
+    "MonsterName": { "hash": 2011961616 },
+    "MonsterIntroduction": { "hash": -1317865135 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100401201],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1004020,
+    "MonsterTemplateID": 1004020,
+    "MonsterName": { "hash": -716921741 },
+    "MonsterIntroduction": { "hash": 1411018218 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      100402001, 100402002, 100402003, 100402004, 100402005,
+      100402006, 100402007, 100402008, 100402009, 100402010
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Thunder", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1004021,
+    "MonsterTemplateID": 1004021,
+    "MonsterName": { "hash": -716921742 },
+    "MonsterIntroduction": { "hash": 1411018217 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100402101],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Wind", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1004030,
+    "MonsterTemplateID": 1004030,
+    "MonsterName": { "hash": 849162200 },
+    "MonsterIntroduction": { "hash": -155065723 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100403001, 100403002, 100403003, 100403004],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Imaginary"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1012010,
+    "MonsterTemplateID": 1012010,
+    "MonsterName": { "hash": 1729637635 },
+    "MonsterIntroduction": { "hash": -1035539112 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [101201001, 101201002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Thunder"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1012020,
+    "MonsterTemplateID": 1012020,
+    "MonsterName": { "hash": 1326353108 },
+    "MonsterIntroduction": { "hash": -632254585 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [101202001, 101202002, 101202003, 101202004],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Thunder", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1012021,
+    "MonsterTemplateID": 1012021,
+    "MonsterName": { "hash": 1326353109 },
+    "MonsterIntroduction": { "hash": -632254584 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [101202101, 101202102, 101202103, 101202104],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Thunder", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1012030,
+    "MonsterTemplateID": 1012030,
+    "MonsterName": { "hash": -1402530247 },
+    "MonsterIntroduction": { "hash": 2096628770 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [101203001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Wind", "Imaginary"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1013010,
+    "MonsterTemplateID": 1013010,
+    "MonsterName": { "hash": 183756670 },
+    "MonsterIntroduction": { "hash": -894376611 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      101301001, 101301002, 101301003, 101301004, 101301005, 101301009
+    ],
+    "CustomValues": [
+      {
+        "IBEOHHGAGPJ": "Monster_RO_015_SummonID",
+        "BNHLMJGNADI": 1012021
+      }
+    ],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": ["MonsterType_W1_Mecha2"],
+    "StanceWeakList": ["Ice", "Thunder"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1013020,
+    "MonsterTemplateID": 1013020,
+    "MonsterName": { "hash": -1382327271 },
+    "MonsterIntroduction": { "hash": 671707330 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [101302001, 101302002, 101302003],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": ["MonsterType_W1_Mecha2"],
+    "StanceWeakList": ["Wind", "Imaginary"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1022010,
+    "MonsterTemplateID": 1022010,
+    "MonsterName": { "hash": 1729638790 },
+    "MonsterIntroduction": { "hash": -1035537957 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [102201001, 102201002, 102201003],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1022020,
+    "MonsterTemplateID": 1022020,
+    "MonsterName": { "hash": 1326354263 },
+    "MonsterIntroduction": { "hash": -632253430 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [102202001, 102202002, 102202003],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_DOT_Burn",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1023010,
+    "MonsterTemplateID": 1023010,
+    "MonsterName": { "hash": 183757825 },
+    "MonsterIntroduction": { "hash": -894375456 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      102301001, 102301002, 102301003, 102301004, 102301005
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_DOT_Burn",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": ["MonsterType_W1_Mecha2"],
+    "StanceWeakList": ["Ice", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1023020,
+    "MonsterTemplateID": 1023020,
+    "MonsterName": { "hash": -1382326116 },
+    "MonsterIntroduction": { "hash": 671708485 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      102302001, 102302002, 102302003, 102302004, 102302005,
+      102302006, 102302007, 102302008
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Imaginary"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1023021,
+    "MonsterTemplateID": 1023021,
+    "MonsterName": { "hash": -1382326117 },
+    "MonsterIntroduction": { "hash": 671708484 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      102302101, 102302102, 102302103, 102302104, 102302105
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": ["MonsterType_W1_Mecha2"],
+    "StanceWeakList": ["Ice", "Imaginary"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 1023030,
+    "MonsterTemplateID": 1023030,
+    "MonsterName": { "hash": 1346557239 },
+    "MonsterIntroduction": { "hash": -2057174870 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      102303001, 102303002, 102303003, 102303004, 102303005,
+      102303006, 102303007, 102303008
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Thunder"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 8001010,
+    "MonsterTemplateID": 8001010,
+    "MonsterName": { "hash": -98248036 },
+    "MonsterIntroduction": { "hash": -612306305 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [800101001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_DOT_Burn",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": ["", "LockTarget"],
+    "StanceWeakList": ["Physical", "Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 8001020,
+    "MonsterTemplateID": 8001020,
+    "MonsterName": { "hash": 305036491 },
+    "MonsterIntroduction": { "hash": -1015590832 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [800102001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 8003010,
+    "MonsterTemplateID": 8003010,
+    "MonsterName": { "hash": 184076966 },
+    "MonsterIntroduction": { "hash": -894631307 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [800301001, 800301002, 800301003],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 8003011,
+    "MonsterTemplateID": 8003011,
+    "MonsterName": { "hash": 184076967 },
+    "MonsterIntroduction": { "hash": -894631306 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [800301101, 800301102, 800301103],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 8003020,
+    "MonsterTemplateID": 8003020,
+    "MonsterName": { "hash": -1382006975 },
+    "MonsterIntroduction": { "hash": 671452634 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [800302001, 800302002, 800302003, 800302004],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_DOT_Burn",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice", "Imaginary"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9001010,
+    "MonsterTemplateID": 9001010,
+    "MonsterName": { "hash": -98281859 },
+    "MonsterIntroduction": { "hash": -612340128 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900101001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": [],
+    "DamageTypeResistance": [],
+    "Release": false
+  },
+  {
+    "MonsterID": 9001021,
+    "MonsterTemplateID": 9001021,
+    "MonsterName": { "hash": 305002667 },
+    "MonsterIntroduction": { "hash": -1015624656 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900102101],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9001030,
+    "MonsterTemplateID": 9001030,
+    "MonsterName": { "hash": -1261081273 },
+    "MonsterIntroduction": { "hash": 550459286 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900103001, 900103002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Thunder"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9001040,
+    "MonsterTemplateID": 9001040,
+    "MonsterName": { "hash": -857796746 },
+    "MonsterIntroduction": { "hash": 147174759 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900104001, 900104002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9001050,
+    "MonsterTemplateID": 9001050,
+    "MonsterName": { "hash": 1871086609 },
+    "MonsterIntroduction": { "hash": 1713258700 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900105001, 900105002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Imaginary"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9001060,
+    "MonsterTemplateID": 9001060,
+    "MonsterName": { "hash": -2020596160 },
+    "MonsterIntroduction": { "hash": 1309974173 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900106001, 900106002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002010,
+    "MonsterTemplateID": 9002010,
+    "MonsterName": { "hash": 1729924108 },
+    "MonsterIntroduction": { "hash": -1035827631 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900201001, 900201002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002021,
+    "MonsterTemplateID": 9002021,
+    "MonsterName": { "hash": 1326639580 },
+    "MonsterIntroduction": { "hash": -632543105 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      900202101, 900202102, 900202103, 900202104, 900202105
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": ["MonsterType_W1_Mecha2"],
+    "StanceWeakList": ["Ice", "Imaginary"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002030,
+    "MonsterTemplateID": 9002030,
+    "MonsterName": { "hash": -1402243774 },
+    "MonsterIntroduction": { "hash": 2096340251 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900203001, 900203002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002040,
+    "MonsterTemplateID": 9002040,
+    "MonsterName": { "hash": 2133208635 },
+    "MonsterIntroduction": { "hash": -1439112158 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900204001, 900204002, 900204003],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002050,
+    "MonsterTemplateID": 9002050,
+    "MonsterName": { "hash": -595674720 },
+    "MonsterIntroduction": { "hash": 1289771197 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900205001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002060,
+    "MonsterTemplateID": 9002060,
+    "MonsterName": { "hash": -998959247 },
+    "MonsterIntroduction": { "hash": 1693055724 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900206001, 900206002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002070,
+    "MonsterTemplateID": 9002070,
+    "MonsterName": { "hash": 567124694 },
+    "MonsterIntroduction": { "hash": 126971783 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900207001, 900207002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002080,
+    "MonsterTemplateID": 9002080,
+    "MonsterName": { "hash": -192390193 },
+    "MonsterIntroduction": { "hash": 886486670 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900208001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002090,
+    "MonsterTemplateID": 9002090,
+    "MonsterName": { "hash": 1373693748 },
+    "MonsterIntroduction": { "hash": -679597271 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900209001, 900209002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002100,
+    "MonsterTemplateID": 9002100,
+    "MonsterName": { "hash": 163840198 },
+    "MonsterIntroduction": { "hash": 530256341 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900210001, 900210002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002110,
+    "MonsterTemplateID": 9002110,
+    "MonsterName": { "hash": 1729924139 },
+    "MonsterIntroduction": { "hash": -1035827600 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900211001, 900211002, 900211003],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9002120,
+    "MonsterTemplateID": 9002120,
+    "MonsterName": { "hash": 1326639612 },
+    "MonsterIntroduction": { "hash": -632543073 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900212001, 900212002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9003010,
+    "MonsterTemplateID": 9003010,
+    "MonsterName": { "hash": 184043143 },
+    "MonsterIntroduction": { "hash": -894665130 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      900301001, 900301002, 900301003, 900301004, 900301005
+    ],
+    "CustomValues": [
+      { "IBEOHHGAGPJ": "SummonID1", "BNHLMJGNADI": 1001010 },
+      { "IBEOHHGAGPJ": "SummonID2", "BNHLMJGNADI": 1001010 },
+      { "IBEOHHGAGPJ": "SummonID3", "BNHLMJGNADI": 1001020 }
+    ],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9003020,
+    "MonsterTemplateID": 9003020,
+    "MonsterName": { "hash": -1382040798 },
+    "MonsterIntroduction": { "hash": 671418811 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900302001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 2576980380 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9003030,
+    "MonsterTemplateID": 9003030,
+    "MonsterName": { "hash": 1346842557 },
+    "MonsterIntroduction": { "hash": -2057464544 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      900303001, 900303002, 900303003, 900303004, 900303005,
+      900303006, 900303007, 900303008
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Thunder"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9003031,
+    "MonsterTemplateID": 9003031,
+    "MonsterName": { "hash": 1346842556 },
+    "MonsterIntroduction": { "hash": -2057464545 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [],
+    "CustomValues": [
+      { "IBEOHHGAGPJ": "SummonID1", "BNHLMJGNADI": 100101001 },
+      { "IBEOHHGAGPJ": "SummonID2", "BNHLMJGNADI": 102201002 },
+      { "IBEOHHGAGPJ": "SummonID3", "BNHLMJGNADI": 1022010 }
+    ],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Wind", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9003050,
+    "MonsterTemplateID": 9003050,
+    "MonsterName": { "hash": -2141555685 },
+    "MonsterIntroduction": { "hash": 1430933698 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900305001, 900305002, 900305003],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 2147483650 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 2147483650 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9003060,
+    "MonsterTemplateID": 9003060,
+    "MonsterName": { "hash": 587327670 },
+    "MonsterIntroduction": { "hash": -1297949657 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900306001, 900306002, 900306003, 0, 0],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9003070,
+    "MonsterTemplateID": 9003070,
+    "MonsterName": { "hash": -978756271 },
+    "MonsterIntroduction": { "hash": 268134284 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900307001, 900307002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9003080,
+    "MonsterTemplateID": 9003080,
+    "MonsterName": { "hash": 1393896724 },
+    "MonsterIntroduction": { "hash": -2104518711 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900308001, 900308002, 900308003, 900308004],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9003110,
+    "MonsterTemplateID": 9003110,
+    "MonsterName": { "hash": 184043174 },
+    "MonsterIntroduction": { "hash": -894665099 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      900311001, 900311002, 900311003, 900311004, 900311005
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 2576980380 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9004010,
+    "MonsterTemplateID": 9004010,
+    "MonsterName": { "hash": 2012249110 },
+    "MonsterIntroduction": { "hash": -1318152633 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      900401001, 900401002, 900401003, 900401004, 900401005,
+      900401006, 900401007
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9004011,
+    "MonsterTemplateID": 9004011,
+    "MonsterName": { "hash": 2012249109 },
+    "MonsterIntroduction": { "hash": -1318152634 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      900401101, 900401102, 900401103, 900401104, 900401105,
+      900401106, 900401107
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9004012,
+    "MonsterTemplateID": 9004012,
+    "MonsterName": { "hash": 2012249112 },
+    "MonsterIntroduction": { "hash": -1318152631 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900401201, 900401202, 900401203, 900401204],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9004020,
+    "MonsterTemplateID": 9004020,
+    "MonsterName": { "hash": -716634245 },
+    "MonsterIntroduction": { "hash": 1410730722 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      900402001, 900402002, 900402003, 900402004, 900402005,
+      900402006, 900402007, 900402008, 900402009, 900402010
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice", "Thunder"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9004021,
+    "MonsterTemplateID": 9004021,
+    "MonsterName": { "hash": -716634246 },
+    "MonsterIntroduction": { "hash": 1410730721 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "LittleBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice", "Thunder"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9005010,
+    "MonsterTemplateID": 9005010,
+    "MonsterName": { "hash": 466368145 },
+    "MonsterIntroduction": { "hash": -1176990132 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "BigBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      900501001, 900501002, 900501003, 900501004, 900501005,
+      900501006, 900501007, 900501008
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 3435973840 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9005011,
+    "MonsterTemplateID": 9005011,
+    "MonsterName": { "hash": 466368144 },
+    "MonsterIntroduction": { "hash": -1176990133 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "BigBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900501101],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Stun",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      },
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 3435973840 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 9905010,
+    "MonsterTemplateID": 9905010,
+    "MonsterName": { "hash": 1847335390 },
+    "MonsterIntroduction": { "hash": 1737009919 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "BigBoss",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [990501001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": [],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 100101001,
+    "MonsterTemplateID": 1001010,
+    "MonsterName": { "hash": -98569355 },
+    "MonsterIntroduction": { "hash": -860282585 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 128849018880 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100101001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Wind", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 100101002,
+    "MonsterTemplateID": 1001010,
+    "MonsterName": { "hash": -98569355 },
+    "MonsterIntroduction": { "hash": -860282582 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 2147483650 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 1503238555 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100101001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 100101003,
+    "MonsterTemplateID": 1001010,
+    "MonsterName": { "hash": -951188703 },
+    "MonsterIntroduction": { "hash": -860282583 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100101001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 100102001,
+    "MonsterTemplateID": 1001020,
+    "MonsterName": { "hash": 304715172 },
+    "MonsterIntroduction": { "hash": 1566072792 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100102001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 100102002,
+    "MonsterTemplateID": 1001020,
+    "MonsterName": { "hash": 304715172 },
+    "MonsterIntroduction": { "hash": 1566072795 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100102001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 100102003,
+    "MonsterTemplateID": 1001020,
+    "MonsterName": { "hash": 304715172 },
+    "MonsterIntroduction": { "hash": 1566072794 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 2147483650 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 1503238555 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100102001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": ["", "LockTarget"],
+    "StanceWeakList": ["Ice", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 100301101,
+    "MonsterTemplateID": 1003011,
+    "MonsterName": { "hash": 183755646 },
+    "MonsterIntroduction": { "hash": -1587073026 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [100201201],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 100302001,
+    "MonsterTemplateID": 1003020,
+    "MonsterName": { "hash": -1382328294 },
+    "MonsterIntroduction": { "hash": 1403932322 },
+    "MonsterType": 0,
+    "Level": 25,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [
+      100302001, 100302002, 100302003, 100302004, 100302005
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 101202101,
+    "MonsterTemplateID": 1012021,
+    "MonsterName": { "hash": 1326353109 },
+    "MonsterIntroduction": { "hash": 1322895879 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [101202101, 101202102, 101202103, 101202104],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Thunder", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 101301001,
+    "MonsterTemplateID": 1013010,
+    "MonsterName": { "hash": 183756670 },
+    "MonsterIntroduction": { "hash": -1587039234 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Elite",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 10737418242 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 2319282339840 },
+    "SkillList": [
+      101301001, 101301002, 101301003, 101301004, 101301005, 101301009
+    ],
+    "CustomValues": [
+      {
+        "IBEOHHGAGPJ": "Monster_RO_015_SummonID",
+        "BNHLMJGNADI": 1012021
+      }
+    ],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": ["MonsterType_W1_Mecha2"],
+    "StanceWeakList": ["Ice", "Thunder"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 102201001,
+    "MonsterTemplateID": 1022010,
+    "MonsterName": { "hash": 1729638790 },
+    "MonsterIntroduction": { "hash": -1950396422 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [102201001, 102201002, 102201003],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 102201002,
+    "MonsterTemplateID": 1022010,
+    "MonsterName": { "hash": 1729638790 },
+    "MonsterIntroduction": { "hash": -1950396423 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 5368709121 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 25769803776 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 85899345920 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [102201001, 102201002, 102201003],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Wind", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 102202001,
+    "MonsterTemplateID": 1022020,
+    "MonsterName": { "hash": 1326354263 },
+    "MonsterIntroduction": { "hash": 1322933961 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [102202001, 102202002, 102202003],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_DOT_Burn",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 800101001,
+    "MonsterTemplateID": 8001010,
+    "MonsterName": { "hash": -98248036 },
+    "MonsterIntroduction": { "hash": -868653792 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [800101001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_DOT_Burn",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Ice"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 800102001,
+    "MonsterTemplateID": 8001020,
+    "MonsterName": { "hash": 305036491 },
+    "MonsterIntroduction": { "hash": 1557701585 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [800102001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 800102002,
+    "MonsterTemplateID": 8001020,
+    "MonsterName": { "hash": 305036491 },
+    "MonsterIntroduction": { "hash": 1557701586 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 107374182400 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [800102001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [
+      {
+        "IBEOHHGAGPJ": "STAT_CTRL_Frozen",
+        "BNHLMJGNADI": { "RawValue": 4294967296 }
+      }
+    ],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Fire", "Wind"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 1717986920 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 900101001,
+    "MonsterTemplateID": 9001010,
+    "MonsterName": { "hash": -98281859 },
+    "MonsterIntroduction": { "hash": -869769953 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 10737418242 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 25769803776 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 429496729600 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900101001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Ice", "Quantum"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Physical",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Fire",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  },
+  {
+    "MonsterID": 900101002,
+    "MonsterTemplateID": 9001010,
+    "MonsterName": { "hash": -98281859 },
+    "MonsterIntroduction": { "hash": -869769950 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 42949673 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296000 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900101001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": [],
+    "DamageTypeResistance": [],
+    "Release": false
+  },
+  {
+    "MonsterID": 900101003,
+    "MonsterTemplateID": 9001010,
+    "MonsterName": { "hash": -98281859 },
+    "MonsterIntroduction": { "hash": -869769951 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "Minion",
+    "AttackModifyRatio": { "RawValue": 2863312967 },
+    "DefenceModifyRatio": { "RawValue": 0 },
+    "HPModifyRatio": { "RawValue": 51539607552 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900101001],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": [],
+    "DamageTypeResistance": [],
+    "Release": false
+  },
+  {
+    "MonsterID": 900201001,
+    "MonsterTemplateID": 9002010,
+    "MonsterName": { "hash": 1729924108 },
+    "MonsterIntroduction": { "hash": -1959955664 },
+    "MonsterType": 0,
+    "Level": 0,
+    "HardLevelGroup": 1,
+    "EliteGroup": 1,
+    "Rank": "MinionLv2",
+    "AttackModifyRatio": { "RawValue": 4294967296 },
+    "DefenceModifyRatio": { "RawValue": 4294967296 },
+    "HPModifyRatio": { "RawValue": 4294967296 },
+    "SpeedModifyRatio": { "RawValue": 4294967296 },
+    "StanceModifyRatio": { "RawValue": 4294967296 },
+    "AttackModifyValue": { "RawValue": 0 },
+    "DefenceModifyValue": { "RawValue": 0 },
+    "HPModifyValue": { "RawValue": 0 },
+    "SpeedModifyValue": { "RawValue": 0 },
+    "StanceModifyValue": { "RawValue": 0 },
+    "SkillList": [900201001, 900201002],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "DebuffResist": [],
+    "StanceCountDelta": 0,
+    "CustomValueTags": [],
+    "StanceWeakList": ["Physical", "Fire"],
+    "DamageTypeResistance": [
+      {
+        "LDIGCDHLBGE": "Ice",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Thunder",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Wind",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Quantum",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      },
+      {
+        "LDIGCDHLBGE": "Imaginary",
+        "BNHLMJGNADI": { "RawValue": 858993460 }
+      }
+    ],
+    "Release": false
+  }
+]

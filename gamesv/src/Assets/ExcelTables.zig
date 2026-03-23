@@ -11,6 +11,9 @@ item: Table("ItemExcelTable.json", ItemRow, "ItemID"),
 stage: Table("StageExcelTable.json", StageRow, "StageID"),
 cocoon: Table("CocoonExcelTable.json", CocoonRow, "CocoonID"),
 map_entry: Table("MapEntryExcelTable.json", MapEntryRow, "EntryID"),
+monster: Table("MonsterExcelTable.json", MonsterRow, "MonsterID"),
+prop: Table("PropExcelTable.json", PropRow, "PropID"),
+npc: Table("NPCDataExcelTable.json", NpcRow, "NPCID"),
 
 pub fn load(gpa: Allocator, io: Io) LoadError!ExcelTables {
     var results: blk: {
@@ -115,6 +118,9 @@ pub const ItemRow = @import("ExcelTables/ItemRow.zig");
 pub const StageRow = @import("ExcelTables/StageRow.zig");
 pub const CocoonRow = @import("ExcelTables/CocoonRow.zig");
 pub const MapEntryRow = @import("ExcelTables/MapEntryRow.zig");
+pub const MonsterRow = @import("ExcelTables/MonsterRow.zig");
+pub const PropRow = @import("ExcelTables/PropRow.zig");
+pub const NpcRow = @import("ExcelTables/NpcRow.zig");
 
 const json = std.json;
 

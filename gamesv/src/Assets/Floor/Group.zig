@@ -1,7 +1,9 @@
 const group_dir_path = "assets/group/";
 
 AnchorList: ?[]const AnchorDescription = null,
+MonsterList: ?[]const MonsterDescription = null,
 PropList: ?[]const PropDescription = null,
+NPCList: ?[]const NpcDescription = null,
 
 pub const AnchorDescription = struct {
     ID: u32,
@@ -11,15 +13,38 @@ pub const AnchorDescription = struct {
     RotY: f32,
 };
 
-pub const PropDescription = struct {
+pub const MonsterDescription = struct {
     ID: u32,
     CreateOnInitial: bool,
+    NPCMonsterID: u32,
+    PosX: f32,
+    PosZ: f32,
+    PosY: f32,
+    RotY: f32,
+};
+
+pub const PropDescription = struct {
+    ID: u32,
+    InitLevelGraph: ?[]const u8,
+    State: ?@import("../ExcelTables/PropRow.zig").State,
+    CreateOnInitial: bool,
     PropID: u32,
+    AnchorID: u32,
     PosX: f32,
     PosZ: f32,
     PosY: f32,
     RotX: f32,
     RotZ: f32,
+    RotY: f32,
+};
+
+pub const NpcDescription = struct {
+    ID: u32,
+    NPCID: u32,
+    CreateOnInitial: bool,
+    PosX: f32,
+    PosZ: f32,
+    PosY: f32,
     RotY: f32,
 };
 
