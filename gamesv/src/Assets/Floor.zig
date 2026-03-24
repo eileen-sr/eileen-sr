@@ -7,6 +7,7 @@ StartAnchorID: u32,
 GroupList: []const GroupDescription,
 DefaultGroupIDList: []const u32,
 PlaneID: u32 = 0, // set by loader.
+MinimapVolumeData: MinimapVolumeDescription,
 
 pub const GroupDescription = struct {
     ID: u32,
@@ -16,6 +17,8 @@ pub const GroupDescription = struct {
     PosZ: f32,
     IsDelete: bool,
 };
+
+pub const MinimapVolumeDescription = struct { Sections: ?[]const struct { ID: u32 } };
 
 pub const LoadError = Io.Cancelable || Allocator.Error || error{
     JsonParseFailed,

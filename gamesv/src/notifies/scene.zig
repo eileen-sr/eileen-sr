@@ -9,7 +9,7 @@ pub fn onFirstLogin(txn: Transaction, argument: notifies.Argument.FirstLogin) !v
 
     txn.modules.scene = .{
         .entry_id = default_entry_id,
-        .motion = Scene.getStartMotion(txn.assets, entry).?,
+        .motion = Scene.getStartMotion(txn.assets, entry.FloorID).?,
     };
 
     saveScene(txn.io, &txn.modules.scene, txn.modules.login.uid) catch |err| {

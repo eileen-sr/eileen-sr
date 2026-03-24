@@ -29,12 +29,12 @@ pub fn Vector(comptime T: type) type {
 
 pub fn getStartMotion(
     assets: *const Assets,
-    entry: *const MapEntryRow,
+    floor_id: u32,
 ) ?Motion {
-    const floor = assets.floor.map.get(entry.FloorID).?;
+    const floor = assets.floor.map.get(floor_id).?;
 
     const group = assets.group.map.get(.{
-        .floor_id = entry.FloorID,
+        .floor_id = floor_id,
         .group_id = floor.StartGroupID,
     }).?;
 

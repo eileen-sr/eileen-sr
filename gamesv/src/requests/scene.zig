@@ -25,7 +25,11 @@ pub fn onGetCurSceneInfoCsReq(txn: Transaction, request: pb.GetCurSceneInfoCsReq
 }
 
 pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
+    const log = std.log.scoped(.enter_maze);
+
     try txn.modules.login.step.ensureExact(.finished);
+
+    log.debug("floor_id: {}, group_id: {}, config_id: {}", .{ request.floor_id, request.group_id, request.config_id });
 
     const entry = txn.assets.tables.map_entry.map.get(@enumFromInt(request.entry_id)) orelse {
         return txn.sendError(pb.EnterMazeScRsp, .RET_MAZE_MAP_NOT_EXIST);
@@ -39,7 +43,27 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
         return txn.sendError(pb.EnterMazeScRsp, .RET_FLOOR_ID_NOT_MATCH);
     }
 
-    if (Scene.getStartMotion(txn.assets, entry)) |motion| {
+    if (txn.assets.group.map.get(.{ .floor_id = entry.FloorID, .group_id = request.group_id })) |anchor_group| {
+        for (anchor_group.PropList.?) |prop| if (prop.ID == request.config_id) {
+            for (anchor_group.AnchorList.?) |anchor| if (anchor.ID == prop.AnchorID) {
+                txn.modules.scene.entry_id = entry.EntryID.toInt();
+                txn.modules.scene.motion = .{
+                    .pos = .{
+                        .x = @intFromFloat(anchor.PosX * 1000),
+                        .y = @intFromFloat(anchor.PosY * 1000),
+                        .z = @intFromFloat(anchor.PosZ * 1000),
+                    },
+                    .rot = .{
+                        .y = @intFromFloat(anchor.RotY * 1000),
+                    },
+                };
+
+                break;
+            };
+
+            break;
+        };
+    } else if (Scene.getStartMotion(txn.assets, entry.FloorID)) |motion| {
         txn.modules.scene.entry_id = entry.EntryID.toInt();
         txn.modules.scene.motion = motion;
     }
@@ -112,7 +136,9 @@ fn packSceneInfo(
         },
     });
 
-    for (assets.floor.map.get(entry.FloorID).?.GroupList) |group_desc| {
+    const floor = assets.floor.map.get(entry.FloorID).?;
+
+    for (floor.GroupList) |group_desc| {
         const group = assets.group.map.get(.{
             .floor_id = entry.FloorID,
             .group_id = group_desc.ID,
@@ -131,15 +157,20 @@ fn packSceneInfo(
                     const is_exit = if (prop.InitLevelGraph) |g| std.mem.find(u8, g, "_Exit.") != null else false;
                     const is_area_block = if (prop.InitLevelGraph) |g| std.mem.find(u8, g, "_AreaBlock_") != null else false;
 
-                    const prop_state = if (!is_door and !is_gate and !is_exit and !is_area_block)
-                        if (prop.State) |s|
-                            s
-                        else if (prop_row.PropStateList.len > 0)
-                            prop_row.PropStateList[0]
+                    const prop_state: Assets.ExcelTables.PropRow.State =
+                        if (!is_door and !is_gate and !is_exit and !is_area_block)
+                            // TODO: After fixing `SpringTransferCsReq`
+                            // if (prop_row.PropType == .PROP_SPRING)
+                            //     .CheckPointEnable
+                            if (prop_row.PropType == .PROP_SPRING)
+                                if (prop.AnchorID != floor.StartAnchorID)
+                                    .CheckPointDisable
+                                else
+                                    .CheckPointEnable
+                            else
+                                prop.State
                         else
-                            .Open
-                    else
-                        .Open;
+                            .Open;
 
                     try entity_list.append(arena, .{
                         .entity_id = entity_id,
@@ -216,11 +247,20 @@ fn packSceneInfo(
                 };
     }
 
+    var lighten_section_list: std.ArrayList(u32) = .empty;
+
+    if (floor.MinimapVolumeData.Sections) |sections| {
+        for (sections) |section| {
+            try lighten_section_list.append(arena, section.ID);
+        }
+    }
+
     return .{
         .entry_id = entry.EntryID.toInt(),
         .plane_id = entry.PlaneID,
         .floor_id = entry.FloorID,
         .entity_list = entity_list,
+        .lighten_section_list = lighten_section_list,
     };
 }
 
@@ -323,6 +363,82 @@ pub fn onStartCocoonStageCsReq(txn: Transaction, request: pb.StartCocoonStageCsR
     });
 }
 
+pub fn onSpringTransferCsReq(txn: Transaction, request: pb.SpringTransferCsReq) !void {
+    const log = std.log.scoped(.spring_transfer);
+
+    try txn.modules.login.step.ensureExact(.finished);
+
+    const floor = txn.assets.floor.map.get(request.floor_id) orelse {
+        log.err("floor with id {} not found", .{request.floor_id});
+        return txn.sendError(pb.SpringTransferScRsp, .RET_MAZE_NO_FLOOR);
+    };
+
+    log.debug("floor_id: {}, plane_id: {}, prop_entity_id: {}, start_anchor_id: {}", .{
+        request.floor_id,
+        request.plane_id,
+        request.prop_entity_id,
+        floor.StartAnchorID,
+    });
+
+    // TODO: Find prop from scene entities and find the anchor id
+    if (Scene.getStartMotion(txn.assets, floor.FloorID)) |motion| {
+        txn.modules.scene.motion = motion;
+
+        try txn.notify(.scene_changed, .{});
+
+        try txn.sendMessage(pb.SceneEntityMoveScNotify{
+            .entity_id = 0,
+            .motion = .{
+                .pos = txn.modules.scene.motion.pos.to(pb.Vector),
+                .rot = txn.modules.scene.motion.rot.to(pb.Vector),
+            },
+        });
+    }
+
+    try txn.sendMessage(pb.SpringTransferScRsp.init);
+}
+
+// TODO: When implemented the entity list
+pub fn onInteractPropCsReq(txn: Transaction, request: pb.InteractPropCsReq) !void {
+    try txn.sendMessage(pb.InteractPropScRsp{
+        .prop_entity_id = request.prop_entity_id,
+        .prop_state = 1,
+    });
+}
+
+// TODO: Implement this correctly
+// I don't really know how to correctly handle this,
+// but maybe the idea is to get the LevelGraph from the prop entity or quest,
+// and depending on the triggers do one thing or the other,
+// for example: "Config/Level/Maze/Chapter01/Town/Town_Chapter01_EntryFor1-1.json"
+// contains a start task that is "EnterMap", then we should move the player to the target map.
+pub fn onWaitCustomStringCsReq(txn: Transaction, request: pb.WaitCustomStringCsReq) !void {
+    const log = std.log.scoped(.wait_custom_string);
+
+    switch (request.key.?) {
+        .prop_entity_id => |v| {
+            log.debug("string: {s}, prop_entity_id: {}", .{
+                request.custom_string,
+                v,
+            });
+        },
+        .sub_mission_id => |v| {
+            log.debug("string: {s}, sub_mission_id: {}", .{
+                request.custom_string,
+                v,
+            });
+        },
+    }
+
+    try txn.sendMessage(pb.WaitCustomStringScRsp{
+        .custom_string = request.custom_string,
+        .key = if (request.key) |k| switch (k) {
+            .prop_entity_id => |v| .{ .prop_entity_id = v },
+            .sub_mission_id => |v| .{ .sub_mission_id = v },
+        } else null,
+    });
+}
+
 const Login = modules.Login;
 const Scene = modules.Scene;
 const Lineup = modules.Lineup;
@@ -334,4 +450,5 @@ const modules = @import("../modules.zig");
 
 const Transaction = @import("../requests.zig").Transaction;
 const pb = @import("proto").pb;
+
 const std = @import("std");

@@ -26,7 +26,7 @@ pub const MonsterDescription = struct {
 pub const PropDescription = struct {
     ID: u32,
     InitLevelGraph: ?[]const u8,
-    State: ?@import("../ExcelTables/PropRow.zig").State,
+    State: @import("../ExcelTables/PropRow.zig").State,
     CreateOnInitial: bool,
     PropID: u32,
     AnchorID: u32,
