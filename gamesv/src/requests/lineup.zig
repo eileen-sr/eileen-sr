@@ -52,6 +52,22 @@ pub fn onSetLineupNameCsReq(txn: Transaction, request: pb.SetLineupNameCsReq) !v
     });
 }
 
+pub fn onSwitchLineupIndexCsReq(txn: Transaction, request: pb.SwitchLineupIndexCsReq) !void {
+    try txn.modules.login.step.ensureExact(.finished);
+
+    if (request.index >= txn.modules.lineup.list.len) {
+        return txn.sendError(pb.SwitchLineupIndexScRsp, .RET_LINEUP_INVALID_INDEX);
+    }
+
+    txn.modules.lineup.active_index = @enumFromInt(request.index);
+
+    try txn.notify(.lineup_index_changed, .{});
+
+    try txn.sendMessage(pb.SwitchLineupIndexScRsp{
+        .index = request.index,
+    });
+}
+
 pub fn onChangeLineupLeaderCsReq(txn: Transaction, request: pb.ChangeLineupLeaderCsReq) !void {
     try txn.modules.login.step.ensureExact(.finished);
 
@@ -87,11 +103,9 @@ pub fn onJoinLineupCsReq(txn: Transaction, request: pb.JoinLineupCsReq) !void {
     };
 
     const lineup = &txn.modules.lineup;
-    const index = request.index;
-
-    if (index >= lineup.list.len) {
+    const index = lineup.getRequestIndex(request.index, request.extra_lineup_type) catch {
         return txn.sendError(pb.JoinLineupScRsp, .RET_LINEUP_INVALID_INDEX);
-    }
+    };
 
     const slice = lineup.list.slice();
 
@@ -107,6 +121,9 @@ pub fn onJoinLineupCsReq(txn: Transaction, request: pb.JoinLineupCsReq) !void {
 
     slice.items(.slots)[index].set(slot, .{ .id = @enumFromInt(request.avatar_id) });
 
+    const leader = &slice.items(.leader)[index];
+    if (slice.items(.slots)[index].values[leader.toInt()] == null) leader.* = slot;
+
     try txn.notify(.lineup_slots_changed, .{});
 
     try sendLineupSync(&txn, lineup, index);
@@ -117,11 +134,9 @@ pub fn onQuitLineupCsReq(txn: Transaction, request: pb.QuitLineupCsReq) !void {
     try txn.modules.login.step.ensureExact(.finished);
 
     const lineup = &txn.modules.lineup;
-    const index = request.index;
-
-    if (index >= lineup.list.len) {
+    const index = lineup.getRequestIndex(request.index, request.extra_lineup_type) catch {
         return txn.sendError(pb.QuitLineupScRsp, .RET_LINEUP_INVALID_INDEX);
-    }
+    };
 
     const slice = lineup.list.slice();
 
@@ -161,11 +176,9 @@ pub fn onSwapLineupCsReq(txn: Transaction, request: pb.SwapLineupCsReq) !void {
     try txn.modules.login.step.ensureExact(.finished);
 
     const lineup = &txn.modules.lineup;
-    const index = request.index;
-
-    if (index >= lineup.list.len) {
+    const index = lineup.getRequestIndex(request.index, request.extra_lineup_type) catch {
         return txn.sendError(pb.SwapLineupScRsp, .RET_LINEUP_INVALID_INDEX);
-    }
+    };
 
     const src_slot = Lineup.Avatar.Slot.fromInt(request.src_slot) catch {
         return txn.sendError(pb.SwapLineupScRsp, .RET_LINEUP_INVALID_MEMBER_POS);

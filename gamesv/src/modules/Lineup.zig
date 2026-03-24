@@ -1,4 +1,4 @@
-pub const Error = Avatar.Slot.Error || Mp.Error;
+pub const Error = Avatar.Slot.Error || Mp.Error || error{ ChallengeLineupNotFound, LineupIndexInvalid };
 
 list: MultiArrayList(Data),
 active_index: Index,
@@ -12,12 +12,32 @@ pub fn deinit(lineup: *Lineup, gpa: Allocator) void {
     lineup.list.deinit(gpa);
 }
 
+pub fn getRequestIndex(lineup: *const Lineup, index: u32, extra_lineup_type: ?pb.ExtraLineupType) Error!u32 {
+    if (extra_lineup_type) |t| if (t == .LINEUP_CHALLENGE) {
+        for (lineup.list.items(.flags), 0..) |flag, i| {
+            if (flag.challenge) return @intCast(i);
+        }
+        return error.ChallengeLineupNotFound;
+    };
+
+    return if (index < lineup.list.len) index else error.LineupIndexInvalid;
+}
+
 pub const Data = struct {
     name: Name,
     slots: EnumArray(Avatar.Slot, ?Avatar),
     leader: Avatar.Slot,
     flags: Flags = .default,
     mp: Mp = .max,
+
+    pub fn initEmpty(name: Name, flags: Flags) Data {
+        return .{
+            .name = name,
+            .slots = .initFill(null),
+            .leader = .first,
+            .flags = flags,
+        };
+    }
 };
 
 pub const Name = LimitedString(15);
@@ -149,6 +169,8 @@ const AvatarRow = Assets.ExcelTables.AvatarRow;
 const MultiArrayList = std.MultiArrayList;
 const EnumArray = std.EnumArray;
 const Allocator = std.mem.Allocator;
+
+const pb = @import("proto").pb;
 
 const Assets = @import("../Assets.zig");
 const common = @import("common");

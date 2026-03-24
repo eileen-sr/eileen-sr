@@ -8,6 +8,7 @@ pub const Type = enum {
     lineup_leader_changed,
     lineup_slots_changed,
     lineup_name_changed,
+    lineup_index_changed,
     avatar_modified,
     equipment_modified,
     scene_changed,
@@ -24,6 +25,8 @@ pub const Argument = union(Type) {
 
     pub const LineupNameChanged = struct {};
 
+    pub const LineupIndexChanged = struct {};
+
     pub const AvatarModified = struct {
         avatar_id: Assets.ExcelTables.AvatarRow.ID,
     };
@@ -38,6 +41,7 @@ pub const Argument = union(Type) {
     lineup_leader_changed: LineupLeaderChanged,
     lineup_slots_changed: LineupSlotsChanged,
     lineup_name_changed: LineupNameChanged,
+    lineup_index_changed: LineupIndexChanged,
     avatar_modified: AvatarModified,
     equipment_modified: EquipmentModified,
     scene_changed: SceneChanged,
