@@ -107,7 +107,7 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
 }
 
 pub fn onSceneEntityMoveCsReq(txn: Transaction, request: pb.SceneEntityMoveCsReq) !void {
-    try txn.modules.login.step.ensureAtLeast(.waiting_key_packets);
+    try txn.modules.login.step.ensureExact(.finished);
 
     if (txn.modules.scene.entry_id == request.entry_id) {
         for (request.entity_motion_list.items) |item| if (item.entity_id < 4) if (item.motion) |motion| {
