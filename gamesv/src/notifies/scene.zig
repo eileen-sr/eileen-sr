@@ -7,10 +7,14 @@ pub fn onFirstLogin(txn: Transaction, argument: notifies.Argument.FirstLogin) !v
 
     const entry = txn.assets.tables.map_entry.map.get(@enumFromInt(default_entry_id)).?;
 
-    txn.modules.scene = .{
-        .entry_id = default_entry_id,
-        .motion = Scene.getStartMotion(txn.assets, entry.FloorID).?,
-    };
+    txn.modules.scene = .init;
+    try txn.modules.scene.enterScene(
+        txn.gpa,
+        txn.assets,
+        entry,
+        null,
+        &txn.modules.lineup.list.items(.slots)[@intFromEnum(txn.modules.lineup.active_index)],
+    );
 
     saveScene(txn.io, &txn.modules.scene, txn.modules.login.uid) catch |err| {
         log.err("failed to save scene: {t}", .{err});
@@ -31,11 +35,18 @@ fn saveScene(io: Io, module: *const Scene, uid: modules.Login.Uid) !void {
 
     var path_buf: [128]u8 = undefined;
 
+    // We don't want to save the scene entities
+    const scene: Scene = .{
+        .motion = module.motion,
+        .entry_id = module.entry_id,
+        .entity_list = .{},
+    };
+
     try store.saveStruct(
         Scene,
         io,
         store.makePath(store.scene_module_path, &path_buf, uid),
-        module,
+        &scene,
     );
 }
 

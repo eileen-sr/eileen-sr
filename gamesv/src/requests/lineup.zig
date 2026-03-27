@@ -176,6 +176,8 @@ fn sendLineupSync(txn: *const Transaction, lineup: *const Lineup, index: u32) !v
     var avatar_buf: [Lineup.Avatar.Slot.count]pb.LineupAvatar = undefined;
     const slice = lineup.list.slice();
 
+    try syncAvatars(txn, &slice.items(.slots)[index]);
+
     var notify: pb.SyncLineupNotify = .{ .lineup = .init };
     packLineup(&notify.lineup.?, &avatar_buf, slice, index);
 
@@ -214,6 +216,28 @@ fn packLineup(
         .index = index,
         .extra_lineup_type = if (slice.items(.flags)[index].challenge) .LINEUP_CHALLENGE else .LINEUP_NONE,
     };
+}
+
+fn syncAvatars(txn: *const Transaction, avatars: *const std.EnumArray(Lineup.Avatar.Slot, ?Lineup.Avatar)) !void {
+    txn.modules.scene.syncAvatars(avatars);
+    try txn.notify(.scene_changed, .{});
+
+    const slice = txn.modules.scene.entity_list.slice();
+
+    var entity_info_list = try std.ArrayList(pb.SceneEntityInfo)
+        .initCapacity(txn.arena, Lineup.Avatar.Slot.count);
+
+    for (0..entity_info_list.capacity) |i| {
+        const out = entity_info_list.addOneAssumeCapacity();
+        @import("./scene.zig").packEntity(
+            out,
+            slice,
+            i,
+            txn.modules.login.uid,
+        );
+    }
+
+    try txn.sendMessage(pb.SceneEntityUpdateScNotify{ .entity_list = entity_info_list });
 }
 
 const Lineup = modules.Lineup;

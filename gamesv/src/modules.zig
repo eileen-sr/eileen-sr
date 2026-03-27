@@ -5,7 +5,7 @@
 // * if the condition can be represented by an erroneous retcode, it's not a logic error.
 // * if the condition is not representable by an erroneous retcode, it's a logic error.
 // * RET_FAIL and RET_SERVER_INTERNAL_ERROR are not reasonable retcodes for an invalid client behavior.
-pub const LogicError = Login.Step.EnsureError || Player.Error || Lineup.Error || Inventory.Error;
+pub const LogicError = Login.Step.EnsureError || Player.Error || Lineup.Error || Inventory.Error || Scene.Error;
 
 pub const Container = struct {
     login: Login,
@@ -28,6 +28,7 @@ pub const Container = struct {
         container.avatar.deinit(gpa);
         container.lineup.deinit(gpa);
         container.inventory.deinit(gpa);
+        container.scene.deinit(gpa);
     }
 
     pub fn isFirstLogin(container: *const Container) bool {

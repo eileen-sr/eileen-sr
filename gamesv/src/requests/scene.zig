@@ -5,12 +5,20 @@ pub fn onGetCurSceneInfoCsReq(txn: Transaction, request: pb.GetCurSceneInfoCsReq
     const entry_id = txn.modules.scene.entry_id;
     const entry = txn.assets.tables.map_entry.map.get(@enumFromInt(entry_id)).?;
 
+    try txn.modules.scene.enterScene(
+        txn.gpa,
+        txn.assets,
+        entry,
+        txn.modules.scene.motion,
+        &txn.modules.lineup.list.items(.slots)[@intFromEnum(txn.modules.lineup.active_index)],
+    );
+
     try txn.sendMessage(pb.GetCurSceneInfoScRsp{
         .scene = try packSceneInfo(
             txn.arena,
             txn.assets,
             entry,
-            txn.modules.scene.motion,
+            &txn.modules.scene.entity_list,
             txn.modules.login.uid,
         ),
     });
@@ -25,15 +33,15 @@ pub fn onGetCurSceneInfoCsReq(txn: Transaction, request: pb.GetCurSceneInfoCsReq
 }
 
 pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
-    const log = std.log.scoped(.enter_maze);
-
     try txn.modules.login.step.ensureExact(.finished);
-
-    log.debug("floor_id: {}, group_id: {}, config_id: {}", .{ request.floor_id, request.group_id, request.config_id });
 
     const entry = txn.assets.tables.map_entry.map.get(@enumFromInt(request.entry_id)) orelse {
         return txn.sendError(pb.EnterMazeScRsp, .RET_MAZE_MAP_NOT_EXIST);
     };
+
+    if (txn.assets.floor.map.get(entry.FloorID) == null) {
+        return txn.sendError(pb.EnterMazeScRsp, .RET_MAZE_NO_FLOOR);
+    }
 
     if (request.plane_id != 0 and entry.PlaneID != request.plane_id) {
         return txn.sendError(pb.EnterMazeScRsp, .RET_PLANE_ID_NOT_MATCH);
@@ -43,11 +51,11 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
         return txn.sendError(pb.EnterMazeScRsp, .RET_FLOOR_ID_NOT_MATCH);
     }
 
-    if (txn.assets.group.map.get(.{ .floor_id = entry.FloorID, .group_id = request.group_id })) |anchor_group| {
+    var motion: ?Scene.Motion = null;
+    if (request.config_id != 0) if (txn.assets.group.map.get(.{ .floor_id = entry.FloorID, .group_id = request.group_id })) |anchor_group| {
         for (anchor_group.PropList.?) |prop| if (prop.ID == request.config_id) {
             for (anchor_group.AnchorList.?) |anchor| if (anchor.ID == prop.AnchorID) {
-                txn.modules.scene.entry_id = entry.EntryID.toInt();
-                txn.modules.scene.motion = .{
+                motion = .{
                     .pos = .{
                         .x = @intFromFloat(anchor.PosX * 1000),
                         .y = @intFromFloat(anchor.PosY * 1000),
@@ -57,20 +65,21 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
                         .y = @intFromFloat(anchor.RotY * 1000),
                     },
                 };
-
-                break;
             };
 
             break;
         };
-    } else if (Scene.getStartMotion(txn.assets, entry.FloorID)) |motion| {
-        txn.modules.scene.entry_id = entry.EntryID.toInt();
-        txn.modules.scene.motion = motion;
-    }
+    } else if (Scene.getStartMotion(txn.assets, entry.FloorID)) |m| {
+        motion = m;
+    };
 
-    if (txn.modules.scene.entry_id != entry.EntryID.toInt()) {
-        return txn.sendError(pb.EnterMazeScRsp, .RET_SCENE_ENTRY_ID_NOT_MATCH);
-    }
+    try txn.modules.scene.enterScene(
+        txn.gpa,
+        txn.assets,
+        entry,
+        motion,
+        &txn.modules.lineup.list.items(.slots)[@intFromEnum(txn.modules.lineup.active_index)],
+    );
 
     try txn.notify(.scene_changed, .{});
 
@@ -84,7 +93,7 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
                     txn.arena,
                     txn.assets,
                     entry,
-                    txn.modules.scene.motion,
+                    &txn.modules.scene.entity_list,
                     txn.modules.login.uid,
                 ),
             },
@@ -100,17 +109,18 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
 pub fn onSceneEntityMoveCsReq(txn: Transaction, request: pb.SceneEntityMoveCsReq) !void {
     try txn.modules.login.step.ensureAtLeast(.waiting_key_packets);
 
-    for (request.entity_motion_list.items) |item| if (item.entity_id == 0) if (item.motion) |motion| {
-        txn.modules.scene = .{
-            .entry_id = request.entry_id,
-            .motion = .{
+    if (txn.modules.scene.entry_id == request.entry_id) {
+        for (request.entity_motion_list.items) |item| if (item.entity_id < 4) if (item.motion) |motion| {
+            txn.modules.scene.motion = .{
                 .pos = .from(pb.Vector, motion.pos.?),
                 .rot = .from(pb.Vector, motion.rot.?),
-            },
-        };
+            };
 
-        try txn.notify(.scene_changed, .{});
-    };
+            txn.modules.scene.entity_list.items(.motion)[item.entity_id] = txn.modules.scene.motion;
+
+            try txn.notify(.scene_changed, .{});
+        };
+    }
 
     try txn.sendMessage(pb.SceneEntityMoveScRsp{});
 }
@@ -119,133 +129,20 @@ fn packSceneInfo(
     arena: Allocator,
     assets: *const Assets,
     entry: *const MapEntryRow,
-    motion: Scene.Motion,
-    uid: Login.Uid,
+    entity_list: *const std.MultiArrayList(Scene.Entity),
+    player_uid: Login.Uid,
 ) Allocator.Error!pb.SceneInfo {
-    var entity_list: std.ArrayList(pb.SceneEntityInfo) = .empty;
+    const slice = entity_list.slice();
 
-    try entity_list.append(arena, .{
-        .motion = .{
-            .pos = motion.pos.to(pb.Vector),
-            .rot = motion.rot.to(pb.Vector),
-        },
-        .entity = .{
-            .actor = .{
-                .uid = uid.toInt(),
-            },
-        },
-    });
+    var entity_info_list = try std.ArrayList(pb.SceneEntityInfo)
+        .initCapacity(arena, slice.len);
+
+    for (0..slice.len) |i| {
+        const out = entity_info_list.addOneAssumeCapacity();
+        packEntity(out, slice, i, player_uid);
+    }
 
     const floor = assets.floor.map.get(entry.FloorID).?;
-
-    for (floor.GroupList) |group_desc| {
-        const group = assets.group.map.get(.{
-            .floor_id = entry.FloorID,
-            .group_id = group_desc.ID,
-        }).?;
-
-        if (group.PropList) |prop_list| for (prop_list) |prop|
-            if (prop.CreateOnInitial)
-                if (assets.tables.prop.map.get(@enumFromInt(prop.PropID))) |prop_row| {
-                    const entity_id: u32 = @truncate(entity_list.items.len);
-
-                    // We want all doors, gates and exits to be opened by default
-                    const is_door = std.mem.find(u8, prop_row.PrefabPath, "Door") != null or
-                        std.mem.find(u8, prop_row.InitLevelGraph, "Door") != null;
-                    const is_gate = std.mem.find(u8, prop_row.PrefabPath, "Gate") != null or
-                        std.mem.find(u8, prop_row.InitLevelGraph, "Gate") != null;
-                    const is_exit = if (prop.InitLevelGraph) |g| std.mem.find(u8, g, "_Exit.") != null else false;
-                    const is_area_block = if (prop.InitLevelGraph) |g| std.mem.find(u8, g, "_AreaBlock_") != null else false;
-
-                    const prop_state: Assets.ExcelTables.PropRow.State =
-                        if (!is_door and !is_gate and !is_exit and !is_area_block)
-                            // TODO: After fixing `SpringTransferCsReq`
-                            // if (prop_row.PropType == .PROP_SPRING)
-                            //     .CheckPointEnable
-                            if (prop_row.PropType == .PROP_SPRING)
-                                if (prop.AnchorID != floor.StartAnchorID)
-                                    .CheckPointDisable
-                                else
-                                    .CheckPointEnable
-                            else
-                                prop.State
-                        else
-                            .Open;
-
-                    try entity_list.append(arena, .{
-                        .entity_id = entity_id,
-                        .motion = .{
-                            .pos = .{
-                                .x = @intFromFloat(prop.PosX * 1000),
-                                .y = @intFromFloat(prop.PosY * 1000),
-                                .z = @intFromFloat(prop.PosZ * 1000),
-                            },
-                            .rot = .{
-                                .x = @intFromFloat(prop.RotX * 1000),
-                                .y = @intFromFloat(prop.RotY * 1000),
-                                .z = @intFromFloat(prop.RotZ * 1000),
-                            },
-                        },
-                        .group_id = group_desc.ID,
-                        .inst_id = prop.ID,
-                        .entity = .{ .prop = .{
-                            .prop_id = prop.PropID,
-                            .prop_state = @intFromEnum(prop_state),
-                        } },
-                    });
-                };
-
-        if (group.MonsterList) |monster_list| for (monster_list) |monster|
-            if (monster.CreateOnInitial)
-                if (assets.tables.monster.map.get(@enumFromInt(monster.NPCMonsterID)) != null) {
-                    const entity_id: u32 = @truncate(entity_list.items.len);
-
-                    try entity_list.append(arena, .{
-                        .entity_id = entity_id,
-                        .motion = .{
-                            .pos = .{
-                                .x = @intFromFloat(monster.PosX * 1000),
-                                .y = @intFromFloat(monster.PosY * 1000),
-                                .z = @intFromFloat(monster.PosZ * 1000),
-                            },
-                            .rot = .{
-                                .y = @intFromFloat(monster.RotY * 1000),
-                            },
-                        },
-                        .group_id = group_desc.ID,
-                        .inst_id = monster.ID,
-                        .entity = .{
-                            .npc_monster = .{
-                                .monster_id = monster.NPCMonsterID,
-                                .is_gen_monster = false,
-                            },
-                        },
-                    });
-                };
-
-        if (group.NPCList) |npc_list| for (npc_list) |npc|
-            if (npc.CreateOnInitial)
-                if (assets.tables.npc.map.get(@enumFromInt(npc.NPCID)) != null) {
-                    const entity_id: u32 = @truncate(entity_list.items.len);
-
-                    try entity_list.append(arena, .{
-                        .entity_id = entity_id,
-                        .motion = .{
-                            .pos = .{
-                                .x = @intFromFloat(npc.PosX * 1000),
-                                .y = @intFromFloat(npc.PosY * 1000),
-                                .z = @intFromFloat(npc.PosZ * 1000),
-                            },
-                            .rot = .{
-                                .y = @intFromFloat(npc.RotY * 1000),
-                            },
-                        },
-                        .group_id = group_desc.ID,
-                        .inst_id = npc.ID,
-                        .entity = .{ .npc = .{ .npc_id = npc.NPCID } },
-                    });
-                };
-    }
 
     var lighten_section_list: std.ArrayList(u32) = .empty;
 
@@ -259,8 +156,61 @@ fn packSceneInfo(
         .entry_id = entry.EntryID.toInt(),
         .plane_id = entry.PlaneID,
         .floor_id = entry.FloorID,
-        .entity_list = entity_list,
+        .entity_list = entity_info_list,
         .lighten_section_list = lighten_section_list,
+    };
+}
+
+pub fn packEntity(
+    out: *pb.SceneEntityInfo,
+    slice: std.MultiArrayList(Scene.Entity).Slice,
+    index: usize,
+    player_uid: Login.Uid,
+) void {
+    out.* = .{
+        .entity_id = slice.items(.id)[index],
+        .motion = .{
+            .pos = slice.items(.motion)[index].pos.to(pb.Vector),
+            .rot = slice.items(.motion)[index].rot.to(pb.Vector),
+        },
+        .group_id = slice.items(.group_id)[index],
+        .inst_id = slice.items(.inst_id)[index],
+    };
+
+    if (slice.items(.data)[index]) |data| switch (data) {
+        .actor => |actor| {
+            out.entity = .{
+                .actor = .{
+                    .uid = player_uid.toInt(),
+                    .avatar_type = @enumFromInt(@intFromEnum(actor.type)),
+                    .avatar_id = actor.avatar_id,
+                },
+            };
+        },
+        .monster => |monster| {
+            out.entity = .{
+                .npc_monster = .{
+                    .monster_id = monster.monster_id,
+                },
+            };
+        },
+        .npc => |npc| {
+            out.entity = .{
+                .npc = .{
+                    .npc_id = npc.npc_id,
+                },
+            };
+        },
+        .prop => |prop| {
+            out.entity = .{
+                .prop = .{
+                    .prop_id = prop.prop_id,
+                    .prop_state = @intFromEnum(prop.prop_state),
+                    .create_time_ms = prop.create_time_ms,
+                    .life_time_ms = prop.life_time_ms,
+                },
+            };
+        },
     };
 }
 
@@ -364,38 +314,73 @@ pub fn onStartCocoonStageCsReq(txn: Transaction, request: pb.StartCocoonStageCsR
 }
 
 pub fn onSpringTransferCsReq(txn: Transaction, request: pb.SpringTransferCsReq) !void {
-    const log = std.log.scoped(.spring_transfer);
-
     try txn.modules.login.step.ensureExact(.finished);
 
     const floor = txn.assets.floor.map.get(request.floor_id) orelse {
-        log.err("floor with id {} not found", .{request.floor_id});
         return txn.sendError(pb.SpringTransferScRsp, .RET_MAZE_NO_FLOOR);
     };
 
-    log.debug("floor_id: {}, plane_id: {}, prop_entity_id: {}, start_anchor_id: {}", .{
-        request.floor_id,
-        request.plane_id,
-        request.prop_entity_id,
-        floor.StartAnchorID,
-    });
+    const floor_id = floor.FloorID;
+    const entity_inst_id = txn.modules.scene.entity_list.items(.inst_id)[request.prop_entity_id];
 
-    // TODO: Find prop from scene entities and find the anchor id
-    if (Scene.getStartMotion(txn.assets, floor.FloorID)) |motion| {
-        txn.modules.scene.motion = motion;
+    var anchor_id: ?u32 = null;
 
-        try txn.notify(.scene_changed, .{});
+    outer: for (floor.GroupList) |group_desc| {
+        const group = txn.assets.group.map.get(.{
+            .floor_id = floor_id,
+            .group_id = group_desc.ID,
+        }) orelse continue;
 
-        try txn.sendMessage(pb.SceneEntityMoveScNotify{
-            .entity_id = 0,
-            .motion = .{
-                .pos = txn.modules.scene.motion.pos.to(pb.Vector),
-                .rot = txn.modules.scene.motion.rot.to(pb.Vector),
-            },
-        });
+        const prop_list = group.PropList orelse continue;
+
+        for (prop_list) |prop| {
+            if (prop.ID == entity_inst_id) {
+                anchor_id = prop.AnchorID;
+                break :outer;
+            }
+        }
     }
 
-    try txn.sendMessage(pb.SpringTransferScRsp.init);
+    const resolved_anchor_id = anchor_id orelse
+        return Scene.Error.InvalidSpring;
+
+    for (floor.GroupList) |group_desc| {
+        const group = txn.assets.group.map.get(.{
+            .floor_id = floor_id,
+            .group_id = group_desc.ID,
+        }) orelse continue;
+
+        const anchor_list = group.AnchorList orelse continue;
+
+        for (anchor_list) |anchor| {
+            if (anchor.ID != resolved_anchor_id) continue;
+
+            txn.modules.scene.motion = .{
+                .pos = .{
+                    .x = @intFromFloat(anchor.PosX * 1000),
+                    .y = @intFromFloat(anchor.PosY * 1000),
+                    .z = @intFromFloat(anchor.PosZ * 1000),
+                },
+                .rot = .{
+                    .y = @intFromFloat(anchor.RotY * 1000),
+                },
+            };
+
+            try txn.notify(.scene_changed, .{});
+
+            try txn.sendMessage(pb.SceneEntityMoveScNotify{
+                .entity_id = txn.modules.lineup.list.items(.leader)[txn.modules.lineup.active_index.toInt()].toInt(),
+                .motion = .{
+                    .pos = txn.modules.scene.motion.pos.to(pb.Vector),
+                    .rot = txn.modules.scene.motion.rot.to(pb.Vector),
+                },
+            });
+
+            return txn.sendMessage(pb.SpringTransferScRsp.init);
+        }
+    }
+
+    return Scene.Error.InvalidSpring;
 }
 
 // TODO: When implemented the entity list
