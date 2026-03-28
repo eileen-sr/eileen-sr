@@ -35,7 +35,7 @@ fn initPosix() void {
 }
 
 fn initWindows() void {
-    _ = SetConsoleCtrlHandler(windowsCallback, windows.TRUE);
+    _ = SetConsoleCtrlHandler(windowsCallback, .TRUE);
 }
 
 fn posixCallback(_: posix.SIG) callconv(.c) void {
@@ -43,10 +43,10 @@ fn posixCallback(_: posix.SIG) callconv(.c) void {
 }
 
 fn windowsCallback(ctrl_type: windows.DWORD) callconv(.winapi) windows.BOOL {
-    if (ctrl_type != CTRL_C_EVENT) return windows.FALSE;
+    if (ctrl_type != CTRL_C_EVENT) return .FALSE;
 
     event.set(event_io);
-    return windows.TRUE;
+    return .TRUE;
 }
 
 extern "kernel32" fn SetConsoleCtrlHandler(
