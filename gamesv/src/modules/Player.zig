@@ -14,7 +14,7 @@ pub const init: Player = .{
 
 pub const Error = Stamina.ConsumeError || Coin.UseError;
 
-pub const Nickname = LimitedString(15);
+pub const Nickname = LimitedString(14);
 
 pub const Level = enum(u32) {
     min = 1,

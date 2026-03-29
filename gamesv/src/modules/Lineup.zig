@@ -2,6 +2,7 @@ pub const Error = Avatar.Slot.Error || Mp.Error || error{ ChallengeLineupNotFoun
 
 list: MultiArrayList(Data),
 active_index: Index,
+mp: Mp = .max,
 
 pub const init: Lineup = .{
     .list = .empty,
@@ -28,7 +29,6 @@ pub const Data = struct {
     slots: EnumArray(Avatar.Slot, ?Avatar),
     leader: Avatar.Slot,
     flags: Flags = .default,
-    mp: Mp = .max,
 
     pub fn initEmpty(name: Name, flags: Flags) Data {
         return .{
@@ -40,7 +40,7 @@ pub const Data = struct {
     }
 };
 
-pub const Name = LimitedString(15);
+pub const Name = LimitedString(14);
 
 pub const Index = enum(u32) {
     none = std.math.maxInt(u32),
@@ -67,7 +67,7 @@ pub const Flags = packed struct {
 
 pub const Mp = enum(u8) {
     exhausted = 0,
-    max = 4,
+    max = 5,
     _,
 
     pub fn fromInt(int: u32) Mp {
@@ -150,7 +150,7 @@ pub const Avatar = struct {
 
     pub const Satiety = enum(u8) {
         starved = 0,
-        full = 100,
+        full = 3,
         _,
 
         pub fn fromInt(int: u32) Sp {

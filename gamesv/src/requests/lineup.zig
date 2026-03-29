@@ -12,6 +12,7 @@ pub fn onGetAllLineupDataCsReq(txn: Transaction, request: pb.GetAllLineupDataCsR
         lineup_list.addOneAssumeCapacity(),
         avatar_buf[index * Lineup.Avatar.Slot.count ..][0..Lineup.Avatar.Slot.count],
         slice,
+        lineup.mp,
         @truncate(index),
     );
 
@@ -32,7 +33,13 @@ pub fn onGetCurLineupDataCsReq(txn: Transaction, request: pb.GetCurLineupDataCsR
     var avatar_buf: [Lineup.Avatar.Slot.count]pb.LineupAvatar = undefined;
 
     var rsp: pb.GetCurLineupDataScRsp = .{ .lineup = .init };
-    packLineup(&rsp.lineup.?, &avatar_buf, slice, index);
+    packLineup(
+        &rsp.lineup.?,
+        &avatar_buf,
+        slice,
+        txn.modules.lineup.mp,
+        index,
+    );
 
     try txn.sendMessage(rsp);
 }
@@ -207,7 +214,13 @@ fn sendLineupSync(txn: *const Transaction, lineup: *const Lineup, index: u32) !v
     try syncAvatars(txn, &slice.items(.slots)[index]);
 
     var notify: pb.SyncLineupNotify = .{ .lineup = .init };
-    packLineup(&notify.lineup.?, &avatar_buf, slice, index);
+    packLineup(
+        &notify.lineup.?,
+        &avatar_buf,
+        slice,
+        lineup.mp,
+        index,
+    );
 
     try txn.sendMessage(notify);
 }
@@ -227,6 +240,7 @@ fn packLineup(
     out: *pb.LineupInfo,
     avatar_buf: *[Lineup.Avatar.Slot.count]pb.LineupAvatar,
     slice: MultiArrayList(Lineup.Data).Slice,
+    mp: Lineup.Mp,
     index: u32,
 ) void {
     var avatar_list: ArrayList(pb.LineupAvatar) = .initBuffer(avatar_buf);
@@ -237,7 +251,7 @@ fn packLineup(
 
     out.* = .{
         .avatar_list = avatar_list,
-        .mp = slice.items(.mp)[index].toInt(),
+        .mp = mp.toInt(),
         .name = slice.items(.name)[index].view(),
         .is_virtual = slice.items(.flags)[index].virtual,
         .leader_slot = slice.items(.leader)[index].toInt(),
