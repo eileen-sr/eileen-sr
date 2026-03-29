@@ -14,6 +14,8 @@ map_entry: Table("MapEntryExcelTable.json", MapEntryRow, "EntryID"),
 monster: Table("MonsterExcelTable.json", MonsterRow, "MonsterID"),
 prop: Table("PropExcelTable.json", PropRow, "PropID"),
 npc: Table("NPCDataExcelTable.json", NpcRow, "NPCID"),
+tutorial: Table("TutorialDataExcelTable.json", TutorialRow, "TutorialID"),
+tutorial_guide: Table("TutorialGuideDataExcelTable.json", TutorialGuideRow, "ID"),
 
 pub fn load(gpa: Allocator, io: Io) LoadError!ExcelTables {
     var results: blk: {
@@ -121,6 +123,8 @@ pub const MapEntryRow = @import("ExcelTables/MapEntryRow.zig");
 pub const MonsterRow = @import("ExcelTables/MonsterRow.zig");
 pub const PropRow = @import("ExcelTables/PropRow.zig");
 pub const NpcRow = @import("ExcelTables/NpcRow.zig");
+pub const TutorialRow = @import("ExcelTables/TutorialRow.zig");
+pub const TutorialGuideRow = @import("ExcelTables/TutorialGuideRow.zig");
 
 const json = std.json;
 

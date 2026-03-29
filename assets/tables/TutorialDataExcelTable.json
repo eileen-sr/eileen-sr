@@ -1,0 +1,246 @@
+[
+  {
+    "TutorialID": 101,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_101.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": []
+  },
+  {
+    "TutorialID": 102,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_102.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": []
+  },
+  {
+    "TutorialID": 201,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_201.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "EnterBattle",
+        "TriggerParam": "201010010"
+      }
+    ]
+  },
+  {
+    "TutorialID": 202,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_202.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": []
+  },
+  {
+    "TutorialID": 203,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_203.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "TakeSubMission",
+        "TriggerParam": "100000104"
+      }
+    ]
+  },
+  {
+    "TutorialID": 301,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_301.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "EnterBattle",
+        "TriggerParam": "201110010"
+      }
+    ]
+  },
+  {
+    "TutorialID": 303,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_303.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "303"
+      }
+    ]
+  },
+  {
+    "TutorialID": 304,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_304.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "GetItem",
+        "TriggerParam": "400001"
+      }
+    ]
+  },
+  {
+    "TutorialID": 306,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_306.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "306"
+      }
+    ]
+  },
+  {
+    "TutorialID": 307,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_307.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "TakeSubMission",
+        "TriggerParam": "201030101"
+      }
+    ]
+  },
+  {
+    "TutorialID": 308,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_308.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "308"
+      }
+    ]
+  },
+  {
+    "TutorialID": 309,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_309.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "EnterBattle",
+        "TriggerParam": "201212010"
+      }
+    ]
+  },
+  {
+    "TutorialID": 401,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_401.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "FinishMainMission",
+        "TriggerParam": "1010401"
+      }
+    ]
+  },
+  {
+    "TutorialID": 402,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_402.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "GetAvatar",
+        "TriggerParam": "1009"
+      }
+    ]
+  },
+  {
+    "TutorialID": 403,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_403.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": []
+  },
+  {
+    "TutorialID": 404,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_404.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "GetItem",
+        "TriggerParam": "211"
+      }
+    ]
+  },
+  {
+    "TutorialID": 501,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_501.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "GetAnyLightCone",
+        "TriggerParam": "0"
+      }
+    ]
+  },
+  {
+    "TutorialID": 502,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_502.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "502"
+      },
+      {
+        "TriggerType": "FinishMainMission",
+        "TriggerParam": "1010502"
+      }
+    ]
+  },
+  {
+    "TutorialID": 503,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_503.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "FinishMainMission",
+        "TriggerParam": "1010421"
+      }
+    ]
+  },
+  {
+    "TutorialID": 504,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_504.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "504"
+      },
+      {
+        "TriggerType": "FinishMainMission",
+        "TriggerParam": "1010704"
+      }
+    ]
+  },
+  {
+    "TutorialID": 505,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_505.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "505"
+      },
+      {
+        "TriggerType": "FinishMainMission",
+        "TriggerParam": "1010503"
+      }
+    ]
+  },
+  {
+    "TutorialID": 506,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_506.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "506"
+      },
+      {
+        "TriggerType": "TakeSubMission",
+        "TriggerParam": "401010101"
+      }
+    ]
+  },
+  {
+    "TutorialID": 507,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_507.json",
+    "SaveType": "SAVE_WHEN_START",
+    "TriggerParams": []
+  }
+]
