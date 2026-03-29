@@ -17,8 +17,12 @@ pub fn loadModules(gpa: Allocator, io: Io, uid: Uid, container: *modules.Contain
         container.player = player;
     }
 
-    if (try readStruct(modules.Scene, io, makePath(scene_module_path, &path_buf, uid))) |scene| {
-        container.scene = scene;
+    if (try readStruct(modules.Scene.Saveable, io, makePath(scene_module_path, &path_buf, uid))) |scene| {
+        container.scene = .{
+            .entry_id = scene.entry_id,
+            .motion = scene.motion,
+            .entity_manager = .init,
+        };
     }
 
     const avatar_list = try readMultiArray(

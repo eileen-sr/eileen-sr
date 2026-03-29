@@ -44,6 +44,10 @@ pub const State = enum(u32) {
         return @intFromEnum(state);
     }
 
+    pub fn fromInt(n: usize) State {
+        return if (n <= State.Elevator3.toInt()) @enumFromInt(n) else State.Closed;
+    }
+
     pub fn fromString(state: []const u8) ?State {
         return @import("std").meta.stringToEnum(State, state);
     }

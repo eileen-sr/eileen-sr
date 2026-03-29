@@ -65,7 +65,7 @@ pub const Pool = struct {
             while (next) |node| {
                 next = node.next;
 
-                const session: *Session = @fieldParentPtr("list_node", node);
+                const session: *Session = @alignCast(@fieldParentPtr("list_node", node));
                 if (list == 0) session.deinit(gpa);
 
                 gpa.destroy(session);
@@ -76,7 +76,7 @@ pub const Pool = struct {
     pub fn create(pool: *Pool, gpa: Allocator) Allocator.Error!*Session {
         if (pool.free_list.pop()) |node| {
             pool.active_list.append(node);
-            return @fieldParentPtr("list_node", node);
+            return @alignCast(@fieldParentPtr("list_node", node));
         } else {
             const session = try gpa.create(Session);
             session.list_node = .{};

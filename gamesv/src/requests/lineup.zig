@@ -250,17 +250,21 @@ fn syncAvatars(txn: *const Transaction, avatars: *const std.EnumArray(Lineup.Ava
     txn.modules.scene.syncAvatars(avatars);
     try txn.notify(.scene_changed, .{});
 
-    const slice = txn.modules.scene.entity_list.slice();
+    const slice = txn.modules.scene.entity_manager.entities.slice();
 
     var entity_info_list = try std.ArrayList(pb.SceneEntityInfo)
         .initCapacity(txn.arena, Lineup.Avatar.Slot.count);
 
     for (0..entity_info_list.capacity) |i| {
+        const id: u32 = @intCast(i);
+
+        if (slice.items(.config_id)[id] == 0) continue;
+
         const out = entity_info_list.addOneAssumeCapacity();
         @import("./scene.zig").packEntity(
             out,
             slice,
-            i,
+            id,
             txn.modules.login.uid,
         );
     }

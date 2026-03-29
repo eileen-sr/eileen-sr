@@ -35,18 +35,14 @@ fn saveScene(io: Io, module: *const Scene, uid: modules.Login.Uid) !void {
 
     var path_buf: [128]u8 = undefined;
 
-    // We don't want to save the scene entities
-    const scene: Scene = .{
-        .motion = module.motion,
-        .entry_id = module.entry_id,
-        .entity_list = .{},
-    };
-
     try store.saveStruct(
-        Scene,
+        Scene.Saveable,
         io,
         store.makePath(store.scene_module_path, &path_buf, uid),
-        &scene,
+        &.{
+            .entry_id = module.entry_id,
+            .motion = module.motion,
+        },
     );
 }
 

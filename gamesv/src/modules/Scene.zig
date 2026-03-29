@@ -2,73 +2,272 @@ pub const Error = error{InvalidSpring};
 
 entry_id: u32,
 motion: Motion,
-entity_list: std.MultiArrayList(Entity),
+entity_manager: EntityManager,
 
 pub const init: Scene = .{
     .entry_id = 0,
     .motion = .{},
-    .entity_list = .empty,
+    .entity_manager = .init,
 };
+
+pub fn Vector(comptime T: type) type {
+    const V = @Vector(3, T);
+
+    return struct {
+        v: V = @splat(0),
+
+        const Self = @This();
+
+        pub const init: Self = .{};
+
+        pub fn from(comptime S: type, s: S) Self {
+            return .{
+                .v = .{
+                    s.x,
+                    s.y,
+                    s.z,
+                },
+            };
+        }
+
+        pub fn to(self: Self, comptime S: type) S {
+            return .{
+                .x = self.v[0],
+                .y = self.v[1],
+                .z = self.v[2],
+            };
+        }
+    };
+}
 
 pub const Motion = struct {
     pos: Vector(i32) = .{},
     rot: Vector(i32) = .{},
 };
 
-pub fn Vector(comptime T: type) type {
-    return struct {
-        x: T = 0,
-        y: T = 0,
-        z: T = 0,
+pub const OptionalIndex = enum(u32) {
+    none = std.math.maxInt(u32),
+    _,
 
-        pub fn from(comptime S: type, s: S) Vector(T) {
-            return .{ .x = s.x, .y = s.y, .z = s.z };
-        }
+    pub fn fromIndex(i: usize) OptionalIndex {
+        std.debug.assert(i <= std.math.maxInt(u32));
+        return @enumFromInt(@as(u32, @intCast(i)));
+    }
 
-        pub fn to(t: Vector(T), comptime S: type) S {
-            return .{ .x = t.x, .y = t.y, .z = t.z };
-        }
-    };
-}
+    pub fn toIndex(self: OptionalIndex) usize {
+        std.debug.assert(self != .none);
+        return @intCast(@intFromEnum(self));
+    }
+};
+
+pub const RefId = packed struct(u32) {
+    group_id: u8 = 0,
+    inst_id: u24 = 0,
+};
+
+pub const EntityKind = enum(u2) {
+    avatar,
+    monster,
+    npc,
+    prop,
+};
+
+pub const AvatarType = enum(u2) {
+    None,
+    Trial,
+    Limit,
+    Formal,
+};
 
 pub const Entity = struct {
-    id: u32 = 0,
+    kind: EntityKind,
+    kind_data: u32 = 0,
+
+    config_id: u32 = 0,
+
+    ref: RefId = .{},
+
     motion: Motion = .{},
-    group_id: u32 = 0,
-    inst_id: u32 = 0,
-    data: ?union(enum) {
-        actor: ActorEntityData,
-        monster: MonsterEntityData,
-        npc: NpcEntityData,
-        prop: PropEntityData,
-    } = null,
+
+    next: OptionalIndex = .none,
+    prev: OptionalIndex = .none,
 };
 
-pub const ActorEntityData = struct {
-    type: AvatarType = .None,
-    avatar_id: u32 = 0,
-};
+pub const EntityManager = struct {
+    entities: std.MultiArrayList(Entity) = .{},
 
-pub const MonsterEntityData = struct {
-    monster_id: u32 = 0,
-};
+    active_head: OptionalIndex = .none,
+    active_tail: OptionalIndex = .none,
+    inactive_head: OptionalIndex = .none,
 
-pub const NpcEntityData = struct {
-    npc_id: u32 = 0,
-};
+    active_count: u32 = 0,
 
-pub const PropEntityData = struct {
-    prop_id: u32 = 0,
-    prop_state: Assets.ExcelTables.PropRow.State = .Closed,
-    create_time_ms: u64 = 0,
-    life_time_ms: u32 = 0,
-};
+    const Self = @This();
 
-pub const AvatarType = enum(i32) {
-    None = 0,
-    Trial = 1,
-    Limit = 2,
-    Formal = 3,
+    // Iteration
+
+    pub const Iterator = struct {
+        manager: *const Self,
+        current: OptionalIndex,
+
+        pub fn next(it: *Iterator) ?u32 {
+            const slot = it.current;
+            if (slot == .none) return null;
+
+            const idx = slot.toIndex();
+            it.current = it.manager.entities.items(.next)[idx];
+
+            return @intCast(idx);
+        }
+    };
+
+    pub fn iterator(self: *const Self) Iterator {
+        return .{
+            .manager = self,
+            .current = self.active_head,
+        };
+    }
+
+    // Lifecycle
+
+    pub const init: Self = .{};
+
+    pub fn deinit(self: *Self, allocator: Allocator) void {
+        self.entities.deinit(allocator);
+    }
+
+    pub fn reset(self: *Self) void {
+        self.entities.clearRetainingCapacity();
+
+        self.active_head = .none;
+        self.active_tail = .none;
+        self.inactive_head = .none;
+
+        self.active_count = 0;
+    }
+
+    // Internal
+
+    fn linkActiveTail(self: *Self, idx: usize) void {
+        const slot = OptionalIndex.fromIndex(idx);
+        const next = self.entities.items(.next);
+        const prev = self.entities.items(.prev);
+
+        next[idx] = .none;
+        prev[idx] = self.active_tail;
+
+        if (self.active_tail != .none) {
+            next[self.active_tail.toIndex()] = slot;
+        } else {
+            self.active_head = slot;
+        }
+
+        self.active_tail = slot;
+    }
+
+    fn unlinkActive(self: *Self, idx: usize) void {
+        const next = self.entities.items(.next);
+        const prev = self.entities.items(.prev);
+
+        const prev_slot = prev[idx];
+        const next_slot = next[idx];
+
+        if (prev_slot != .none) {
+            next[prev_slot.toIndex()] = next_slot;
+        } else {
+            self.active_head = next_slot;
+        }
+
+        if (next_slot != .none) {
+            prev[next_slot.toIndex()] = prev_slot;
+        } else {
+            self.active_tail = prev_slot;
+        }
+
+        next[idx] = .none;
+        prev[idx] = .none;
+    }
+
+    fn pushInactive(self: *Self, idx: usize) void {
+        const next = self.entities.items(.next);
+
+        next[idx] = self.inactive_head;
+        self.inactive_head = OptionalIndex.fromIndex(idx);
+    }
+
+    fn popInactive(self: *Self) ?usize {
+        if (self.inactive_head == .none) return null;
+
+        const idx = self.inactive_head.toIndex();
+        self.inactive_head = self.entities.items(.next)[idx];
+
+        return idx;
+    }
+
+    // Public API
+
+    pub fn create(self: *Self, allocator: Allocator, entity: Entity) !u32 {
+        var e = entity;
+
+        e.next = .none;
+        e.prev = .none;
+
+        if (self.popInactive()) |idx| {
+            self.entities.set(idx, e);
+            self.linkActiveTail(idx);
+
+            return @intCast(idx);
+        }
+
+        try self.entities.append(allocator, e);
+
+        const idx = self.entities.len - 1;
+        self.linkActiveTail(idx);
+
+        self.active_count += 1;
+
+        return @intCast(idx);
+    }
+
+    pub fn remove(self: *Self, id: u32) void {
+        const idx: usize = @intCast(id);
+
+        self.unlinkActive(idx);
+        self.pushInactive(idx);
+
+        self.active_count -= 1;
+    }
+
+    pub fn isActive(self: *const Self, id: u32) bool {
+        var it = self.iterator();
+        while (it.next()) |cur| {
+            if (cur == id) return true;
+        }
+
+        return false;
+    }
+
+    // Entity fields
+
+    pub fn kind(self: *const Self, id: u32) *EntityKind {
+        return &self.entities.items(.kind)[id];
+    }
+
+    pub fn kindData(self: *const Self, id: u32) *u32 {
+        return &self.entities.items(.kind_data)[id];
+    }
+
+    pub fn configId(self: *const Self, id: u32) *u32 {
+        return &self.entities.items(.config_id)[id];
+    }
+
+    pub fn ref(self: *const Self, id: u32) *RefId {
+        return &self.entities.items(.ref)[id];
+    }
+
+    pub fn motion(self: *const Self, id: u32) *Motion {
+        return &self.entities.items(.motion)[id];
+    }
 };
 
 pub fn getStartMotion(
@@ -83,16 +282,19 @@ pub fn getStartMotion(
     }).?;
 
     for (group.AnchorList.?) |anchor| if (anchor.ID == floor.StartAnchorID) {
-        return .{
-            .pos = .{
-                .x = @intFromFloat(anchor.PosX * 1000),
-                .y = @intFromFloat(anchor.PosY * 1000),
-                .z = @intFromFloat(anchor.PosZ * 1000),
+        return .{ .pos = .{
+            .v = .{
+                @intFromFloat(anchor.PosX * 1000),
+                @intFromFloat(anchor.PosY * 1000),
+                @intFromFloat(anchor.PosZ * 1000),
             },
-            .rot = .{
-                .y = @intFromFloat(anchor.RotY * 1000),
+        }, .rot = .{
+            .v = .{
+                0,
+                @intFromFloat(anchor.RotY * 1000),
+                0,
             },
-        };
+        } };
     };
 
     return null;
@@ -111,13 +313,14 @@ pub fn enterScene(
     scene.motion = motion orelse
         getStartMotion(assets, entry.FloorID).?;
     scene.entry_id = @intFromEnum(entry.EntryID);
-    scene.entity_list.clearRetainingCapacity();
+    scene.entity_manager.reset();
 
     var i: usize = 0;
-    while (i < 4) : (i += 1) {
-        try scene.entity_list.append(gpa, .{
-            .id = @truncate(i),
-            .motion = scene.motion,
+    while (i < Lineup.Avatar.Slot.count) : (i += 1) {
+        _ = try scene.entity_manager.create(gpa, .{
+            .kind = .avatar,
+            .kind_data = @intFromEnum(AvatarType.Formal),
+            .ref = .{},
         });
     }
 
@@ -141,32 +344,34 @@ pub fn enterScene(
                 const is_exit = if (prop.InitLevelGraph) |g| std.mem.find(u8, g, "_Exit.") != null else false;
                 const is_area_block = if (prop.InitLevelGraph) |g| std.mem.find(u8, g, "_AreaBlock_") != null else false;
 
-                try scene.entity_list.append(gpa, .{
-                    .id = @truncate(scene.entity_list.len),
+                _ = try scene.entity_manager.create(gpa, .{
+                    .kind = .prop,
+                    .kind_data = PropState.toInt((if (!is_door and !is_gate and !is_exit and !is_area_block)
+                        if (prop_row.PropType == .PROP_SPRING)
+                            .CheckPointEnable
+                        else
+                            prop.State
+                    else
+                        .Open)),
+                    .config_id = prop.PropID,
+                    .ref = .{
+                        .group_id = @intCast(group_desc.ID),
+                        .inst_id = @intCast(prop.ID),
+                    },
                     .motion = .{
                         .pos = .{
-                            .x = @intFromFloat(prop.PosX * 1000),
-                            .y = @intFromFloat(prop.PosY * 1000),
-                            .z = @intFromFloat(prop.PosZ * 1000),
+                            .v = .{
+                                @intFromFloat(prop.PosX * 1000),
+                                @intFromFloat(prop.PosY * 1000),
+                                @intFromFloat(prop.PosZ * 1000),
+                            },
                         },
                         .rot = .{
-                            .x = @intFromFloat(prop.RotX * 1000),
-                            .y = @intFromFloat(prop.RotY * 1000),
-                            .z = @intFromFloat(prop.RotZ * 1000),
-                        },
-                    },
-                    .group_id = group_desc.ID,
-                    .inst_id = prop.ID,
-                    .data = .{
-                        .prop = .{
-                            .prop_id = prop.PropID,
-                            .prop_state = if (!is_door and !is_gate and !is_exit and !is_area_block)
-                                if (prop_row.PropType == .PROP_SPRING)
-                                    .CheckPointEnable
-                                else
-                                    prop.State
-                            else
-                                .Open,
+                            .v = .{
+                                @intFromFloat(prop.RotX * 1000),
+                                @intFromFloat(prop.RotY * 1000),
+                                @intFromFloat(prop.RotZ * 1000),
+                            },
                         },
                     },
                 });
@@ -177,23 +382,27 @@ pub fn enterScene(
             for (npc_list) |npc| if (npc.CreateOnInitial) {
                 _ = assets.tables.npc.map.get(@enumFromInt(npc.NPCID)) orelse continue;
 
-                try scene.entity_list.append(gpa, .{
-                    .id = @truncate(scene.entity_list.len),
+                _ = try scene.entity_manager.create(gpa, .{
+                    .kind = .npc,
+                    .config_id = npc.NPCID,
+                    .ref = .{
+                        .group_id = @intCast(group_desc.ID),
+                        .inst_id = @intCast(npc.ID),
+                    },
                     .motion = .{
                         .pos = .{
-                            .x = @intFromFloat(npc.PosX * 1000),
-                            .y = @intFromFloat(npc.PosY * 1000),
-                            .z = @intFromFloat(npc.PosZ * 1000),
+                            .v = .{
+                                @intFromFloat(npc.PosX * 1000),
+                                @intFromFloat(npc.PosY * 1000),
+                                @intFromFloat(npc.PosZ * 1000),
+                            },
                         },
                         .rot = .{
-                            .y = @intFromFloat(npc.RotY * 1000),
-                        },
-                    },
-                    .group_id = group_desc.ID,
-                    .inst_id = npc.ID,
-                    .data = .{
-                        .npc = .{
-                            .npc_id = npc.NPCID,
+                            .v = .{
+                                0,
+                                @intFromFloat(npc.RotY * 1000),
+                                0,
+                            },
                         },
                     },
                 });
@@ -206,23 +415,27 @@ pub fn enterScene(
                     continue;
                 }
 
-                try scene.entity_list.append(gpa, .{
-                    .id = @truncate(scene.entity_list.len),
+                _ = try scene.entity_manager.create(gpa, .{
+                    .kind = .monster,
+                    .config_id = monster.NPCMonsterID,
+                    .ref = .{
+                        .group_id = @intCast(group_desc.ID),
+                        .inst_id = @intCast(monster.ID),
+                    },
                     .motion = .{
                         .pos = .{
-                            .x = @intFromFloat(monster.PosX * 1000),
-                            .y = @intFromFloat(monster.PosY * 1000),
-                            .z = @intFromFloat(monster.PosZ * 1000),
+                            .v = .{
+                                @intFromFloat(monster.PosX * 1000),
+                                @intFromFloat(monster.PosY * 1000),
+                                @intFromFloat(monster.PosZ * 1000),
+                            },
                         },
                         .rot = .{
-                            .y = @intFromFloat(monster.RotY * 1000),
-                        },
-                    },
-                    .group_id = group_desc.ID,
-                    .inst_id = monster.ID,
-                    .data = .{
-                        .monster = .{
-                            .monster_id = monster.NPCMonsterID,
+                            .v = .{
+                                0,
+                                @intFromFloat(monster.RotY * 1000),
+                                0,
+                            },
                         },
                     },
                 });
@@ -237,22 +450,22 @@ pub fn syncAvatars(
 ) void {
     var i: u8 = 0;
     while (i < Lineup.Avatar.Slot.count) : (i += 1) {
-        scene.entity_list.items(.motion)[i] = scene.motion;
-        scene.entity_list.items(.data)[i] =
-            if (avatars.get(@as(Lineup.Avatar.Slot, @enumFromInt(i)))) |avatar| .{
-                .actor = .{
-                    .avatar_id = avatar.id.toInt(),
-                    .type = .Formal,
-                },
-            } else null;
+        scene.entity_manager.motion(i).* = scene.motion;
+        scene.entity_manager.configId(i).* = if (avatars.get(@enumFromInt(i))) |avatar| avatar.id.toInt() else 0;
     }
 }
 
 pub fn deinit(scene: *Scene, gpa: Allocator) void {
-    scene.entity_list.deinit(gpa);
+    scene.entity_manager.deinit(gpa);
 }
 
+pub const Saveable = struct {
+    entry_id: u32,
+    motion: Motion,
+};
+
 const MapEntryRow = Assets.ExcelTables.MapEntryRow;
+const PropState = Assets.ExcelTables.PropRow.State;
 const Allocator = std.mem.Allocator;
 
 const pb = @import("proto").pb;
@@ -260,6 +473,7 @@ const pb = @import("proto").pb;
 const Login = @import("./Login.zig");
 const Lineup = @import("./Lineup.zig");
 const Assets = @import("../Assets.zig");
+
 const std = @import("std");
 
 const Scene = @This();

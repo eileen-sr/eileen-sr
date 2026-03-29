@@ -18,7 +18,7 @@ pub fn onGetCurSceneInfoCsReq(txn: Transaction, request: pb.GetCurSceneInfoCsReq
             txn.arena,
             txn.assets,
             entry,
-            &txn.modules.scene.entity_list,
+            &txn.modules.scene.entity_manager,
             txn.modules.login.uid,
         ),
     });
@@ -57,12 +57,18 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
             for (anchor_group.AnchorList.?) |anchor| if (anchor.ID == prop.AnchorID) {
                 motion = .{
                     .pos = .{
-                        .x = @intFromFloat(anchor.PosX * 1000),
-                        .y = @intFromFloat(anchor.PosY * 1000),
-                        .z = @intFromFloat(anchor.PosZ * 1000),
+                        .v = .{
+                            @intFromFloat(anchor.PosX * 1000),
+                            @intFromFloat(anchor.PosY * 1000),
+                            @intFromFloat(anchor.PosZ * 1000),
+                        },
                     },
                     .rot = .{
-                        .y = @intFromFloat(anchor.RotY * 1000),
+                        .v = .{
+                            0,
+                            @intFromFloat(anchor.RotY * 1000),
+                            0,
+                        },
                     },
                 };
             };
@@ -93,7 +99,7 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
                     txn.arena,
                     txn.assets,
                     entry,
-                    &txn.modules.scene.entity_list,
+                    &txn.modules.scene.entity_manager,
                     txn.modules.login.uid,
                 ),
             },
@@ -116,7 +122,7 @@ pub fn onSceneEntityMoveCsReq(txn: Transaction, request: pb.SceneEntityMoveCsReq
                 .rot = .from(pb.Vector, motion.rot.?),
             };
 
-            txn.modules.scene.entity_list.items(.motion)[item.entity_id] = txn.modules.scene.motion;
+            txn.modules.scene.entity_manager.motion(item.entity_id).* = txn.modules.scene.motion;
 
             try txn.notify(.scene_changed, .{});
         };
@@ -129,17 +135,18 @@ fn packSceneInfo(
     arena: Allocator,
     assets: *const Assets,
     entry: *const MapEntryRow,
-    entity_list: *const std.MultiArrayList(Scene.Entity),
+    entity_manager: *const Scene.EntityManager,
     player_uid: Login.Uid,
 ) Allocator.Error!pb.SceneInfo {
-    const slice = entity_list.slice();
+    const slice = entity_manager.entities.slice();
 
     var entity_info_list = try std.ArrayList(pb.SceneEntityInfo)
-        .initCapacity(arena, slice.len);
+        .initCapacity(arena, entity_manager.active_count);
 
-    for (0..slice.len) |i| {
+    var it = entity_manager.iterator();
+    while (it.next()) |id| {
         const out = entity_info_list.addOneAssumeCapacity();
-        packEntity(out, slice, i, player_uid);
+        packEntity(out, slice, id, player_uid);
     }
 
     const floor = assets.floor.map.get(entry.FloorID).?;
@@ -147,8 +154,10 @@ fn packSceneInfo(
     var lighten_section_list: std.ArrayList(u32) = .empty;
 
     if (floor.MinimapVolumeData.Sections) |sections| {
+        try lighten_section_list.ensureTotalCapacityPrecise(arena, sections.len);
+
         for (sections) |section| {
-            try lighten_section_list.append(arena, section.ID);
+            lighten_section_list.appendAssumeCapacity(section.ID);
         }
     }
 
@@ -164,54 +173,54 @@ fn packSceneInfo(
 pub fn packEntity(
     out: *pb.SceneEntityInfo,
     slice: std.MultiArrayList(Scene.Entity).Slice,
-    index: usize,
+    id: u32,
     player_uid: Login.Uid,
 ) void {
     out.* = .{
-        .entity_id = slice.items(.id)[index],
+        .entity_id = id,
         .motion = .{
-            .pos = slice.items(.motion)[index].pos.to(pb.Vector),
-            .rot = slice.items(.motion)[index].rot.to(pb.Vector),
+            .pos = slice.items(.motion)[id].pos.to(pb.Vector),
+            .rot = slice.items(.motion)[id].rot.to(pb.Vector),
         },
-        .group_id = slice.items(.group_id)[index],
-        .inst_id = slice.items(.inst_id)[index],
+        .group_id = slice.items(.ref)[id].group_id,
+        .inst_id = slice.items(.ref)[id].inst_id,
     };
 
-    if (slice.items(.data)[index]) |data| switch (data) {
-        .actor => |actor| {
+    switch (slice.items(.kind)[id]) {
+        .avatar => {
             out.entity = .{
                 .actor = .{
                     .uid = player_uid.toInt(),
-                    .avatar_type = @enumFromInt(@intFromEnum(actor.type)),
-                    .avatar_id = actor.avatar_id,
+                    .avatar_type = @enumFromInt(slice.items(.kind_data)[id]),
+                    .avatar_id = slice.items(.config_id)[id],
                 },
             };
         },
-        .monster => |monster| {
+        .monster => {
             out.entity = .{
                 .npc_monster = .{
-                    .monster_id = monster.monster_id,
+                    .monster_id = slice.items(.config_id)[id],
                 },
             };
         },
-        .npc => |npc| {
+        .npc => {
             out.entity = .{
                 .npc = .{
-                    .npc_id = npc.npc_id,
+                    .npc_id = slice.items(.config_id)[id],
                 },
             };
         },
-        .prop => |prop| {
+        .prop => {
             out.entity = .{
                 .prop = .{
-                    .prop_id = prop.prop_id,
-                    .prop_state = @intFromEnum(prop.prop_state),
-                    .create_time_ms = prop.create_time_ms,
-                    .life_time_ms = prop.life_time_ms,
+                    .prop_id = slice.items(.config_id)[id],
+                    .prop_state = slice.items(.kind_data)[id],
+                    .create_time_ms = 0,
+                    .life_time_ms = 0,
                 },
             };
         },
-    };
+    }
 }
 
 pub fn onStartCocoonStageCsReq(txn: Transaction, request: pb.StartCocoonStageCsReq) !void {
@@ -321,25 +330,22 @@ pub fn onSpringTransferCsReq(txn: Transaction, request: pb.SpringTransferCsReq) 
     };
 
     const floor_id = floor.FloorID;
-    const entity_inst_id = txn.modules.scene.entity_list.items(.inst_id)[request.prop_entity_id];
+    const entity_ref = txn.modules.scene.entity_manager.ref(request.prop_entity_id);
 
     var anchor_id: ?u32 = null;
 
-    outer: for (floor.GroupList) |group_desc| {
-        const group = txn.assets.group.map.get(.{
-            .floor_id = floor_id,
-            .group_id = group_desc.ID,
-        }) orelse continue;
-
-        const prop_list = group.PropList orelse continue;
-
+    if (txn.assets.group.map.get(.{
+        .floor_id = floor_id,
+        .group_id = entity_ref.group_id,
+    })) |group| if (group.PropList) |prop_list| {
         for (prop_list) |prop| {
-            if (prop.ID == entity_inst_id) {
+            if (prop.ID == entity_ref.inst_id) {
                 anchor_id = prop.AnchorID;
-                break :outer;
+
+                break;
             }
         }
-    }
+    };
 
     const resolved_anchor_id = anchor_id orelse
         return Scene.Error.InvalidSpring;
@@ -357,12 +363,18 @@ pub fn onSpringTransferCsReq(txn: Transaction, request: pb.SpringTransferCsReq) 
 
             txn.modules.scene.motion = .{
                 .pos = .{
-                    .x = @intFromFloat(anchor.PosX * 1000),
-                    .y = @intFromFloat(anchor.PosY * 1000),
-                    .z = @intFromFloat(anchor.PosZ * 1000),
+                    .v = .{
+                        @intFromFloat(anchor.PosX * 1000),
+                        @intFromFloat(anchor.PosY * 1000),
+                        @intFromFloat(anchor.PosZ * 1000),
+                    },
                 },
                 .rot = .{
-                    .y = @intFromFloat(anchor.RotY * 1000),
+                    .v = .{
+                        0,
+                        @intFromFloat(anchor.RotY * 1000),
+                        0,
+                    },
                 },
             };
 
