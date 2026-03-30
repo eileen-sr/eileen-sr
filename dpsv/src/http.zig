@@ -12,10 +12,6 @@ pub const RequestLine = struct {
     method: Method,
     target: []const u8,
 
-    pub fn isComplete(buffer: []const u8) bool {
-        return std.mem.findScalar(u8, buffer, '\r') != null;
-    }
-
     pub const ParseError = error{
         InvalidMethod,
         MissingComponents,
@@ -94,35 +90,41 @@ pub const Response = struct {
 
 pub const Connection = struct {
     recv_buffer: [1024]u8,
-    stream: Io.net.Stream,
+    stream: net.Stream,
 
-    const ReadRequestLineError = common.tcp.ReadError || RequestLine.ParseError;
+    const ReadRequestLineError = error{
+        EndOfStream,
+        StreamTooLong,
+    } || net.Stream.Reader.Error || Io.ConcurrentError || RequestLine.ParseError;
 
-    pub fn initPinned(conn: *Connection, stream: Io.net.Stream) void {
+    pub fn initPinned(conn: *Connection, stream: net.Stream) void {
         conn.stream = stream;
     }
 
     pub fn readRequestLine(conn: *Connection, io: Io) ReadCompletion {
-        const n_read = common.tcp.readTimeout(
-            RequestLine.isComplete,
-            io,
-            request_timeout,
-            conn.stream,
-            &conn.recv_buffer,
-            0,
-        ) catch |err| return .{ .connection = conn, .result = err };
-
         return .{
+            .result = concurrentTimeout(io, request_timeout, readRequestLineInner, .{ conn, io }),
             .connection = conn,
-            .result = .parse(conn.recv_buffer[0..n_read]),
         };
+    }
+
+    fn readRequestLineInner(conn: *Connection, io: Io) ReadRequestLineError!RequestLine {
+        var reader = conn.stream.reader(io, &conn.recv_buffer);
+        const line = reader.interface.takeDelimiterInclusive('\r') catch |err| return switch (err) {
+            error.EndOfStream, error.StreamTooLong => |e| e,
+            error.ReadFailed => reader.err.?,
+        };
+
+        return .parse(line);
     }
 };
 
 const Io = std.Io;
 pub const Method = std.http.Method;
 
+const net = std.Io.net;
 const json = std.json;
+const concurrentTimeout = common.io.concurrentTimeout;
 
 const common = @import("common");
 const std = @import("std");
