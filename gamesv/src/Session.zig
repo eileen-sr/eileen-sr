@@ -5,16 +5,18 @@ const read_timeout: Io.Timeout = .{ .duration = .{
 
 list_node: DoublyLinkedList.Node,
 recv_buffer: [16384]u8,
-stream: Io.net.Stream,
+stream: net.Stream,
 recv_buffer_end: usize,
 modules: @import("modules.zig").Container,
 
+pub const ReadError = net.Stream.Reader.Error || Io.ConcurrentError || Io.Timeout.Error || error{EndOfStream};
+
 pub const ReadCompletion = struct {
     session: *Session,
-    result: common.tcp.ReadError!usize,
+    result: ReadError!usize,
 };
 
-pub fn initPinned(session: *Session, stream: Io.net.Stream) void {
+pub fn initPinned(session: *Session, stream: net.Stream) void {
     session.stream = stream;
     session.recv_buffer_end = 0;
     session.modules = .init;
@@ -36,15 +38,21 @@ pub fn disconnectAndFree(session: *Session, gpa: Allocator, io: Io) void {
 pub fn read(session: *Session, io: Io) ReadCompletion {
     return .{
         .session = session,
-        .result = common.tcp.readTimeout(
-            protocol.NetPacket.isComplete,
-            io,
-            read_timeout,
-            session.stream,
-            &session.recv_buffer,
-            session.recv_buffer_end,
-        ),
+        .result = concurrentTimeout(io, read_timeout, readInner, .{ session, io }),
     };
+}
+
+fn readInner(session: *Session, io: Io) ReadError!usize {
+    var reader = session.stream.reader(io, &session.recv_buffer);
+    reader.interface.end = session.recv_buffer_end;
+
+    while (!protocol.NetPacket.isComplete(reader.interface.buffered()))
+        reader.interface.fillMore() catch |err| return switch (err) {
+            error.EndOfStream => |e| e,
+            error.ReadFailed => reader.err.?,
+        };
+
+    return reader.interface.end - session.recv_buffer_end;
 }
 
 pub const Pool = struct {
@@ -94,6 +102,9 @@ pub const Pool = struct {
 const DoublyLinkedList = std.DoublyLinkedList;
 const Allocator = std.mem.Allocator;
 const Io = std.Io;
+
+const net = std.Io.net;
+const concurrentTimeout = common.io.concurrentTimeout;
 
 const protocol = @import("protocol.zig");
 const common = @import("common");
