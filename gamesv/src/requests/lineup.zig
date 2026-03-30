@@ -8,7 +8,7 @@ pub fn onGetAllLineupDataCsReq(txn: Transaction, request: pb.GetAllLineupDataCsR
     var avatar_buf = try txn.arena.alloc(pb.LineupAvatar, lineup.list.len * Lineup.Avatar.Slot.count);
     const slice = lineup.list.slice();
 
-    for (0..lineup.list.len) |index| packLineup(
+    for (0..lineup.list.len) |index| encoding.packLineupInfo(
         lineup_list.addOneAssumeCapacity(),
         avatar_buf[index * Lineup.Avatar.Slot.count ..][0..Lineup.Avatar.Slot.count],
         slice,
@@ -28,12 +28,16 @@ pub fn onGetCurLineupDataCsReq(txn: Transaction, request: pb.GetCurLineupDataCsR
 
     const lineup = &txn.modules.lineup;
     const slice = lineup.list.slice();
-    const index = lineup.active_index.toInt();
+
+    const index = try lineup.getRequestIndex(
+        lineup.active_index.toInt(),
+        @enumFromInt(@intFromBool(txn.modules.challenge.stage != .none)),
+    );
 
     var avatar_buf: [Lineup.Avatar.Slot.count]pb.LineupAvatar = undefined;
 
     var rsp: pb.GetCurLineupDataScRsp = .{ .lineup = .init };
-    packLineup(
+    encoding.packLineupInfo(
         &rsp.lineup.?,
         &avatar_buf,
         slice,
@@ -83,8 +87,12 @@ pub fn onChangeLineupLeaderCsReq(txn: Transaction, request: pb.ChangeLineupLeade
     };
 
     const lineup = &txn.modules.lineup;
-    const index = lineup.active_index.toInt();
     const slice = lineup.list.slice();
+
+    const index = try lineup.getRequestIndex(
+        lineup.active_index.toInt(),
+        @enumFromInt(@intFromBool(txn.modules.challenge.stage != .none)),
+    );
 
     if (slice.items(.slots)[index].get(slot) == null) {
         return txn.sendError(pb.ChangeLineupLeaderScRsp, .RET_LINEUP_AVATAR_NOT_EXIST);
@@ -214,7 +222,7 @@ fn sendLineupSync(txn: *const Transaction, lineup: *const Lineup, index: u32) !v
     try syncAvatars(txn, &slice.items(.slots)[index]);
 
     var notify: pb.SyncLineupNotify = .{ .lineup = .init };
-    packLineup(
+    encoding.packLineupInfo(
         &notify.lineup.?,
         &avatar_buf,
         slice,
@@ -225,44 +233,8 @@ fn sendLineupSync(txn: *const Transaction, lineup: *const Lineup, index: u32) !v
     try txn.sendMessage(notify);
 }
 
-fn packAvatar(out: *pb.LineupAvatar, avatar: *const Lineup.Avatar, slot: u32) void {
-    out.* = .{
-        .slot = slot,
-        .id = avatar.id.toInt(),
-        .hp = avatar.hp.toInt(),
-        .sp = avatar.sp.toInt(),
-        .satiety = avatar.satiety.toInt(),
-        .avatar_type = .AVATAR_FORMAL_TYPE,
-    };
-}
-
-fn packLineup(
-    out: *pb.LineupInfo,
-    avatar_buf: *[Lineup.Avatar.Slot.count]pb.LineupAvatar,
-    slice: MultiArrayList(Lineup.Data).Slice,
-    mp: Lineup.Mp,
-    index: u32,
-) void {
-    var avatar_list: ArrayList(pb.LineupAvatar) = .initBuffer(avatar_buf);
-
-    for (slice.items(.slots)[index].values, 0..) |maybe_avatar, slot| if (maybe_avatar) |*avatar| {
-        packAvatar(avatar_list.addOneAssumeCapacity(), avatar, @truncate(slot));
-    };
-
-    out.* = .{
-        .avatar_list = avatar_list,
-        .mp = mp.toInt(),
-        .name = slice.items(.name)[index].view(),
-        .is_virtual = slice.items(.flags)[index].virtual,
-        .leader_slot = slice.items(.leader)[index].toInt(),
-        .index = index,
-        .extra_lineup_type = if (slice.items(.flags)[index].challenge) .LINEUP_CHALLENGE else .LINEUP_NONE,
-    };
-}
-
 fn syncAvatars(txn: *const Transaction, avatars: *const std.EnumArray(Lineup.Avatar.Slot, ?Lineup.Avatar)) !void {
     txn.modules.scene.syncAvatars(avatars);
-    try txn.notify(.scene_changed, .{});
 
     const slice = txn.modules.scene.entity_manager.entities.slice();
 
@@ -275,7 +247,7 @@ fn syncAvatars(txn: *const Transaction, avatars: *const std.EnumArray(Lineup.Ava
         if (slice.items(.config_id)[id] == 0) continue;
 
         const out = entity_info_list.addOneAssumeCapacity();
-        @import("./scene.zig").packEntity(
+        encoding.packSceneEntityInfo(
             out,
             slice,
             id,
@@ -289,8 +261,7 @@ fn syncAvatars(txn: *const Transaction, avatars: *const std.EnumArray(Lineup.Ava
 const Lineup = modules.Lineup;
 const modules = @import("../modules.zig");
 
-const ArrayList = std.ArrayList;
-const MultiArrayList = std.MultiArrayList;
+const encoding = @import("../encoding.zig");
 
 const Transaction = @import("../requests.zig").Transaction;
 const pb = @import("proto").pb;

@@ -12,6 +12,7 @@ pub const Type = enum {
     avatar_modified,
     equipment_modified,
     scene_changed,
+    challenge_finished,
 };
 
 pub const Argument = union(Type) {
@@ -37,6 +38,8 @@ pub const Argument = union(Type) {
 
     pub const SceneChanged = struct {};
 
+    pub const ChallengeFinished = struct {};
+
     first_login: FirstLogin,
     lineup_leader_changed: LineupLeaderChanged,
     lineup_slots_changed: LineupSlotsChanged,
@@ -45,6 +48,7 @@ pub const Argument = union(Type) {
     avatar_modified: AvatarModified,
     equipment_modified: EquipmentModified,
     scene_changed: SceneChanged,
+    challenge_finished: ChallengeFinished,
 };
 
 // A subset of requests.Transaction.
@@ -84,6 +88,7 @@ const namespaces: []const type = &.{
     @import("notifies/lineup.zig"),
     @import("notifies/inventory.zig"),
     @import("notifies/scene.zig"),
+    @import("notifies/challenge.zig"),
 };
 
 const Allocator = std.mem.Allocator;

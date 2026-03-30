@@ -21,6 +21,7 @@ pub const MonsterDescription = struct {
     PosZ: f32,
     PosY: f32,
     RotY: f32,
+    EventID: u32,
 };
 
 pub const PropDescription = struct {

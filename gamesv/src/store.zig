@@ -6,6 +6,7 @@ pub const material_list_path = "store/player/{d}/material_list.bytes";
 pub const equipment_list_path = "store/player/{d}/equipment_list.bytes";
 pub const equipment_uid_path = "store/player/{d}/equipment_uid.bytes";
 pub const scene_module_path = "store/player/{d}/scene.bytes";
+pub const challenge_list_path = "store/player/{d}/challenge_list.bytes";
 
 pub fn loadModules(gpa: Allocator, io: Io, uid: Uid, container: *modules.Container) !void {
     var path_buf: [128]u8 = undefined;
@@ -80,6 +81,17 @@ pub fn loadModules(gpa: Allocator, io: Io, uid: Uid, container: *modules.Contain
         io,
         makePath(equipment_uid_path, &path_buf, uid),
     ) orelse 0;
+
+    const challenge_map = try readArrayHashMap(
+        ChallengeMazeConfigRow.ID,
+        Challenge.Stars,
+        io,
+        makePath(challenge_list_path, &path_buf, uid),
+        gpa,
+    );
+
+    container.challenge.map.deinit(gpa);
+    container.challenge.map = challenge_map;
 }
 
 fn maxPathSize(comptime path_pattern: []const u8) usize {
@@ -335,6 +347,7 @@ fn readArrayHashMap(
     return map;
 }
 
+const Challenge = modules.Challenge;
 const Uid = modules.Login.Uid;
 
 const Io = std.Io;
@@ -343,6 +356,7 @@ const ArrayHashMap = std.AutoArrayHashMapUnmanaged;
 const MultiArrayList = std.MultiArrayList;
 const debug = std.debug;
 
+const ChallengeMazeConfigRow = Assets.ExcelTables.ChallengeMazeConfigRow;
 const ItemRow = Assets.ExcelTables.ItemRow;
 const Assets = @import("Assets.zig");
 

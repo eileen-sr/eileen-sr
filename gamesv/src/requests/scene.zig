@@ -13,14 +13,18 @@ pub fn onGetCurSceneInfoCsReq(txn: Transaction, request: pb.GetCurSceneInfoCsReq
         &txn.modules.lineup.list.items(.slots)[@intFromEnum(txn.modules.lineup.active_index)],
     );
 
+    var scene_info: pb.SceneInfo = .init;
+    try encoding.packSceneInfo(
+        &scene_info,
+        txn.arena,
+        txn.assets,
+        entry,
+        &txn.modules.scene.entity_manager,
+        txn.modules.login.uid,
+    );
+
     try txn.sendMessage(pb.GetCurSceneInfoScRsp{
-        .scene = try packSceneInfo(
-            txn.arena,
-            txn.assets,
-            entry,
-            &txn.modules.scene.entity_manager,
-            txn.modules.login.uid,
-        ),
+        .scene = scene_info,
     });
 
     if (txn.modules.login.step == .waiting_key_packets)
@@ -89,19 +93,23 @@ pub fn onEnterMazeCsReq(txn: Transaction, request: pb.EnterMazeCsReq) !void {
 
     try txn.notify(.scene_changed, .{});
 
+    var scene_info: pb.SceneInfo = .init;
+    try encoding.packSceneInfo(
+        &scene_info,
+        txn.arena,
+        txn.assets,
+        entry,
+        &txn.modules.scene.entity_manager,
+        txn.modules.login.uid,
+    );
+
     try txn.sendMessage(pb.EnterMazeScRsp{
         .maze = .{
             .id = entry.PlaneID,
             .map_entry_id = entry.EntryID.toInt(),
             .floor = .{
                 .floor_id = entry.FloorID,
-                .scene = try packSceneInfo(
-                    txn.arena,
-                    txn.assets,
-                    entry,
-                    &txn.modules.scene.entity_manager,
-                    txn.modules.login.uid,
-                ),
+                .scene = scene_info,
             },
         },
     });
@@ -118,8 +126,8 @@ pub fn onSceneEntityMoveCsReq(txn: Transaction, request: pb.SceneEntityMoveCsReq
     if (txn.modules.scene.entry_id == request.entry_id) {
         for (request.entity_motion_list.items) |item| if (item.entity_id < 4) if (item.motion) |motion| {
             txn.modules.scene.motion = .{
-                .pos = .from(pb.Vector, motion.pos.?),
-                .rot = .from(pb.Vector, motion.rot.?),
+                .pos = .from(motion.pos.?),
+                .rot = .from(motion.rot.?),
             };
 
             txn.modules.scene.entity_manager.motion(item.entity_id).* = txn.modules.scene.motion;
@@ -131,102 +139,9 @@ pub fn onSceneEntityMoveCsReq(txn: Transaction, request: pb.SceneEntityMoveCsReq
     try txn.sendMessage(pb.SceneEntityMoveScRsp{});
 }
 
-fn packSceneInfo(
-    arena: Allocator,
-    assets: *const Assets,
-    entry: *const MapEntryRow,
-    entity_manager: *const Scene.EntityManager,
-    player_uid: Login.Uid,
-) Allocator.Error!pb.SceneInfo {
-    const slice = entity_manager.entities.slice();
-
-    var entity_info_list = try std.ArrayList(pb.SceneEntityInfo)
-        .initCapacity(arena, entity_manager.active_count);
-
-    var it = entity_manager.iterator();
-    while (it.next()) |id| {
-        const out = entity_info_list.addOneAssumeCapacity();
-        packEntity(out, slice, id, player_uid);
-    }
-
-    const floor = assets.floor.map.get(entry.FloorID).?;
-
-    var lighten_section_list: std.ArrayList(u32) = .empty;
-
-    if (floor.MinimapVolumeData.Sections) |sections| {
-        try lighten_section_list.ensureTotalCapacityPrecise(arena, sections.len);
-
-        for (sections) |section| {
-            lighten_section_list.appendAssumeCapacity(section.ID);
-        }
-    }
-
-    return .{
-        .entry_id = entry.EntryID.toInt(),
-        .plane_id = entry.PlaneID,
-        .floor_id = entry.FloorID,
-        .entity_list = entity_info_list,
-        .lighten_section_list = lighten_section_list,
-    };
-}
-
-pub fn packEntity(
-    out: *pb.SceneEntityInfo,
-    slice: std.MultiArrayList(Scene.Entity).Slice,
-    id: u32,
-    player_uid: Login.Uid,
-) void {
-    out.* = .{
-        .entity_id = id,
-        .motion = .{
-            .pos = slice.items(.motion)[id].pos.to(pb.Vector),
-            .rot = slice.items(.motion)[id].rot.to(pb.Vector),
-        },
-        .group_id = slice.items(.ref)[id].group_id,
-        .inst_id = slice.items(.ref)[id].inst_id,
-    };
-
-    switch (slice.items(.kind)[id]) {
-        .avatar => {
-            out.entity = .{
-                .actor = .{
-                    .uid = player_uid.toInt(),
-                    .avatar_type = @enumFromInt(slice.items(.kind_data)[id]),
-                    .avatar_id = slice.items(.config_id)[id],
-                },
-            };
-        },
-        .monster => {
-            out.entity = .{
-                .npc_monster = .{
-                    .monster_id = slice.items(.config_id)[id],
-                },
-            };
-        },
-        .npc => {
-            out.entity = .{
-                .npc = .{
-                    .npc_id = slice.items(.config_id)[id],
-                },
-            };
-        },
-        .prop => {
-            out.entity = .{
-                .prop = .{
-                    .prop_id = slice.items(.config_id)[id],
-                    .prop_state = slice.items(.kind_data)[id],
-                    .create_time_ms = 0,
-                    .life_time_ms = 0,
-                },
-            };
-        },
-    }
-}
-
 pub fn onStartCocoonStageCsReq(txn: Transaction, request: pb.StartCocoonStageCsReq) !void {
     const log = std.log.scoped(.start_cocoon_stage);
     const wave_limit = 5;
-    const max_monsters_per_wave = 5;
 
     try txn.modules.login.step.ensureExact(.finished);
 
@@ -256,57 +171,36 @@ pub fn onStartCocoonStageCsReq(txn: Transaction, request: pb.StartCocoonStageCsR
     var equipment_buf: [Lineup.Avatar.Slot.count]pb.BattleEquipment = undefined;
 
     var wave_buf: [wave_limit]pb.SceneMonsterWave = undefined;
-    var monster_id_list_buf: [wave_limit * max_monsters_per_wave]u32 = undefined;
+    var monster_id_list_buf: [wave_limit * Battle.max_monsters_per_wave]u32 = undefined;
 
     var avatar_list: std.ArrayList(pb.BattleAvatar) = .initBuffer(&avatar_buf);
     var wave_list: std.ArrayList(pb.SceneMonsterWave) = .initBuffer(&wave_buf);
 
     for (0..request.wave) |wave| {
-        var monster_id_list: std.ArrayList(u32) = .initBuffer(
-            monster_id_list_buf[wave * max_monsters_per_wave ..][0..max_monsters_per_wave],
-        );
-
         const stage_id = cocoon.StageIDList[wave % cocoon.StageIDList.len];
         const stage = txn.assets.tables.stage.map.get(@enumFromInt(stage_id)) orelse continue;
 
-        inline for (0..max_monsters_per_wave) |i| {
-            const id = @field(stage.MonsterList[0], std.fmt.comptimePrint("Monster{d}", .{i}));
-            if (id != 0) monster_id_list.appendAssumeCapacity(id);
-        }
-
-        wave_list.appendAssumeCapacity(.{ .monster_id_list = monster_id_list });
+        encoding.packSceneMonsterWave(
+            wave_list.addOneAssumeCapacity(),
+            monster_id_list_buf[wave * Battle.max_monsters_per_wave ..][0..Battle.max_monsters_per_wave],
+            stage,
+        );
     }
 
     for (slots.values, 0..) |maybe_avatar, i| if (maybe_avatar) |lineup_avatar| {
         const avatar_index = avatar.index.get(lineup_avatar.id) orelse continue;
         const battle_avatar = avatar_list.addOneAssumeCapacity();
 
-        battle_avatar.* = .{
-            .index = @truncate(i),
-            .avatar_type = .AVATAR_FORMAL_TYPE,
-            .id = lineup_avatar.id.toInt(),
-            .level = avatar_slice.items(.level)[avatar_index.toInt()].toInt(),
-            .rank = avatar_slice.items(.rank)[avatar_index.toInt()].toInt(),
-            .hp = lineup_avatar.hp.toInt(),
-            .sp = lineup_avatar.sp.toInt(),
-            .promotion = avatar_slice.items(.promotion)[avatar_index.toInt()].toInt(),
-            .equipment_list = .initBuffer(equipment_buf[i .. i + 1]),
-            .skilltree_list = .empty,
-        };
-
-        const equipment_unique_id = avatar_slice.items(.equipment_unique_id)[avatar_index.toInt()];
-        if (equipment_unique_id == .none) continue;
-
-        const equipment_index = inventory.equipment_index.get(
-            @enumFromInt(@intFromEnum(equipment_unique_id)),
-        ) orelse continue;
-
-        battle_avatar.equipment_list.appendAssumeCapacity(.{
-            .id = equipment_slice.items(.id)[equipment_index].toInt(),
-            .level = equipment_slice.items(.level)[equipment_index].toInt(),
-            .promotion = equipment_slice.items(.promotion)[equipment_index].toInt(),
-            .rank = equipment_slice.items(.rank)[equipment_index].toInt(),
-        });
+        encoding.packBattleAvatar(
+            battle_avatar,
+            &equipment_buf,
+            avatar_slice,
+            equipment_slice,
+            &avatar_index,
+            &lineup_avatar,
+            &inventory.equipment_index,
+            @truncate(i),
+        );
     };
 
     try txn.sendMessage(pb.StartCocoonStageScRsp{
@@ -395,11 +289,18 @@ pub fn onSpringTransferCsReq(txn: Transaction, request: pb.SpringTransferCsReq) 
     return Scene.Error.InvalidSpring;
 }
 
-// TODO: When implemented the entity list
+// The treasure boxes won't be opened without this handler.
+// However, some challenge's props still need to be handled manually.
 pub fn onInteractPropCsReq(txn: Transaction, request: pb.InteractPropCsReq) !void {
+    std.log.scoped(.interact_prop).debug("prop_entity_id: {}, interact_id: {}", request);
+
+    const interact = txn.assets.tables.interact.map.get(@enumFromInt(request.interact_id)) orelse {
+        return try txn.sendError(pb.InteractPropScRsp, .RET_INTERACT_CONFIG_NOT_EXIST);
+    };
+
     try txn.sendMessage(pb.InteractPropScRsp{
         .prop_entity_id = request.prop_entity_id,
-        .prop_state = 1,
+        .prop_state = interact.TargetState,
     });
 }
 
@@ -436,7 +337,96 @@ pub fn onWaitCustomStringCsReq(txn: Transaction, request: pb.WaitCustomStringCsR
     });
 }
 
-const Login = modules.Login;
+// TODO: implement battle buff
+pub fn onSceneCastSkillCsReq(txn: Transaction, request: pb.SceneCastSkillCsReq) !void {
+    try txn.modules.login.step.ensureExact(.finished);
+    if (request.hit_target_entity_id_list.items.len == 0) return try txn.sendMessage(pb.SceneCastSkillScRsp{});
+
+    const monster_entity_id_list = &txn.modules.battle.monster_entity_id_list;
+    monster_entity_id_list.clearRetainingCapacity();
+
+    if (request.cast_entity_id < 4) {
+        for (request.hit_target_entity_id_list.items) |id| if (txn.modules.scene.entity_manager.kind(id).* == .monster) {
+            try monster_entity_id_list.append(txn.gpa, id);
+        };
+    } else {
+        try monster_entity_id_list.append(txn.gpa, request.cast_entity_id);
+    }
+
+    try monster_entity_id_list.appendSlice(txn.gpa, request.assist_monster_entity_id_list.items);
+    if (monster_entity_id_list.items.len == 0) return try txn.sendMessage(pb.SceneCastSkillScRsp{});
+
+    var stage_id_list: std.ArrayList(u32) = try .initCapacity(txn.arena, monster_entity_id_list.items.len);
+    for (monster_entity_id_list.items) |monster_entity_id| {
+        stage_id_list.addOneAssumeCapacity().* = txn.modules.scene.getMonsterStageID(
+            txn.assets,
+            monster_entity_id,
+            txn.modules.player.world_level,
+        ) orelse {
+            return try txn.sendError(pb.SceneCastSkillScRsp, .RET_STAGE_CONFIG_NOT_EXIST);
+        };
+    }
+
+    const lineup = &txn.modules.lineup;
+    const avatar = &txn.modules.avatar;
+    const inventory = &txn.modules.inventory;
+
+    const avatar_slice = avatar.list.slice();
+    const equipment_slice = inventory.equipment.slice();
+
+    const index = try lineup.getRequestIndex(
+        lineup.active_index.toInt(),
+        @enumFromInt(@intFromBool(txn.modules.challenge.stage != .none)),
+    );
+    const slots = lineup.list.items(.slots)[index];
+
+    var avatar_buf: [Lineup.Avatar.Slot.count]pb.BattleAvatar = undefined;
+    var equipment_buf: [Lineup.Avatar.Slot.count]pb.BattleEquipment = undefined;
+
+    var monster_id_list_buf = try txn.arena.alloc(u32, stage_id_list.items.len * Battle.max_monsters_per_wave);
+
+    var avatar_list: std.ArrayList(pb.BattleAvatar) = .initBuffer(&avatar_buf);
+    var wave_list: std.ArrayList(pb.SceneMonsterWave) = try .initCapacity(txn.arena, stage_id_list.items.len);
+
+    for (stage_id_list.items, 0..) |stage_id, wave| {
+        const stage = txn.assets.tables.stage.map.get(@enumFromInt(stage_id)) orelse continue;
+
+        encoding.packSceneMonsterWave(
+            wave_list.addOneAssumeCapacity(),
+            monster_id_list_buf[wave * Battle.max_monsters_per_wave ..][0..Battle.max_monsters_per_wave],
+            stage,
+        );
+    }
+
+    for (slots.values, 0..) |maybe_avatar, i| if (maybe_avatar) |lineup_avatar| {
+        const avatar_index = avatar.index.get(lineup_avatar.id) orelse continue;
+        const battle_avatar = avatar_list.addOneAssumeCapacity();
+
+        encoding.packBattleAvatar(
+            battle_avatar,
+            &equipment_buf,
+            avatar_slice,
+            equipment_slice,
+            &avatar_index,
+            &lineup_avatar,
+            &inventory.equipment_index,
+            @truncate(i),
+        );
+    };
+
+    try txn.sendMessage(pb.SceneCastSkillScRsp{
+        .battle_info = .{
+            .logic_random_seed = @truncate(@as(u96, @bitCast(txn.time.toNanoseconds()))),
+            .stage_id = stage_id_list.items[0],
+            .monster_wave_list = wave_list,
+            .battle_avatar_list = avatar_list,
+        },
+    });
+}
+
+const Battle = modules.Battle;
+const Avatar = modules.Avatar;
+const Inventory = modules.Inventory;
 const Scene = modules.Scene;
 const Lineup = modules.Lineup;
 const Allocator = std.mem.Allocator;
@@ -444,6 +434,7 @@ const MapEntryRow = Assets.ExcelTables.MapEntryRow;
 
 const Assets = @import("../Assets.zig");
 const modules = @import("../modules.zig");
+const encoding = @import("../encoding.zig");
 
 const Transaction = @import("../requests.zig").Transaction;
 const pb = @import("proto").pb;

@@ -14,6 +14,8 @@ pub const Container = struct {
     lineup: Lineup,
     inventory: Inventory,
     scene: Scene,
+    battle: Battle,
+    challenge: Challenge,
 
     pub const init: Container = .{
         .login = .init,
@@ -22,6 +24,8 @@ pub const Container = struct {
         .lineup = .init,
         .inventory = .init,
         .scene = .init,
+        .battle = .init,
+        .challenge = .init,
     };
 
     pub fn deinit(container: *Container, gpa: Allocator) void {
@@ -29,6 +33,8 @@ pub const Container = struct {
         container.lineup.deinit(gpa);
         container.inventory.deinit(gpa);
         container.scene.deinit(gpa);
+        container.battle.deinit(gpa);
+        container.challenge.deinit(gpa);
     }
 
     pub fn isFirstLogin(container: *const Container) bool {
@@ -42,6 +48,8 @@ pub const Avatar = @import("modules/Avatar.zig");
 pub const Lineup = @import("modules/Lineup.zig");
 pub const Inventory = @import("modules/Inventory.zig");
 pub const Scene = @import("modules/Scene.zig");
+pub const Battle = @import("modules/Battle.zig");
+pub const Challenge = @import("modules/Challenge.zig");
 
 const Allocator = std.mem.Allocator;
 const std = @import("std");

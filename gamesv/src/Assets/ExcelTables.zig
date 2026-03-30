@@ -16,6 +16,10 @@ prop: Table("PropExcelTable.json", PropRow, "PropID"),
 npc: Table("NPCDataExcelTable.json", NpcRow, "NPCID"),
 tutorial: Table("TutorialDataExcelTable.json", TutorialRow, "TutorialID"),
 tutorial_guide: Table("TutorialGuideDataExcelTable.json", TutorialGuideRow, "ID"),
+interact: Table("InteractExcelTable.json", InteractRow, "InteractID"),
+plane_event: Table("PlaneEventExcelTable.json", PlaneEventRow, "EventID"),
+challenge_maze_config: Table("ChallengeMazeConfigExcelTable.json", ChallengeMazeConfigRow, "ChallengeMazeID"),
+challenge_target_config: Table("ChallengeTargetConfigExcelTable.json", ChallengeTargetConfigRow, "ChallengeTargetID"),
 
 pub fn load(gpa: Allocator, io: Io) LoadError!ExcelTables {
     var results: blk: {
@@ -62,6 +66,13 @@ pub fn deinit(et: *ExcelTables) void {
 pub fn getCocoonRow(et: *const ExcelTables, cocoon_id: u32, world_level: u32) ?*const CocoonRow {
     for (et.cocoon.rows) |*row| {
         if (row.CocoonID.toInt() == cocoon_id and row.WorldLevel == world_level)
+            return row;
+    } else return null;
+}
+
+pub fn getPlaneEventRow(et: *const ExcelTables, event_id: u32, world_level: u32) ?*const PlaneEventRow {
+    for (et.plane_event.rows) |*row| {
+        if (row.EventID.toInt() == event_id and row.WorldLevel == world_level)
             return row;
     } else return null;
 }
@@ -125,6 +136,10 @@ pub const PropRow = @import("ExcelTables/PropRow.zig");
 pub const NpcRow = @import("ExcelTables/NpcRow.zig");
 pub const TutorialRow = @import("ExcelTables/TutorialRow.zig");
 pub const TutorialGuideRow = @import("ExcelTables/TutorialGuideRow.zig");
+pub const InteractRow = @import("ExcelTables/InteractRow.zig");
+pub const PlaneEventRow = @import("ExcelTables/PlaneEventRow.zig");
+pub const ChallengeMazeConfigRow = @import("ExcelTables/ChallengeMazeConfigRow.zig");
+pub const ChallengeTargetConfigRow = @import("ExcelTables/ChallengeTargetConfigRow.zig");
 
 const json = std.json;
 

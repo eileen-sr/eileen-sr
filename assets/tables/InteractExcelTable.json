@@ -1,0 +1,367 @@
+[
+  {
+    "InteractID": 1200,
+    "SrcState": 2,
+    "TargetState": 0,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1010,
+    "SrcState": 0,
+    "TargetState": 1,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1100,
+    "SrcState": 1,
+    "TargetState": 0,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1210,
+    "SrcState": 2,
+    "TargetState": 1,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1020,
+    "SrcState": 0,
+    "TargetState": 2,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1120,
+    "SrcState": 1,
+    "TargetState": 2,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1011,
+    "SrcState": 0,
+    "TargetState": 1,
+    "ItemCostList": [],
+    "IsEvent": true,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 11000,
+    "SrcState": 10,
+    "TargetState": 0,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 11010,
+    "SrcState": 10,
+    "TargetState": 1,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 10100,
+    "SrcState": 0,
+    "TargetState": 10,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 11100,
+    "SrcState": 1,
+    "TargetState": 10,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1090,
+    "SrcState": 0,
+    "TargetState": 9,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1190,
+    "SrcState": 1,
+    "TargetState": 9,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1340,
+    "SrcState": 3,
+    "TargetState": 4,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1450,
+    "SrcState": 4,
+    "TargetState": 5,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1560,
+    "SrcState": 5,
+    "TargetState": 6,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1630,
+    "SrcState": 6,
+    "TargetState": 3,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1360,
+    "SrcState": 3,
+    "TargetState": 6,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1650,
+    "SrcState": 6,
+    "TargetState": 5,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1540,
+    "SrcState": 5,
+    "TargetState": 4,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 1430,
+    "SrcState": 4,
+    "TargetState": 3,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 19100,
+    "SrcState": 9,
+    "TargetState": 10,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 11090,
+    "SrcState": 10,
+    "TargetState": 9,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 111120,
+    "SrcState": 11,
+    "TargetState": 12,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 112131,
+    "SrcState": 12,
+    "TargetState": 13,
+    "ItemCostList": [],
+    "IsEvent": true,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 112110,
+    "SrcState": 12,
+    "TargetState": 11,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 3010,
+    "SrcState": 0,
+    "TargetState": 1,
+    "ItemCostList": [
+      {
+        "ItemID": 149992,
+        "ItemNum": 1
+      }
+    ],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": -1897267716
+    }
+  },
+  {
+    "InteractID": 3011,
+    "SrcState": 0,
+    "TargetState": 1,
+    "ItemCostList": [
+      {
+        "ItemID": 140015,
+        "ItemNum": 1
+      }
+    ],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": -1897267717
+    }
+  },
+  {
+    "InteractID": 3012,
+    "SrcState": 0,
+    "TargetState": 1,
+    "ItemCostList": [
+      {
+        "ItemID": 140016,
+        "ItemNum": 1
+      }
+    ],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": -1897267714
+    }
+  },
+  {
+    "InteractID": 3013,
+    "SrcState": 0,
+    "TargetState": 1,
+    "ItemCostList": [
+      {
+        "ItemID": 140009,
+        "ItemNum": 1
+      }
+    ],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": -1897267715
+    }
+  },
+  {
+    "InteractID": 212130,
+    "SrcState": 12,
+    "TargetState": 13,
+    "ItemCostList": [
+      {
+        "ItemID": 11,
+        "ItemNum": 40
+      }
+    ],
+    "IsEvent": true,
+    "InteractDesc": {
+      "hash": 718612695
+    }
+  },
+  {
+    "InteractID": 12140,
+    "SrcState": 2,
+    "TargetState": 14,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 114150,
+    "SrcState": 14,
+    "TargetState": 15,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  },
+  {
+    "InteractID": 115140,
+    "SrcState": 15,
+    "TargetState": 14,
+    "ItemCostList": [],
+    "IsEvent": false,
+    "InteractDesc": {
+      "hash": 371857150
+    }
+  }
+]
